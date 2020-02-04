@@ -1,0 +1,1602 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1552048148
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 8101, |E| = 16020, |R| = 90
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 0 zero edges in 2.1e-05 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 1.2e-05 s
+  shortest_edge_between_terminals: 0 edges in 4e-06 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+Compressed graph 8101 -> 8096
+  delete_edges: deleted 4 edges in 0.000367 s and 1 rounds
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 8 in 1.3e-05 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+  handle_small_terminal_degrees: terms 0 in 7e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.1e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 8096 -> 8088
+  delete_edges_shortest_path: deleted 8 edges in 0.03967 s
+  handle_small_terminal_degrees: terms 0 in 7e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 12 in 1.6e-05 s
+  shortest_edge_between_terminals: 0 edges in 5e-06 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+Compressed graph 8088 -> 8076
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 8e-06 s
+  shortest_edge_between_terminals: 0 edges in 4e-06 s
+Compressed graph 8076 -> 8076
+  delete_edges_shortest_path: deleted 12 edges in 0.039316 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 16 in 1.6e-05 s
+  shortest_edge_between_terminals: 0 edges in 3e-06 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+Compressed graph 8076 -> 8060
+Compressed graph 8060 -> 8060
+>>> save_orig_graph
+>> Saved weight 0
+### ZEL_LVL=0 PRECISE_STARS=1
+
+Calling `contract_till_the_bitter_end`
+|V| = 8060, |E| = 15956, |R| = 90
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76121660 (was 76250982) in 0.001821 s
+  refine_solution: new weight 76121660 (was 76121660) in 0.001648 s
+0,,8060,15956,90,,0,0,,76250982,76121660,0,0,0,,0,0,@@
+
+  delete_edges: deleted 16 edges in 0.000759 s and 2 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 20 in 2.1e-05 s
+Starting round 1
+Found 20 isolated vertices
+Invalid ratios recomputed: 8040
+Best ratio is 47384/1 (47384.0), centered at 6248
+Finding the best star... Star with 2 terminals centered in 6339
+round took: 0.546151 s
+|V| = 8060, |E| = 15917, |R| = 89
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76121660 (was 76250982) in 0.001756 s
+  refine_solution: new weight 76121660 (was 76121660) in 0.00164 s
+1,,8040,15917,89,,8040,0,,76250982,76121660,47384,47384,47384,,47384,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 2
+Found 22 isolated vertices
+Invalid ratios recomputed: 2328
+Best ratio is 90547/1 (90547.0), centered at 2265
+Finding the best star... Star with 2 terminals centered in 2446
+round took: 0.27575 s
+|V| = 8060, |E| = 15913, |R| = 88
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76121660 (was 76250982) in 0.001737 s
+  refine_solution: new weight 76121660 (was 76121660) in 0.001638 s
+2,,8038,15913,88,,2328,0,,76250982,76121660,137931,137931,137931,,90547,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 3
+Found 25 isolated vertices
+Invalid ratios recomputed: 2337
+Best ratio is 106939/1 (106939.0), centered at 5651
+Finding the best star... Star with 2 terminals centered in 5653
+round took: 0.280987 s
+|V| = 8060, |E| = 15909, |R| = 87
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76121660 (was 76250982) in 0.001736 s
+  refine_solution: new weight 76121660 (was 76121660) in 0.001638 s
+3,,8035,15909,87,,2337,0,,76250982,76121660,244870,244870,244870,,106939,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 4
+Found 28 isolated vertices
+Invalid ratios recomputed: 1697
+Best ratio is 111263/1 (111263.0), centered at 7439
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 0.212667 s
+|V| = 8060, |E| = 15906, |R| = 86
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76097801 (was 76227123) in 0.001754 s
+  refine_solution: new weight 76097801 (was 76097801) in 0.001637 s
+4,,8032,15906,86,,1697,0,,76227123,76097801,356133,356133,356133,,111263,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 5
+Found 30 isolated vertices
+Invalid ratios recomputed: 1398
+Best ratio is 405214/2 (202607.0), centered at 5017
+Finding the best star... Star with 3 terminals centered in 5468
+round took: 0.168107 s
+|V| = 8060, |E| = 15896, |R| = 84
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75999040 (was 76128362) in 0.001737 s
+  refine_solution: new weight 75999040 (was 75999040) in 0.001638 s
+5,,8030,15896,84,,1398,0,,76128362,75999040,761347,761347,761347,,405214,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 1.6e-05 s
+Starting round 6
+Found 41 isolated vertices
+Invalid ratios recomputed: 1679
+Best ratio is 289185/1 (289185.0), centered at 21
+Finding the best star... Star with 2 terminals centered in 106
+round took: 0.227141 s
+|V| = 8060, |E| = 15885, |R| = 83
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75999040 (was 76128362) in 0.001743 s
+  refine_solution: new weight 75999040 (was 75999040) in 0.001636 s
+6,,8019,15885,83,,1679,0,,76128362,75999040,1050532,1050532,1050532,,289185,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.4e-05 s
+Starting round 7
+Found 46 isolated vertices
+Invalid ratios recomputed: 1925
+Best ratio is 309372/1 (309372.0), centered at 3151
+Finding the best star... Star with 2 terminals centered in 3153
+round took: 0.24173 s
+|V| = 8060, |E| = 15876, |R| = 82
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75999040 (was 76279192) in 0.001749 s
+  refine_solution: new weight 75999040 (was 75999040) in 0.00164 s
+7,,8014,15876,82,,1925,0,,76279192,75999040,1359904,1359904,1359904,,309372,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 8
+Found 51 isolated vertices
+Invalid ratios recomputed: 2425
+Best ratio is 329669/1 (329669.0), centered at 180
+Finding the best star... Star with 2 terminals centered in 356
+round took: 0.319859 s
+|V| = 8060, |E| = 15872, |R| = 81
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75999040 (was 76279192) in 0.001744 s
+  refine_solution: new weight 75999040 (was 75999040) in 0.001637 s
+8,,8009,15872,81,,2425,0,,76279192,75999040,1689573,1689573,1689573,,329669,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 9
+Found 54 isolated vertices
+Invalid ratios recomputed: 1813
+Best ratio is 354099/1 (354099.0), centered at 1090
+Finding the best star... Star with 2 terminals centered in 1541
+round took: 0.243801 s
+|V| = 8060, |E| = 15865, |R| = 80
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75999040 (was 76279192) in 0.001733 s
+  refine_solution: new weight 75999040 (was 75999040) in 0.001635 s
+9,,8006,15865,80,,1813,0,,76279192,75999040,2043672,2043672,2043672,,354099,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 10
+Found 60 isolated vertices
+Invalid ratios recomputed: 2478
+Best ratio is 355237/1 (355237.0), centered at 6104
+Finding the best star... Star with 2 terminals centered in 6554
+round took: 0.321961 s
+|V| = 8060, |E| = 15858, |R| = 79
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75960545 (was 76240697) in 0.001745 s
+  refine_solution: new weight 75960545 (was 75960545) in 0.00166 s
+10,,8000,15858,79,,2478,0,,76240697,75960545,2398909,2398909,2398909,,355237,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 11
+Found 66 isolated vertices
+Invalid ratios recomputed: 1904
+Best ratio is 799986/2 (399993.0), centered at 1021
+Finding the best star... Star with 3 terminals centered in 1472
+round took: 0.263436 s
+|V| = 8060, |E| = 15845, |R| = 77
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75871974 (was 76152126) in 0.001747 s
+  refine_solution: new weight 75871974 (was 75871974) in 0.00164 s
+11,,7994,15845,77,,1904,0,,76152126,75871974,3198895,3198895,3198895,,799986,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 12
+Found 76 isolated vertices
+Invalid ratios recomputed: 2918
+Best ratio is 814284/2 (407142.0), centered at 7103
+Finding the best star... Star with 3 terminals centered in 7108
+round took: 0.359729 s
+|V| = 8060, |E| = 15835, |R| = 75
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75871974 (was 76152126) in 0.00177 s
+  refine_solution: new weight 75871974 (was 75871974) in 0.001646 s
+12,,7984,15835,75,,2918,0,,76152126,75871974,4013179,4013179,4013179,,814284,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 13
+Found 83 isolated vertices
+Invalid ratios recomputed: 2014
+Best ratio is 434223/1 (434223.0), centered at 570
+Finding the best star... Star with 2 terminals centered in 1472
+round took: 0.287881 s
+|V| = 8060, |E| = 15825, |R| = 74
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75871974 (was 76152126) in 0.001745 s
+  refine_solution: new weight 75871974 (was 75871974) in 0.00164 s
+13,,7977,15825,74,,2014,0,,76152126,75871974,4447402,4447402,4447402,,434223,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 14
+Found 90 isolated vertices
+Invalid ratios recomputed: 2922
+Best ratio is 435287/1 (435287.0), centered at 6683
+Finding the best star... Star with 2 terminals centered in 6773
+round took: 0.377456 s
+|V| = 8060, |E| = 15822, |R| = 73
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75871974 (was 76152126) in 0.001739 s
+  refine_solution: new weight 75871974 (was 75871974) in 0.001642 s
+14,,7970,15822,73,,2922,0,,76152126,75871974,4882689,4882689,4882689,,435287,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 15
+Found 92 isolated vertices
+Invalid ratios recomputed: 3056
+Best ratio is 447347/1 (447347.0), centered at 4792
+Finding the best star... Star with 2 terminals centered in 5335
+round took: 0.414318 s
+|V| = 8060, |E| = 15810, |R| = 72
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76280391 (was 76560543) in 0.001752 s
+  refine_solution: new weight 76280391 (was 76280391) in 0.001641 s
+15,,7968,15810,72,,3056,0,,76560543,76280391,5330036,5330036,5330036,,447347,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 16
+Found 101 isolated vertices
+Invalid ratios recomputed: 3781
+Best ratio is 447710/1 (447710.0), centered at 1413
+Finding the best star... Star with 2 terminals centered in 1683
+round took: 0.503692 s
+|V| = 8060, |E| = 15805, |R| = 71
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 76121819 (was 76401971) in 0.001756 s
+  refine_solution: new weight 76121819 (was 76121819) in 0.001658 s
+16,,7959,15805,71,,3781,0,,76401971,76121819,5777746,5777746,5777746,,447710,2,@@
+
+  delete_edges: deleted 50 edges in 0.000805 s and 2 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 40 in 2.8e-05 s
+Starting round 17
+Found 145 isolated vertices
+Invalid ratios recomputed: 2155
+Best ratio is 914683/2 (457341.5), centered at 2556
+Finding the best star... Star with 3 terminals centered in 2737
+round took: 0.31219 s
+|V| = 8060, |E| = 15700, |R| = 69
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75951873 (was 76232025) in 0.001747 s
+  refine_solution: new weight 75951873 (was 75951873) in 0.001649 s
+17,,7915,15700,69,,2155,0,,76232025,75951873,6692429,6692429,6692429,,914683,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.6e-05 s
+Starting round 18
+Found 156 isolated vertices
+Invalid ratios recomputed: 3790
+Best ratio is 961169/2 (480584.5), centered at 4218
+Finding the best star... Star with 3 terminals centered in 4222
+round took: 0.501873 s
+|V| = 8060, |E| = 15681, |R| = 67
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75750648 (was 76030800) in 0.001749 s
+  refine_solution: new weight 75750648 (was 75750648) in 0.001647 s
+18,,7904,15681,67,,3790,0,,76030800,75750648,7653598,7653598,7653598,,961169,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 19
+Found 171 isolated vertices
+Invalid ratios recomputed: 2929
+Best ratio is 507082/1 (507082.0), centered at 2661
+Finding the best star... Star with 2 terminals centered in 2843
+round took: 0.43123 s
+|V| = 8060, |E| = 15676, |R| = 66
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75697832 (was 75977984) in 0.001749 s
+  refine_solution: new weight 75697832 (was 75697832) in 0.001649 s
+19,,7889,15676,66,,2929,0,,75977984,75697832,8160680,8160680,8160680,,507082,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 20
+Found 175 isolated vertices
+Invalid ratios recomputed: 3286
+Best ratio is 518668/1 (518668.0), centered at 2843
+Finding the best star... Star with 2 terminals centered in 2935
+round took: 0.464991 s
+|V| = 8060, |E| = 15671, |R| = 65
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75697832 (was 75977984) in 0.00176 s
+  refine_solution: new weight 75697832 (was 75697832) in 0.001653 s
+20,,7885,15671,65,,3286,0,,75977984,75697832,8679348,8679348,8679348,,518668,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 21
+Found 178 isolated vertices
+Invalid ratios recomputed: 3307
+Best ratio is 545799/1 (545799.0), centered at 2840
+Finding the best star... Star with 2 terminals centered in 2935
+round took: 0.481946 s
+|V| = 8060, |E| = 15666, |R| = 64
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75697832 (was 75977984) in 0.001762 s
+  refine_solution: new weight 75697832 (was 75697832) in 0.001659 s
+21,,7882,15666,64,,3307,0,,75977984,75697832,9225147,9225147,9225147,,545799,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 22
+Found 181 isolated vertices
+Invalid ratios recomputed: 3556
+Best ratio is 1647114/3 (549038.0), centered at 5653
+Finding the best star... Star with 4 terminals centered in 6017
+round took: 0.538376 s
+|V| = 8060, |E| = 15649, |R| = 61
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 75328146 (was 75608298) in 0.001763 s
+  refine_solution: new weight 75328146 (was 75328146) in 0.001644 s
+22,,7879,15649,61,,3556,0,,75608298,75328146,10872261,10872261,10872261,,1647114,4,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 23
+Found 193 isolated vertices
+Invalid ratios recomputed: 3107
+Best ratio is 1120165/2 (560082.5), centered at 763
+Finding the best star... Star with 3 terminals centered in 1305
+round took: 0.507937 s
+|V| = 8060, |E| = 15632, |R| = 59
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74755985 (was 75036137) in 0.001763 s
+  refine_solution: new weight 74755985 (was 74755985) in 0.001645 s
+23,,7867,15632,59,,3107,0,,75036137,74755985,11992426,11992426,11992426,,1120165,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 24
+Found 207 isolated vertices
+Invalid ratios recomputed: 3462
+Best ratio is 609357/1 (609357.0), centered at 356
+Finding the best star... Star with 2 terminals centered in 450
+round took: 0.603401 s
+|V| = 8060, |E| = 15624, |R| = 58
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74755985 (was 75036137) in 0.001761 s
+  refine_solution: new weight 74755985 (was 74755985) in 0.001649 s
+24,,7853,15624,58,,3462,0,,75036137,74755985,12601783,12601783,12601783,,609357,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.6e-05 s
+Starting round 25
+Found 213 isolated vertices
+Invalid ratios recomputed: 3077
+Best ratio is 1225313/2 (612656.5), centered at 4225
+Finding the best star... Star with 3 terminals centered in 4319
+round took: 0.628191 s
+|V| = 8060, |E| = 15608, |R| = 56
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74755985 (was 74906815) in 0.001764 s
+  refine_solution: new weight 74755985 (was 74755985) in 0.001652 s
+25,,7847,15608,56,,3077,0,,74906815,74755985,13827096,13827096,13827096,,1225313,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 26
+Found 224 isolated vertices
+Invalid ratios recomputed: 3905
+Best ratio is 1280146/2 (640073.0), centered at 4789
+Finding the best star... Star with 3 terminals centered in 4877
+round took: 0.730527 s
+|V| = 8060, |E| = 15593, |R| = 54
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74475849 (was 74626679) in 0.001759 s
+  refine_solution: new weight 74475849 (was 74475849) in 0.001651 s
+26,,7836,15593,54,,3905,0,,74626679,74475849,15107242,15107242,15107242,,1280146,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 27
+Found 234 isolated vertices
+Invalid ratios recomputed: 4741
+Best ratio is 655042/1 (655042.0), centered at 3153
+Finding the best star... Star with 2 terminals centered in 3516
+round took: 0.874524 s
+|V| = 8060, |E| = 15583, |R| = 53
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74348967 (was 74499797) in 0.001768 s
+  refine_solution: new weight 74348967 (was 74348967) in 0.00165 s
+27,,7826,15583,53,,4741,0,,74499797,74348967,15762284,15762284,15762284,,655042,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.3e-05 s
+Starting round 28
+Found 243 isolated vertices
+Invalid ratios recomputed: 4264
+Best ratio is 658394/1 (658394.0), centered at 1541
+Finding the best star... Star with 2 terminals centered in 1812
+round took: 0.835526 s
+|V| = 8060, |E| = 15574, |R| = 52
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74348967 (was 74499797) in 0.001757 s
+  refine_solution: new weight 74348967 (was 74348967) in 0.00165 s
+28,,7817,15574,52,,4264,0,,74499797,74348967,16420678,16420678,16420678,,658394,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 29
+Found 247 isolated vertices
+Invalid ratios recomputed: 4117
+Best ratio is 658980/1 (658980.0), centered at 6017
+Finding the best star... Star with 2 terminals centered in 6471
+round took: 0.868798 s
+|V| = 8060, |E| = 15565, |R| = 51
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74348967 (was 74499797) in 0.001753 s
+  refine_solution: new weight 74348967 (was 74348967) in 0.00169 s
+29,,7813,15565,51,,4117,0,,74499797,74348967,17079658,17079658,17079658,,658980,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 30
+Found 254 isolated vertices
+Invalid ratios recomputed: 4112
+Best ratio is 664651/1 (664651.0), centered at 3784
+Finding the best star... Star with 2 terminals centered in 4058
+round took: 0.852351 s
+|V| = 8060, |E| = 15557, |R| = 50
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74140080 (was 74290910) in 0.001777 s
+  refine_solution: new weight 74140080 (was 74140080) in 0.001651 s
+30,,7806,15557,50,,4112,0,,74290910,74140080,17744309,17744309,17744309,,664651,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 31
+Found 261 isolated vertices
+Invalid ratios recomputed: 4694
+Best ratio is 669589/1 (669589.0), centered at 4319
+Finding the best star... Star with 2 terminals centered in 6471
+round took: 0.989767 s
+|V| = 8060, |E| = 15543, |R| = 49
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74140080 (was 74290910) in 0.001752 s
+  refine_solution: new weight 74140080 (was 74140080) in 0.001649 s
+31,,7799,15543,49,,4694,0,,74290910,74140080,18413898,18413898,18413898,,669589,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.4e-05 s
+Starting round 32
+Found 274 isolated vertices
+Invalid ratios recomputed: 4526
+Best ratio is 678975/1 (678975.0), centered at 4623
+Finding the best star... Star with 2 terminals centered in 5255
+round took: 0.976981 s
+|V| = 8060, |E| = 15529, |R| = 48
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 74140080 (was 74290910) in 0.001758 s
+  refine_solution: new weight 74140080 (was 74140080) in 0.001654 s
+32,,7786,15529,48,,4526,0,,74290910,74140080,19092873,19092873,19092873,,678975,2,@@
+
+  delete_edges: deleted 110 edges in 0.003696 s and 8 rounds
+  handle_small_Steiner_degrees: steiner 4, suppress 77 in 5e-05 s
+Starting round 33
+Found 364 isolated vertices
+Invalid ratios recomputed: 5307
+Best ratio is 703497/1 (703497.0), centered at 6448
+Finding the best star... Star with 2 terminals centered in 6898
+round took: 1.1644 s
+|V| = 8060, |E| = 15325, |R| = 47
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 73860201 (was 74011031) in 0.001748 s
+  refine_solution: new weight 73860201 (was 73860201) in 0.001651 s
+33,,7696,15325,47,,5307,0,,74011031,73860201,19796370,19796370,19796370,,703497,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 34
+Found 372 isolated vertices
+Invalid ratios recomputed: 3696
+Best ratio is 1461426/2 (730713.0), centered at 2112
+Finding the best star... Star with 3 terminals centered in 2119
+round took: 0.841501 s
+|V| = 8060, |E| = 15301, |R| = 45
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 73488770 (was 73639600) in 0.00176 s
+  refine_solution: new weight 73488770 (was 73488770) in 0.001657 s
+34,,7688,15301,45,,3696,0,,73639600,73488770,21257796,21257796,21257796,,1461426,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 35
+Found 390 isolated vertices
+Invalid ratios recomputed: 4866
+Best ratio is 1514006/2 (757003.0), centered at 1903
+Finding the best star... Star with 3 terminals centered in 2446
+round took: 1.11369 s
+|V| = 8060, |E| = 15286, |R| = 43
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72999103 (was 73149933) in 0.001769 s
+  refine_solution: new weight 72999103 (was 72999103) in 0.001643 s
+35,,7670,15286,43,,4866,0,,73149933,72999103,22771802,22771802,22771802,,1514006,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.2e-05 s
+Starting round 36
+Found 402 isolated vertices
+Invalid ratios recomputed: 5110
+Best ratio is 809649/1 (809649.0), centered at 6773
+Finding the best star... Star with 2 terminals centered in 6956
+round took: 1.23549 s
+|V| = 8060, |E| = 15280, |R| = 42
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72999103 (was 73149933) in 0.001775 s
+  refine_solution: new weight 72999103 (was 72999103) in 0.001649 s
+36,,7658,15280,42,,5110,0,,73149933,72999103,23581451,23581451,23581451,,809649,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 37
+Found 407 isolated vertices
+Invalid ratios recomputed: 5169
+Best ratio is 821355/1 (821355.0), centered at 854
+Finding the best star... Star with 2 terminals centered in 862
+round took: 1.27832 s
+|V| = 8060, |E| = 15269, |R| = 41
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72999103 (was 73149933) in 0.001763 s
+  refine_solution: new weight 72999103 (was 72999103) in 0.001662 s
+37,,7653,15269,41,,5169,0,,73149933,72999103,24402806,24402806,24402806,,821355,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 38
+Found 416 isolated vertices
+Invalid ratios recomputed: 4987
+Best ratio is 1684749/2 (842374.5), centered at 2121
+Finding the best star... Star with 3 terminals centered in 2935
+round took: 1.27711 s
+|V| = 8060, |E| = 15252, |R| = 39
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72707991 (was 72858821) in 0.001752 s
+  refine_solution: new weight 72707991 (was 72707991) in 0.00165 s
+38,,7644,15252,39,,4987,0,,72858821,72707991,26087555,26087555,26087555,,1684749,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.2e-05 s
+Starting round 39
+Found 430 isolated vertices
+Invalid ratios recomputed: 5072
+Best ratio is 845615/1 (845615.0), centered at 7440
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 1.35021 s
+|V| = 8060, |E| = 15241, |R| = 38
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72704403 (was 72855233) in 0.00177 s
+  refine_solution: new weight 72704403 (was 72704403) in 0.001643 s
+39,,7630,15241,38,,5072,0,,72855233,72704403,26933170,26933170,26933170,,845615,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 40
+Found 437 isolated vertices
+Invalid ratios recomputed: 3729
+Best ratio is 867887/1 (867887.0), centered at 6471
+Finding the best star... Star with 2 terminals centered in 7108
+round took: 1.01619 s
+|V| = 8060, |E| = 15229, |R| = 37
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72704403 (was 72855233) in 0.001766 s
+  refine_solution: new weight 72704403 (was 72704403) in 0.001643 s
+40,,7623,15229,37,,3729,0,,72855233,72704403,27801057,27801057,27801057,,867887,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.5e-05 s
+Starting round 41
+Found 447 isolated vertices
+Invalid ratios recomputed: 4692
+Best ratio is 882122/1 (882122.0), centered at 6898
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 1.27999 s
+|V| = 8060, |E| = 15218, |R| = 36
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72704403 (was 72855233) in 0.001762 s
+  refine_solution: new weight 72704403 (was 72704403) in 0.001641 s
+41,,7613,15218,36,,4692,0,,72855233,72704403,28683179,28683179,28683179,,882122,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 42
+Found 454 isolated vertices
+Invalid ratios recomputed: 3952
+Best ratio is 1769339/2 (884669.5), centered at 2734
+Finding the best star... Star with 3 terminals centered in 3274
+round took: 1.07366 s
+|V| = 8060, |E| = 15199, |R| = 34
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72660644 (was 72811474) in 0.001776 s
+  refine_solution: new weight 72660644 (was 72660644) in 0.001651 s
+42,,7606,15199,34,,3952,0,,72811474,72660644,30452518,30452518,30452518,,1769339,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.4e-05 s
+Starting round 43
+Found 470 isolated vertices
+Invalid ratios recomputed: 5862
+Best ratio is 1771055/2 (885527.5), centered at 7108
+Finding the best star... Star with 3 terminals centered in 7562
+round took: 1.6084 s
+|V| = 8060, |E| = 15173, |R| = 32
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72634575 (was 72785405) in 0.001776 s
+  refine_solution: new weight 72634575 (was 72634575) in 0.00165 s
+43,,7590,15173,32,,5862,0,,72785405,72634575,32223573,32223573,32223573,,1771055,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.3e-05 s
+Starting round 44
+Found 489 isolated vertices
+Invalid ratios recomputed: 4965
+Best ratio is 889795/1 (889795.0), centered at 3516
+Finding the best star... Star with 2 terminals centered in 4058
+round took: 1.45045 s
+|V| = 8060, |E| = 15168, |R| = 31
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72634575 (was 72785405) in 0.001758 s
+  refine_solution: new weight 72634575 (was 72634575) in 0.00166 s
+44,,7571,15168,31,,4965,0,,72785405,72634575,33113368,33113368,33113368,,889795,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.2e-05 s
+Starting round 45
+Found 492 isolated vertices
+Invalid ratios recomputed: 5518
+Best ratio is 898867/1 (898867.0), centered at 641
+Finding the best star... Star with 2 terminals centered in 643
+round took: 1.62773 s
+|V| = 8060, |E| = 15159, |R| = 30
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72309250 (was 72460080) in 0.001768 s
+  refine_solution: new weight 72309250 (was 72309250) in 0.001659 s
+45,,7568,15159,30,,5518,0,,72460080,72309250,34012235,34012235,34012235,,898867,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 46
+Found 499 isolated vertices
+Invalid ratios recomputed: 4999
+Best ratio is 950269/1 (950269.0), centered at 3679
+Finding the best star... Star with 2 terminals centered in 7562
+round took: 1.62088 s
+|V| = 8060, |E| = 15148, |R| = 29
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72309250 (was 72460080) in 0.001759 s
+  refine_solution: new weight 72309250 (was 72309250) in 0.001657 s
+46,,7561,15148,29,,4999,0,,72460080,72309250,34962504,34962504,34962504,,950269,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 47
+Found 508 isolated vertices
+Invalid ratios recomputed: 5202
+Best ratio is 959825/1 (959825.0), centered at 1472
+Finding the best star... Star with 2 terminals centered in 3274
+round took: 1.84443 s
+|V| = 8060, |E| = 15135, |R| = 28
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72309250 (was 72460080) in 0.001773 s
+  refine_solution: new weight 72309250 (was 72309250) in 0.001658 s
+47,,7552,15135,28,,5202,0,,72460080,72309250,35922329,35922329,35922329,,959825,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.3e-05 s
+Starting round 48
+Found 520 isolated vertices
+Invalid ratios recomputed: 5836
+Best ratio is 1950632/2 (975316.0), centered at 1191
+Finding the best star... Star with 3 terminals centered in 643
+round took: 2.04469 s
+|V| = 8060, |E| = 15109, |R| = 26
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 72090228 (was 72241058) in 0.001783 s
+  refine_solution: new weight 72090228 (was 72090228) in 0.001655 s
+48,,7540,15109,26,,5836,0,,72241058,72090228,37872961,37872961,37872961,,1950632,3,@@
+
+  delete_edges: deleted 139 edges in 0.006884 s and 10 rounds
+  handle_small_Steiner_degrees: steiner 2, suppress 99 in 0.000103 s
+Starting round 49
+Found 640 isolated vertices
+Invalid ratios recomputed: 6005
+Best ratio is 1951388/2 (975694.0), centered at 5249
+Finding the best star... Star with 3 terminals centered in 5255
+round took: 2.18151 s
+|V| = 8060, |E| = 14845, |R| = 24
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 71615536 (was 71766366) in 0.001767 s
+  refine_solution: new weight 71615536 (was 71615536) in 0.001653 s
+49,,7420,14845,24,,6005,0,,71766366,71615536,39824349,39824349,39824349,,1951388,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.2e-05 s
+Starting round 50
+Found 655 isolated vertices
+Invalid ratios recomputed: 6308
+Best ratio is 1017625/1 (1017625.0), centered at 333
+Finding the best star... Star with 2 terminals centered in 1683
+round took: 2.40024 s
+|V| = 8060, |E| = 14828, |R| = 23
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 71615536 (was 71766366) in 0.00177 s
+  refine_solution: new weight 71615536 (was 71615536) in 0.001659 s
+50,,7405,14828,23,,6308,0,,71766366,71615536,40841974,40841974,40841974,,1017625,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.2e-05 s
+Starting round 51
+Found 668 isolated vertices
+Invalid ratios recomputed: 5523
+Best ratio is 1019192/1 (1019192.0), centered at 5097
+Finding the best star... Star with 2 terminals centered in 5468
+round took: 2.39646 s
+|V| = 8060, |E| = 14815, |R| = 22
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 71451790 (was 71602620) in 0.001768 s
+  refine_solution: new weight 71451790 (was 71451790) in 0.001658 s
+51,,7392,14815,22,,5523,0,,71602620,71451790,41861166,41861166,41861166,,1019192,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.2e-05 s
+Starting round 52
+Found 679 isolated vertices
+Invalid ratios recomputed: 5953
+Best ratio is 2040140/2 (1020070.0), centered at 455
+Finding the best star... Star with 3 terminals centered in 643
+round took: 2.41181 s
+|V| = 8060, |E| = 14792, |R| = 20
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 71201484 (was 71352314) in 0.001777 s
+  refine_solution: new weight 71201484 (was 71201484) in 0.00166 s
+52,,7381,14792,20,,5953,0,,71352314,71201484,43901306,43901306,43901306,,2040140,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.4e-05 s
+Starting round 53
+Found 698 isolated vertices
+Invalid ratios recomputed: 6056
+Best ratio is 2156824/2 (1078412.0), centered at 3647
+Finding the best star... Star with 3 terminals centered in 4187
+round took: 2.66364 s
+|V| = 8060, |E| = 14766, |R| = 18
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 70960263 (was 71111093) in 0.001771 s
+  refine_solution: new weight 70960263 (was 70960263) in 0.00165 s
+53,,7362,14766,18,,6056,0,,71111093,70960263,46058130,46058130,46058130,,2156824,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 54
+Found 717 isolated vertices
+Invalid ratios recomputed: 6202
+Best ratio is 1080921/1 (1080921.0), centered at 3956
+Finding the best star... Star with 2 terminals centered in 4058
+round took: 2.78975 s
+|V| = 8060, |E| = 14754, |R| = 17
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 70960263 (was 71111093) in 0.001778 s
+  refine_solution: new weight 70960263 (was 70960263) in 0.001669 s
+54,,7343,14754,17,,6202,0,,71111093,70960263,47139051,47139051,47139051,,1080921,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.2e-05 s
+Starting round 55
+Found 727 isolated vertices
+Invalid ratios recomputed: 6132
+Best ratio is 1091444/1 (1091444.0), centered at 5979
+Finding the best star... Star with 2 terminals centered in 6339
+round took: 3.30844 s
+|V| = 8060, |E| = 14739, |R| = 16
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 70446863 (was 70597693) in 0.001785 s
+  refine_solution: new weight 70446863 (was 70446863) in 0.001664 s
+55,,7333,14739,16,,6132,0,,70597693,70446863,48230495,48230495,48230495,,1091444,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.1e-05 s
+Starting round 56
+Found 738 isolated vertices
+Invalid ratios recomputed: 6943
+Best ratio is 2188923/2 (1094461.5), centered at 7338
+Finding the best star... Star with 3 terminals centered in 7440
+round took: 3.89201 s
+|V| = 8060, |E| = 14715, |R| = 14
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69776159 (was 69926989) in 0.001792 s
+  refine_solution: new weight 69776159 (was 69776159) in 0.001664 s
+56,,7322,14715,14,,6943,0,,69926989,69776159,50419418,50419418,50419418,,2188923,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+Starting round 57
+Found 758 isolated vertices
+Invalid ratios recomputed: 6712
+Best ratio is 1128315/1 (1128315.0), centered at 3395
+Finding the best star... Star with 2 terminals centered in 3935
+round took: 4.04893 s
+|V| = 8060, |E| = 14707, |R| = 13
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69776159 (was 69926989) in 0.001785 s
+  refine_solution: new weight 69776159 (was 69776159) in 0.001663 s
+57,,7302,14707,13,,6712,0,,69926989,69776159,51547733,51547733,51547733,,1128315,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.1e-05 s
+Starting round 58
+Found 765 isolated vertices
+Invalid ratios recomputed: 6888
+Best ratio is 1150910/1 (1150910.0), centered at 1676
+Finding the best star... Star with 2 terminals centered in 1683
+round took: 4.21827 s
+|V| = 8060, |E| = 14693, |R| = 12
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69776159 (was 69926989) in 0.001789 s
+  refine_solution: new weight 69776159 (was 69776159) in 0.001653 s
+58,,7295,14693,12,,6888,0,,69926989,69776159,52698643,52698643,52698643,,1150910,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.1e-05 s
+Starting round 59
+Found 776 isolated vertices
+Invalid ratios recomputed: 7160
+Best ratio is 1240247/1 (1240247.0), centered at 1683
+Finding the best star... Star with 2 terminals centered in 5255
+round took: 4.44713 s
+|V| = 8060, |E| = 14674, |R| = 11
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69776159 (was 69926989) in 0.001791 s
+  refine_solution: new weight 69776159 (was 69776159) in 0.001665 s
+59,,7284,14674,11,,7160,0,,69926989,69776159,53938890,53938890,53938890,,1240247,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.5e-05 s
+Starting round 60
+Found 794 isolated vertices
+Invalid ratios recomputed: 7229
+Best ratio is 1244205/1 (1244205.0), centered at 4874
+Finding the best star... Star with 2 terminals centered in 5864
+round took: 4.50324 s
+|V| = 8060, |E| = 14657, |R| = 10
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69723831 (was 69874661) in 0.001787 s
+  refine_solution: new weight 69723831 (was 69723831) in 0.001666 s
+60,,7266,14657,10,,7229,0,,69874661,69723831,55183095,55183095,55183095,,1244205,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.1e-05 s
+Starting round 61
+Found 808 isolated vertices
+Invalid ratios recomputed: 7232
+Best ratio is 1281863/1 (1281863.0), centered at 3935
+Finding the best star... Star with 2 terminals centered in 5468
+round took: 4.64618 s
+|V| = 8060, |E| = 14642, |R| = 9
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69723831 (was 69874661) in 0.00179 s
+  refine_solution: new weight 69723831 (was 69723831) in 0.001662 s
+61,,7252,14642,9,,7232,0,,69874661,69723831,56464958,56464958,56464958,,1281863,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.2e-05 s
+Starting round 62
+Found 822 isolated vertices
+Invalid ratios recomputed: 6845
+Best ratio is 1293885/1 (1293885.0), centered at 5256
+Finding the best star... Star with 2 terminals centered in 6339
+round took: 4.6873 s
+|V| = 8060, |E| = 14623, |R| = 8
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69723831 (was 69874661) in 0.001782 s
+  refine_solution: new weight 69723831 (was 69723831) in 0.001664 s
+62,,7238,14623,8,,6845,0,,69874661,69723831,57758843,57758843,57758843,,1293885,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 63
+Found 834 isolated vertices
+Invalid ratios recomputed: 7206
+Best ratio is 1375992/1 (1375992.0), centered at 6339
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 4.92983 s
+|V| = 8060, |E| = 14606, |R| = 7
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69663250 (was 69814080) in 0.001805 s
+  refine_solution: new weight 69663250 (was 69663250) in 0.001656 s
+63,,7226,14606,7,,7206,0,,69814080,69663250,59134835,59134835,59134835,,1375992,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 64
+Found 847 isolated vertices
+Invalid ratios recomputed: 7193
+Best ratio is 1437755/1 (1437755.0), centered at 6948
+Finding the best star... Star with 2 terminals centered in 7757
+round took: 5.27462 s
+|V| = 8060, |E| = 14590, |R| = 6
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69663250 (was 69814080) in 0.001782 s
+  refine_solution: new weight 69663250 (was 69663250) in 0.001655 s
+64,,7213,14590,6,,7193,0,,69814080,69663250,60572590,60572590,60572590,,1437755,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 65
+Found 861 isolated vertices
+Invalid ratios recomputed: 7198
+Best ratio is 1444970/1 (1444970.0), centered at 4058
+Finding the best star... Star with 2 terminals centered in 8003
+round took: 5.60356 s
+|V| = 8060, |E| = 14571, |R| = 5
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69478861 (was 69629691) in 0.001794 s
+  refine_solution: new weight 69478861 (was 69478861) in 0.00166 s
+65,,7199,14571,5,,7198,0,,69629691,69478861,62017560,62017560,62017560,,1444970,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.4e-05 s
+Starting round 66
+Found 874 isolated vertices
+Invalid ratios recomputed: 7186
+Best ratio is 1550127/1 (1550127.0), centered at 6957
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 6.03093 s
+|V| = 8060, |E| = 14552, |R| = 4
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69478861 (was 69629691) in 0.001793 s
+  refine_solution: new weight 69478861 (was 69478861) in 0.001673 s
+66,,7186,14552,4,,7186,0,,69629691,69478861,63567687,63567687,63567687,,1550127,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 67
+Found 889 isolated vertices
+Invalid ratios recomputed: 7171
+Best ratio is 1676351/1 (1676351.0), centered at 5188
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 6.37765 s
+|V| = 8060, |E| = 14534, |R| = 3
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69478861 (was 69629691) in 0.001805 s
+  refine_solution: new weight 69478861 (was 69478861) in 0.001654 s
+67,,7171,14534,3,,7171,0,,69629691,69478861,65244038,65244038,65244038,,1676351,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 68
+Found 904 isolated vertices
+Invalid ratios recomputed: 7156
+Best ratio is 1922380/1 (1922380.0), centered at 7440
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 6.62541 s
+|V| = 8060, |E| = 14518, |R| = 2
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69478861 (was 69629691) in 0.001798 s
+  refine_solution: new weight 69478861 (was 69478861) in 0.00166 s
+68,,7156,14518,2,,7156,0,,69629691,69478861,67166418,67166418,67166418,,1922380,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 2.9e-05 s
+Starting round 69
+Found 919 isolated vertices
+Invalid ratios recomputed: 7141
+Best ratio is 2463273/1 (2463273.0), centered at 2320
+Finding the best star... Star with 2 terminals centered in 7440
+round took: 6.69852 s
+|V| = 8060, |E| = 14489, |R| = 1
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 69478861 (was 69629691) in 0.001792 s
+  refine_solution: new weight 69478861 (was 69478861) in 0.001676 s
+69,,7141,14489,1,,7141,0,,69629691,69478861,69629691,69629691,69629691,,2463273,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+contract_till_the_bitter_end: 128.155 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 0
+DŽ: 69629691 -> 68793644
+  BEST solution improved 69629691 -> 68793644 (vert_size 0, round 1) *
+  BEST solution improved 68793644 -> 68703345 (vert_size 4, round 70)
+  BEST solution improved 68703345 -> 68663595 (vert_size 4, round 195) *
+  BEST solution improved 68663595 -> 68582030 (vert_size 2, round 281)
+  BEST solution improved 68582030 -> 68488068 (vert_size 2, round 983) *
+DŽ: 68488068 -> 68287611
+  BEST solution improved 68488068 -> 68287611 (vert_size 0, round 1001) *
+DŽ: 68287611 -> 68287611
+DŽ: 68582030 -> 68287611
+DŽ: 68793644 -> 68793644
+DŽ: 68582030 -> 68579862
+DŽ: 68287611 -> 68287611
+DŽ: 68527818 -> 68527818
+  BEST solution improved 68287611 -> 68272217 (vert_size 7, round 7430) *
+  BEST solution improved 68272217 -> 68197471 (vert_size 3, round 7866) *
+DŽ: 68197471 -> 68189006
+  BEST solution improved 68197471 -> 68189006 (vert_size 0, round 8001) *
+DŽ: 68189006 -> 68189006
+DŽ: 68189006 -> 68189006
+DŽ: 68555296 -> 68712636
+DŽ: 68189006 -> 68189006
+DŽ: 68287611 -> 68436521
+DŽ: 68582030 -> 68287611
+DŽ: 68304993 -> 68463202
+DŽ: 68189006 -> 68189006
+DŽ: 68344712 -> 68432751
+  BEST solution improved 68432751 -> 68079819 (vert_size 2, round 17266) *
+DŽ: 68079819 -> 67883313
+  BEST solution improved 68079819 -> 67883313 (vert_size 0, round 18001) *
+  BEST solution improved 67883313 -> 67859454 (vert_size 7, round 18986) *
+DŽ: 67859454 -> 67859454
+DŽ: 68189006 -> 68408892
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68372221 -> 68354839
+DŽ: 68527818 -> 68527818
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68304993 -> 69229040
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67883313 -> 68032223
+DŽ: 68304993 -> 68436521
+DŽ: 67859454 -> 67859454
+DŽ: 68344712 -> 68524761
+DŽ: 67859454 -> 68184779
+DŽ: 68378908 -> 68287611
+DŽ: 68189006 -> 68426156
+DŽ: 67883313 -> 68241110
+DŽ: 67859454 -> 67859454
+DŽ: 68189006 -> 68698778
+DŽ: 68372221 -> 68354839
+DŽ: 67859454 -> 67859454
+DŽ: 68527818 -> 68527818
+
+ start over 45891 loops 166 unique solutions 
+Original + vert_size 13 
+DŽ: 69629691 -> 69030794
+DŽ: 68287611 -> 68287611
+DŽ: 68312240 -> 68260967
+DŽ: 67859454 -> 67859454
+DŽ: 68548248 -> 68606326
+DŽ: 68260967 -> 68260967
+DŽ: 67859454 -> 67859454
+DŽ: 68853481 -> 68990588
+DŽ: 68548248 -> 68056888
+DŽ: 67859454 -> 68008364
+DŽ: 68393448 -> 68150185
+DŽ: 67859454 -> 67859454
+DŽ: 68237607 -> 68082957
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67885523
+DŽ: 67859454 -> 67951464
+DŽ: 68076898 -> 68076898
+DŽ: 67859454 -> 67859454
+DŽ: 68863506 -> 68267218
+DŽ: 68613061 -> 68150185
+DŽ: 67951464 -> 68033029
+DŽ: 68990588 -> 68990588
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68008364
+DŽ: 68442686 -> 68375388
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 68481791 -> 68287611
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67951464
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 68176871 -> 68049989
+DŽ: 67859454 -> 67859454
+DŽ: 68327589 -> 68287611
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67951464 -> 67951464
+DŽ: 67859454 -> 67859454
+DŽ: 67951464 -> 67951464
+DŽ: 67951464 -> 67951464
+
+ start over 99611 loops 218 unique solutions 
+Original + vert_size 0 
+DŽ: 69629691 -> 68702347
+DŽ: 67859454 -> 67859454
+DŽ: 68890349 -> 68724312
+DŽ: 68082957 -> 68082957
+DŽ: 68068775 -> 67990947
+DŽ: 68706909 -> 68607279
+DŽ: 68515559 -> 68645408
+DŽ: 68607279 -> 68607279
+DŽ: 68287611 -> 68313680
+DŽ: 68260967 -> 68186221
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68387212 -> 68287611
+DŽ: 67859454 -> 67859454
+DŽ: 67990947 -> 67990947
+DŽ: 68313680 -> 68313680
+DŽ: 68645408 -> 68766466
+DŽ: 67859454 -> 67859454
+DŽ: 68238934 -> 68238934
+DŽ: 68494756 -> 68794201
+DŽ: 68528973 -> 68638776
+DŽ: 68289821 -> 68289821
+DŽ: 68642478 -> 68606326
+DŽ: 67859454 -> 68217251
+DŽ: 67925550 -> 67859454
+DŽ: 68580668 -> 68716299
+DŽ: 67859454 -> 67859454
+DŽ: 68018834 -> 67859454
+DŽ: 68262198 -> 68042551
+DŽ: 68287611 -> 68436521
+DŽ: 68042551 -> 68042551
+DŽ: 67950541 -> 67950541
+DŽ: 67859454 -> 67859454
+DŽ: 67949360 -> 67909382
+DŽ: 67949360 -> 67909382
+DŽ: 67859454 -> 67859454
+DŽ: 68013297 -> 67883313
+DŽ: 67859454 -> 67859454
+DŽ: 68287611 -> 68287611
+DŽ: 68363393 -> 69006537
+DŽ: 68080525 -> 68513622
+DŽ: 68289821 -> 68444968
+DŽ: 68606326 -> 69289448
+DŽ: 67859454 -> 67859454
+DŽ: 68289821 -> 68289821
+DŽ: 68289821 -> 68289821
+
+ start over 144255 loops 265 unique solutions 
+Original + vert_size 0 
+DŽ: 69629691 -> 68718898
+DŽ: 67859454 -> 67859454
+DŽ: 68363393 -> 68323415
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68411368 -> 68042551
+DŽ: 67859454 -> 67859454
+DŽ: 68287611 -> 68645408
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67916555 -> 67951464
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68701495 -> 68510568
+DŽ: 68042551 -> 68042551
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67916555 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67951464
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68323415 -> 68819274
+DŽ: 67951464 -> 67951464
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68369226
+DŽ: 67859454 -> 67859454
+DŽ: 67951464 -> 68100374
+DŽ: 67859454 -> 67859454
+DŽ: 68280093 -> 68671662
+DŽ: 67991211 -> 67991211
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68008364
+DŽ: 67867919 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68643032 -> 68248498
+DŽ: 68212865 -> 68212865
+DŽ: 68280093 -> 68367920
+DŽ: 67859454 -> 67859454
+DŽ: 67899201 -> 67899201
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67965476 -> 67925270
+DŽ: 67859454 -> 67859454
+DŽ: 67925270 -> 67925270
+DŽ: 68478146 -> 68478146
+DŽ: 67859454 -> 67859454
+
+ start over 195181 loops 313 unique solutions 
+Approx + random 
+DŽ: 76250982 -> 70074672
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68280093 -> 68429003
+DŽ: 67859454 -> 67859454
+DŽ: 70074672 -> 70491945
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 69061900 -> 68346999
+DŽ: 68538248 -> 68234625
+DŽ: 68272512 -> 68228753
+DŽ: 67859454 -> 67859454
+DŽ: 69698513 -> 69097516
+DŽ: 68060477 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 69097516 -> 68831084
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67951464
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68076898 -> 68076898
+DŽ: 67951464 -> 67951464
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67945747 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68076898 -> 68076898
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68276789
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 68043715
+
+ start over 250538 loops 365 unique solutions 
+Approx + random 
+DŽ: 76250982 -> 70973723
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68228753
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68961773 -> 68888711
+DŽ: 67859454 -> 67859454
+DŽ: 68707305 -> 68456600
+DŽ: 68655509 -> 68605510
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68228753
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68836887
+DŽ: 67859454 -> 68401512
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68434961
+DŽ: 67859454 -> 67859454
+DŽ: 68663073 -> 68479090
+DŽ: 68479090 -> 68479090
+DŽ: 67859454 -> 68008364
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68586550
+DŽ: 68228753 -> 68228753
+DŽ: 68789828 -> 69111152
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68228753
+DŽ: 68228753 -> 68508889
+DŽ: 68228753 -> 68586550
+DŽ: 67859454 -> 67859454
+DŽ: 68623968 -> 68628426
+DŽ: 68479090 -> 68479090
+
+ start over 294249 loops 409 unique solutions 
+Approx + random 
+DŽ: 76250982 -> 69997697
+DŽ: 69870039 -> 69561149
+DŽ: 67859454 -> 67859454
+DŽ: 68889919 -> 68624061
+DŽ: 68473982 -> 68439267
+DŽ: 69561149 -> 69457800
+DŽ: 68228753 -> 68228753
+DŽ: 67859454 -> 68008364
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 69628373 -> 69275296
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68649781 -> 68569514
+DŽ: 67905015 -> 67928874
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67883313
+DŽ: 68617228 -> 68373139
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67883313
+DŽ: 67859454 -> 68034433
+DŽ: 67859454 -> 67859454
+DŽ: 68034433 -> 68359758
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68298052 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 69103185 -> 68565622
+DŽ: 67905015 -> 67905015
+DŽ: 68324620 -> 68627118
+DŽ: 67859454 -> 67951464
+
+ start over 341401 loops 449 unique solutions 
+Original + vert_size 13 
+DŽ: 69629691 -> 68393112
+DŽ: 67859454 -> 67859454
+DŽ: 68210337 -> 67980586
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67953648 -> 67980586
+DŽ: 68594272 -> 68462273
+DŽ: 67859454 -> 67859454
+DŽ: 67953648 -> 68398348
+DŽ: 68228753 -> 68228753
+DŽ: 67859454 -> 67859454
+DŽ: 68032840 -> 67888576
+DŽ: 67859454 -> 67859454
+DŽ: 68146945 -> 67886366
+DŽ: 67859454 -> 67859454
+DŽ: 68398348 -> 68398348
+DŽ: 68462273 -> 68462273
+DŽ: 68462273 -> 68579306
+DŽ: 67859454 -> 67859454
+DŽ: 67953648 -> 67888576
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67886366 -> 68035276
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 68006581
+DŽ: 68395045 -> 68395045
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68228753
+DŽ: 67953648 -> 67888576
+DŽ: 67859454 -> 68217251
+DŽ: 67888576 -> 67888576
+DŽ: 67859454 -> 67859454
+DŽ: 67888576 -> 67888576
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67888576 -> 67888576
+DŽ: 67885523 -> 67885523
+
+ start over 386308 loops 499 unique solutions 
+Original + vert_size 13 
+DŽ: 69629691 -> 68718898
+DŽ: 68395045 -> 68395045
+DŽ: 67888576 -> 67888576
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67886366 -> 67886366
+DŽ: 67859454 -> 67859454
+DŽ: 68228753 -> 68303499
+DŽ: 67950595 -> 68335330
+DŽ: 67859454 -> 67859454
+DŽ: 67953648 -> 68362811
+DŽ: 67859454 -> 67859454
+DŽ: 68303499 -> 68303499
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 68065310 -> 68065310
+DŽ: 68362811 -> 68362811
+DŽ: 67859454 -> 67859454
+DŽ: 68303499 -> 68303499
+DŽ: 67859454 -> 68386938
+DŽ: 68359561 -> 68359561
+DŽ: 67859454 -> 67859454
+DŽ: 67913205 -> 67888576
+DŽ: 68267752 -> 68210651
+DŽ: 68210651 -> 68210651
+DŽ: 68210651 -> 68568448
+DŽ: 67916412 -> 68338383
+DŽ: 67859454 -> 67859454
+DŽ: 67971921 -> 67888576
+DŽ: 67859454 -> 67859454
+DŽ: 67980586 -> 67980586
+DŽ: 68267752 -> 68210651
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67945677 -> 67888576
+DŽ: 68207598 -> 68207598
+DŽ: 68065310 -> 68065310
+DŽ: 68200881 -> 68216484
+DŽ: 67859454 -> 67951464
+DŽ: 68395045 -> 68395045
+DŽ: 67885523 -> 68210848
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 68207598 -> 68207598
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 68217251
+DŽ: 68207598 -> 68207598
+DŽ: 67859454 -> 67859454
+
+ start over 435989 loops 550 unique solutions 
+Approx + random 
+DŽ: 76250982 -> 69412195
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 68008364
+DŽ: 67859454 -> 67859454
+DŽ: 68303499 -> 68303499
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 67916555 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 68303499 -> 68303499
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 68243320
+DŽ: 67885523 -> 67885523
+DŽ: 68031189 -> 68375077
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 68008364
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 68069784
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 68687233
+DŽ: 67859454 -> 68008364
+DŽ: 67991211 -> 68017280
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+
+ start over 485181 loops 592 unique solutions 
+Approx + random 
+DŽ: 76250982 -> 69634578
+DŽ: 67885523 -> 67885523
+DŽ: 67859454 -> 68309261
+DŽ: 67859454 -> 67859454
+DŽ: 67885523 -> 68243320
+DŽ: 67885523 -> 68243320
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 68217251
+DŽ: 67859454 -> 67859454
+DŽ: 68223109 -> 68447775
+DŽ: 67859454 -> 67859454
+DŽ: 67951464 -> 68309261
+DŽ: 67934244 -> 68234707
+DŽ: 68231457 -> 68231457
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 67859454
+DŽ: 67859454 -> 68217251
+DŽ: 67924526 -> 67859454
+DŽ: 67951464 -> 68309261
+DŽ: 68231457 -> 68231457
+end_heu: 509394 loops with 634 unique solutions in 1799.64 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 67859454 (was 67859454) in 0.001696 s
+## FINAL WEIGHT 67859454
+print_solution: 0.003698 s

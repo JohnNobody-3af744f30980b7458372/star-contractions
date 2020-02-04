@@ -1,0 +1,1736 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1549732818
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 6406, |E| = 10454, |R| = 16
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 0 zero edges in 2.7e-05 s
+  handle_small_terminal_degrees: terms 0 in 1.1e-05 s
+  handle_small_Steiner_degrees: steiner 16, suppress 798 in 0.000435 s
+  shortest_edge_between_terminals: 6 edges in 7e-06 s
+  handle_small_terminal_degrees: terms 0 in 7e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 9 in 1.2e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 6406 -> 5577
+  delete_edges: deleted 53 edges in 0.00057 s and 2 rounds
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 5, suppress 67 in 2.2e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 7e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 5577 -> 5503
+  delete_edges_shortest_path: deleted 48 edges in 0.020042 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 1, suppress 58 in 2e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 5503 -> 5444
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 5e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 5444 -> 5444
+  delete_edges_shortest_path: deleted 37 edges in 0.019685 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 1, suppress 47 in 1.9e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 5444 -> 5395
+Compressed graph 5395 -> 5395
+>>> save_orig_graph
+>> Saved weight 25
+### ZEL_LVL=0 PRECISE_STARS=0
+
+Calling `contract_till_the_bitter_end`
+|V| = 5395, |E| = 9294, |R| = 11
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2309 (was 2319) in 0.000806 s
+  refine_solution: new weight 2309 (was 2309) in 0.000734 s
+0,,5395,9294,11,,0,0,,2319,2309,25,25,25,,0,0,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 8e-06 s
+Starting round 1
+Found 0 isolated vertices
+Invalid ratios recomputed: 5395
+Best ratio is 15/1 (15.0), centered at 33
+Finding the best star... Star with 2 terminals centered in 36
+round took: 1.08202 s
+|V| = 5395, |E| = 9291, |R| = 10
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2309 (was 2319) in 0.000806 s
+  refine_solution: new weight 2309 (was 2309) in 0.00073 s
+1,,5395,9291,10,,5395,0,,2319,2309,40,40,40,,15,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 8e-06 s
+Starting round 2
+Found 3 isolated vertices
+Invalid ratios recomputed: 2334
+Best ratio is 28/1 (28.0), centered at 16
+Finding the best star... Star with 2 terminals centered in 17
+round took: 0.688334 s
+|V| = 5395, |E| = 9286, |R| = 9
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2298 (was 2308) in 0.000788 s
+  refine_solution: new weight 2298 (was 2298) in 0.000727 s
+2,,5392,9286,9,,2334,0,,2308,2298,68,68,68,,28,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+Starting round 3
+Found 7 isolated vertices
+Invalid ratios recomputed: 1067
+Best ratio is 46/1 (46.0), centered at 2443
+Finding the best star... Star with 2 terminals centered in 2552
+round took: 0.212795 s
+|V| = 5395, |E| = 9279, |R| = 8
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2300 (was 2300) in 0.000791 s
+3,,5388,9279,8,,1067,0,,2300,2300,114,114,114,,46,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+Starting round 4
+Found 13 isolated vertices
+Invalid ratios recomputed: 1612
+Best ratio is 101/1 (101.0), centered at 3493
+Finding the best star... Star with 2 terminals centered in 3493
+round took: 0.312632 s
+|V| = 5395, |E| = 9268, |R| = 7
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2300 (was 2300) in 0.000798 s
+4,,5382,9268,7,,1612,0,,2300,2300,215,215,215,,101,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+Starting round 5
+Found 22 isolated vertices
+Invalid ratios recomputed: 3636
+Best ratio is 153/1 (153.0), centered at 3364
+Finding the best star... Star with 2 terminals centered in 3493
+round took: 0.90722 s
+|V| = 5395, |E| = 9243, |R| = 6
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2300 (was 2300) in 0.000785 s
+5,,5373,9243,6,,3636,0,,2300,2300,368,368,368,,153,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+Starting round 6
+Found 46 isolated vertices
+Invalid ratios recomputed: 4564
+Best ratio is 222/1 (222.0), centered at 2541
+Finding the best star... Star with 2 terminals centered in 2552
+round took: 1.50724 s
+|V| = 5395, |E| = 9213, |R| = 5
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2288 (was 2288) in 0.000811 s
+6,,5349,9213,5,,4564,0,,2288,2288,590,590,590,,222,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.4e-05 s
+Starting round 7
+Found 75 isolated vertices
+Invalid ratios recomputed: 4700
+Best ratio is 309/1 (309.0), centered at 17
+Finding the best star... Star with 2 terminals centered in 2552
+round took: 1.80262 s
+|V| = 5395, |E| = 9179, |R| = 4
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2283 (was 2283) in 0.000819 s
+7,,5320,9179,4,,4700,0,,2283,2283,899,899,899,,309,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 1.1e-05 s
+Starting round 8
+Found 103 isolated vertices
+Invalid ratios recomputed: 4712
+Best ratio is 336/1 (336.0), centered at 24
+Finding the best star... Star with 2 terminals centered in 80
+round took: 2.12348 s
+|V| = 5395, |E| = 9118, |R| = 3
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2283 (was 2283) in 0.000813 s
+8,,5292,9118,3,,4712,0,,2283,2283,1235,1235,1235,,336,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 7 in 1.2e-05 s
+Starting round 9
+Found 158 isolated vertices
+Invalid ratios recomputed: 4843
+Best ratio is 466/1 (466.0), centered at 9
+Finding the best star... Star with 2 terminals centered in 80
+round took: 2.17383 s
+|V| = 5395, |E| = 9032, |R| = 2
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2283 (was 2283) in 0.000822 s
+9,,5237,9032,2,,4843,0,,2283,2283,1701,1701,1701,,466,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 8 in 1.7e-05 s
+Starting round 10
+Found 233 isolated vertices
+Invalid ratios recomputed: 5162
+Best ratio is 582/1 (582.0), centered at 80
+Finding the best star... Star with 2 terminals centered in 80
+round took: 2.56273 s
+|V| = 5395, |E| = 8935, |R| = 1
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 2283 (was 2283) in 0.000821 s
+10,,5162,8935,1,,5162,0,,2283,2283,2283,2283,2283,,582,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 5 in 2.8e-05 s
+contract_till_the_bitter_end: 13.4167 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 25
+DŽ: 2283 -> 2265
+  BEST solution improved 2283 -> 2265 (vert_size 0, round 1) *
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2273
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2265
+DŽ: 2273 -> 2273
+
+ start over 8560 loops 39 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2273
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2291
+DŽ: 2265 -> 2283
+DŽ: 2265 -> 2273
+DŽ: 2275 -> 2265
+DŽ: 2265 -> 2265
+DŽ: 2265 -> 2293
+DŽ: 2275 -> 2391
+DŽ: 2278 -> 2259
+  BEST solution improved 2278 -> 2259 (vert_size 0, round 18001) *
+DŽ: 2259 -> 2259
+DŽ: 2291 -> 2265
+DŽ: 2280 -> 2273
+DŽ: 2259 -> 2259
+DŽ: 2259 -> 2259
+DŽ: 2283 -> 2273
+DŽ: 2265 -> 2292
+DŽ: 2259 -> 2259
+DŽ: 2265 -> 2265
+
+ start over 27388 loops 154 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2273 -> 2273
+DŽ: 2259 -> 2259
+  BEST solution improved 2259 -> 2256 (vert_size 2, round 29217) *
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2286
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2278
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2289
+
+ start over 46813 loops 164 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2291
+DŽ: 2273 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 66181 loops 169 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2291
+DŽ: 2264 -> 2259
+DŽ: 2283 -> 2283
+DŽ: 2275 -> 2283
+DŽ: 2256 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2256
+DŽ: 2283 -> 2291
+DŽ: 2291 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2265
+DŽ: 2264 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2291
+DŽ: 2264 -> 2273
+DŽ: 2273 -> 2283
+
+ start over 86477 loops 190 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2291
+DŽ: 2273 -> 2273
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2291
+DŽ: 2280 -> 2280
+DŽ: 2265 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2275 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2283
+
+ start over 105682 loops 205 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2264 -> 2273
+DŽ: 2286 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2259 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2280 -> 2291
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2273
+DŽ: 2275 -> 2275
+DŽ: 2283 -> 2283
+
+ start over 124592 loops 216 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2280 -> 2291
+DŽ: 2283 -> 2273
+DŽ: 2291 -> 2256
+DŽ: 2283 -> 2291
+DŽ: 2256 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2280 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2269 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2261 -> 2283
+DŽ: 2256 -> 2256
+
+ start over 146281 loops 226 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2391
+DŽ: 2283 -> 2256
+DŽ: 2288 -> 2292
+DŽ: 2283 -> 2275
+DŽ: 2288 -> 2293
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2286 -> 2259
+DŽ: 2286 -> 2259
+DŽ: 2283 -> 2283
+DŽ: 2287 -> 2292
+DŽ: 2293 -> 2289
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+
+ start over 160524 loops 262 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2259
+DŽ: 2283 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2275
+DŽ: 2286 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2287 -> 2259
+DŽ: 2264 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2275
+DŽ: 2264 -> 2259
+DŽ: 2259 -> 2292
+
+ start over 182924 loops 262 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2289
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2273
+DŽ: 2285 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+
+ start over 197139 loops 283 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2270 -> 2265
+DŽ: 2288 -> 2391
+DŽ: 2283 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2256
+DŽ: 2261 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 218220 loops 292 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2261 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2294 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2274 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2275 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+
+ start over 234797 loops 299 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2283
+DŽ: 2270 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2283 -> 2256
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2256
+DŽ: 2286 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2297
+DŽ: 2261 -> 2283
+DŽ: 2286 -> 2273
+DŽ: 2286 -> 2273
+DŽ: 2269 -> 2264
+
+ start over 255162 loops 306 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2275
+DŽ: 2266 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2261 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2275
+DŽ: 2261 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2261 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2259
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2293
+DŽ: 2264 -> 2259
+DŽ: 2256 -> 2273
+
+ start over 275828 loops 322 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2301
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2273 -> 2286
+DŽ: 2264 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2265
+DŽ: 2283 -> 2259
+DŽ: 2283 -> 2283
+DŽ: 2264 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+
+ start over 295169 loops 342 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2289
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2261 -> 2256
+DŽ: 2261 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2298 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2283
+DŽ: 2266 -> 2283
+DŽ: 2266 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2273
+DŽ: 2256 -> 2283
+
+ start over 315594 loops 374 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2265
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2261 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2276 -> 2256
+DŽ: 2266 -> 2256
+DŽ: 2276 -> 2256
+DŽ: 2264 -> 2264
+DŽ: 2261 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2275
+DŽ: 2274 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2283
+
+ start over 341512 loops 386 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2273
+DŽ: 2256 -> 2283
+DŽ: 2269 -> 2256
+DŽ: 2259 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2259
+DŽ: 2266 -> 2283
+DŽ: 2266 -> 2256
+DŽ: 2259 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2275
+DŽ: 2275 -> 2256
+DŽ: 2256 -> 2289
+DŽ: 2259 -> 2259
+DŽ: 2256 -> 2283
+DŽ: 2288 -> 2283
+
+ start over 361171 loops 397 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2297
+DŽ: 2286 -> 2273
+DŽ: 2292 -> 2256
+DŽ: 2265 -> 2265
+DŽ: 2283 -> 2283
+DŽ: 2265 -> 2273
+DŽ: 2275 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2280 -> 2283
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2292 -> 2265
+
+ start over 374552 loops 416 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2265
+DŽ: 2286 -> 2273
+DŽ: 2291 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2283
+DŽ: 2291 -> 2275
+DŽ: 2286 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2287 -> 2275
+
+ start over 388857 loops 423 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2291
+DŽ: 2277 -> 2273
+DŽ: 2290 -> 2259
+DŽ: 2286 -> 2273
+DŽ: 2256 -> 2275
+DŽ: 2286 -> 2273
+DŽ: 2256 -> 2283
+DŽ: 2286 -> 2273
+DŽ: 2286 -> 2278
+DŽ: 2286 -> 2283
+DŽ: 2275 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 403360 loops 433 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2283 -> 2273
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2273
+DŽ: 2273 -> 2291
+DŽ: 2283 -> 2283
+DŽ: 2286 -> 2265
+DŽ: 2283 -> 2256
+DŽ: 2275 -> 2256
+DŽ: 2259 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2273
+
+ start over 417537 loops 438 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2292
+DŽ: 2280 -> 2283
+DŽ: 2275 -> 2275
+DŽ: 2279 -> 2283
+DŽ: 2273 -> 2291
+DŽ: 2261 -> 2288
+DŽ: 2286 -> 2286
+DŽ: 2286 -> 2292
+DŽ: 2286 -> 2286
+DŽ: 2278 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2279 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2265
+
+ start over 432370 loops 450 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2273
+DŽ: 2286 -> 2256
+DŽ: 2291 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2286 -> 2292
+DŽ: 2274 -> 2259
+DŽ: 2273 -> 2273
+DŽ: 2291 -> 2256
+DŽ: 2278 -> 2259
+
+ start over 444501 loops 463 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2274 -> 2265
+DŽ: 2286 -> 2273
+DŽ: 2283 -> 2289
+DŽ: 2274 -> 2273
+DŽ: 2281 -> 2256
+DŽ: 2259 -> 2259
+DŽ: 2291 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2273 -> 2265
+DŽ: 2265 -> 2273
+DŽ: 2281 -> 2256
+DŽ: 2256 -> 2289
+
+ start over 460714 loops 480 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2265
+DŽ: 2275 -> 2275
+DŽ: 2275 -> 2275
+DŽ: 2264 -> 2273
+DŽ: 2283 -> 2273
+DŽ: 2265 -> 2265
+DŽ: 2283 -> 2289
+DŽ: 2283 -> 2275
+DŽ: 2264 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+
+ start over 473960 loops 486 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2291
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2286 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2288 -> 2278
+DŽ: 2265 -> 2275
+DŽ: 2256 -> 2283
+DŽ: 2279 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2276 -> 2283
+DŽ: 2273 -> 2292
+DŽ: 2286 -> 2273
+
+ start over 486713 loops 490 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2273
+DŽ: 2273 -> 2273
+DŽ: 2291 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2259
+DŽ: 2278 -> 2278
+DŽ: 2256 -> 2273
+DŽ: 2265 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2278 -> 2273
+DŽ: 2256 -> 2275
+DŽ: 2259 -> 2259
+DŽ: 2256 -> 2256
+
+ start over 501671 loops 487 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2259
+DŽ: 2273 -> 2273
+DŽ: 2273 -> 2275
+DŽ: 2280 -> 2283
+DŽ: 2279 -> 2293
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2259 -> 2259
+DŽ: 2276 -> 2256
+DŽ: 2259 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2259 -> 2265
+DŽ: 2259 -> 2273
+
+ start over 514939 loops 517 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2293 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2271 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2276 -> 2256
+DŽ: 2274 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2274 -> 2259
+
+ start over 527805 loops 525 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2273
+DŽ: 2275 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2273
+DŽ: 2291 -> 2273
+DŽ: 2275 -> 2265
+DŽ: 2281 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2273
+DŽ: 2283 -> 2283
+
+ start over 541189 loops 523 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2291
+DŽ: 2256 -> 2283
+DŽ: 2273 -> 2283
+DŽ: 2264 -> 2259
+DŽ: 2283 -> 2273
+DŽ: 2283 -> 2270
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2265
+DŽ: 2273 -> 2275
+DŽ: 2273 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2256
+DŽ: 2264 -> 2264
+
+ start over 555531 loops 527 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2259 -> 2259
+DŽ: 2270 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2271 -> 2283
+DŽ: 2271 -> 2256
+DŽ: 2265 -> 2273
+DŽ: 2279 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2259
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2274 -> 2256
+
+ start over 574181 loops 540 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2265 -> 2256
+DŽ: 2273 -> 2283
+DŽ: 2283 -> 2273
+DŽ: 2265 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2289
+DŽ: 2283 -> 2275
+DŽ: 2291 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2279 -> 2256
+DŽ: 2275 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2275
+
+ start over 590825 loops 541 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2275
+DŽ: 2286 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2289
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2289
+DŽ: 2265 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2291 -> 2283
+DŽ: 2275 -> 2256
+
+ start over 604745 loops 551 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2288 -> 2275
+DŽ: 2273 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2291
+DŽ: 2283 -> 2283
+DŽ: 2289 -> 2283
+
+ start over 617401 loops 556 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2266 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2291 -> 2292
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2265
+DŽ: 2273 -> 2265
+DŽ: 2275 -> 2256
+DŽ: 2266 -> 2283
+
+ start over 632259 loops 574 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2273
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2275
+DŽ: 2273 -> 2265
+DŽ: 2283 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2265
+
+ start over 649276 loops 593 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2265
+DŽ: 2286 -> 2291
+DŽ: 2256 -> 2289
+DŽ: 2266 -> 2256
+DŽ: 2261 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2266 -> 2275
+DŽ: 2285 -> 2275
+DŽ: 2266 -> 2256
+DŽ: 2287 -> 2283
+DŽ: 2266 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2276 -> 2256
+DŽ: 2288 -> 2283
+DŽ: 2275 -> 2283
+
+ start over 663856 loops 616 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2259
+DŽ: 2287 -> 2264
+DŽ: 2288 -> 2283
+DŽ: 2286 -> 2275
+DŽ: 2261 -> 2256
+DŽ: 2266 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2287 -> 2283
+DŽ: 2291 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2285 -> 2256
+DŽ: 2283 -> 2289
+
+ start over 676697 loops 624 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2285 -> 2275
+DŽ: 2285 -> 2283
+DŽ: 2283 -> 2275
+DŽ: 2265 -> 2259
+DŽ: 2265 -> 2259
+DŽ: 2266 -> 2291
+DŽ: 2283 -> 2256
+DŽ: 2265 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2283
+DŽ: 2283 -> 2256
+DŽ: 2256 -> 2275
+
+ start over 691181 loops 625 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2266 -> 2283
+DŽ: 2275 -> 2289
+DŽ: 2291 -> 2264
+DŽ: 2278 -> 2265
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2283
+DŽ: 2288 -> 2275
+
+ start over 702461 loops 635 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2284 -> 2256
+DŽ: 2279 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2278 -> 2394
+
+ start over 716279 loops 649 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2273
+DŽ: 2274 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2280 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2279 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2278 -> 2273
+DŽ: 2278 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 730508 loops 652 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2259
+DŽ: 2283 -> 2283
+DŽ: 2275 -> 2283
+DŽ: 2288 -> 2283
+DŽ: 2283 -> 2259
+DŽ: 2283 -> 2291
+DŽ: 2293 -> 2289
+DŽ: 2278 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2265
+DŽ: 2288 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2265
+
+ start over 744465 loops 672 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2283
+DŽ: 2285 -> 2275
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2293 -> 2283
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2261 -> 2283
+DŽ: 2271 -> 2291
+DŽ: 2271 -> 2283
+DŽ: 2256 -> 2256
+
+ start over 761565 loops 686 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2292
+DŽ: 2283 -> 2291
+DŽ: 2293 -> 2289
+DŽ: 2264 -> 2292
+DŽ: 2266 -> 2256
+DŽ: 2286 -> 2273
+DŽ: 2288 -> 2283
+DŽ: 2278 -> 2273
+DŽ: 2290 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2291
+
+ start over 771595 loops 698 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2259
+DŽ: 2270 -> 2391
+DŽ: 2256 -> 2256
+DŽ: 2266 -> 2283
+DŽ: 2288 -> 2283
+
+ start over 784644 loops 712 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2273 -> 2265
+DŽ: 2272 -> 2259
+DŽ: 2283 -> 2292
+DŽ: 2269 -> 2259
+DŽ: 2288 -> 2283
+DŽ: 2288 -> 2292
+DŽ: 2286 -> 2259
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2286 -> 2273
+DŽ: 2256 -> 2256
+
+ start over 796351 loops 715 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2293 -> 2283
+DŽ: 2293 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2273
+DŽ: 2293 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+
+ start over 808234 loops 719 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2265
+DŽ: 2283 -> 2289
+DŽ: 2256 -> 2283
+DŽ: 2266 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2288 -> 2283
+DŽ: 2288 -> 2283
+DŽ: 2290 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2283
+
+ start over 817642 loops 736 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2256
+DŽ: 2288 -> 2275
+DŽ: 2283 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 829930 loops 736 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2265
+DŽ: 2288 -> 2283
+DŽ: 2275 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2275
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2289
+DŽ: 2278 -> 2289
+DŽ: 2270 -> 2265
+DŽ: 2280 -> 2280
+DŽ: 2256 -> 2256
+
+ start over 842450 loops 735 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2278 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2270 -> 2297
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2256
+DŽ: 2288 -> 2275
+DŽ: 2273 -> 2259
+DŽ: 2288 -> 2391
+DŽ: 2285 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2288 -> 2283
+
+ start over 853256 loops 757 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2295 -> 2291
+DŽ: 2286 -> 2273
+DŽ: 2291 -> 2265
+DŽ: 2275 -> 2275
+DŽ: 2293 -> 2283
+DŽ: 2286 -> 2273
+DŽ: 2265 -> 2297
+DŽ: 2283 -> 2283
+
+ start over 861920 loops 767 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2295 -> 2292
+DŽ: 2273 -> 2273
+DŽ: 2291 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2295 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2295 -> 2259
+DŽ: 2274 -> 2273
+DŽ: 2283 -> 2291
+DŽ: 2283 -> 2275
+
+ start over 873318 loops 770 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2291 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2286 -> 2265
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2275 -> 2275
+DŽ: 2256 -> 2256
+
+ start over 884495 loops 764 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2273
+DŽ: 2275 -> 2283
+DŽ: 2291 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2265
+DŽ: 2264 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+
+ start over 896793 loops 776 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2256
+DŽ: 2288 -> 2265
+DŽ: 2291 -> 2265
+DŽ: 2291 -> 2283
+DŽ: 2275 -> 2283
+DŽ: 2283 -> 2273
+DŽ: 2275 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2281 -> 2264
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2259
+DŽ: 2259 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2265 -> 2291
+
+ start over 910375 loops 776 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2283
+DŽ: 2291 -> 2265
+DŽ: 2292 -> 2259
+DŽ: 2278 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2277 -> 2259
+DŽ: 2265 -> 2291
+DŽ: 2283 -> 2283
+DŽ: 2264 -> 2273
+DŽ: 2265 -> 2292
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2265
+DŽ: 2265 -> 2273
+DŽ: 2271 -> 2256
+DŽ: 2283 -> 2289
+DŽ: 2256 -> 2256
+
+ start over 926597 loops 782 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2259
+DŽ: 2271 -> 2283
+DŽ: 2265 -> 2289
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2289 -> 2283
+DŽ: 2291 -> 2273
+DŽ: 2275 -> 2275
+DŽ: 2288 -> 2283
+DŽ: 2277 -> 2259
+DŽ: 2291 -> 2291
+DŽ: 2288 -> 2256
+DŽ: 2266 -> 2256
+
+ start over 941360 loops 801 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2273
+DŽ: 2259 -> 2259
+DŽ: 2288 -> 2275
+DŽ: 2269 -> 2256
+DŽ: 2277 -> 2273
+DŽ: 2275 -> 2283
+DŽ: 2289 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2273 -> 2265
+DŽ: 2288 -> 2275
+DŽ: 2284 -> 2289
+DŽ: 2275 -> 2273
+DŽ: 2275 -> 2283
+
+ start over 953744 loops 811 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2259 -> 2259
+DŽ: 2259 -> 2273
+DŽ: 2275 -> 2273
+DŽ: 2275 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2391
+DŽ: 2353 -> 2283
+DŽ: 2276 -> 2273
+DŽ: 2283 -> 2273
+DŽ: 2283 -> 2291
+DŽ: 2293 -> 2283
+
+ start over 965129 loops 827 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2293 -> 2289
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2289
+DŽ: 2283 -> 2293
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2275
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2259
+
+ start over 978626 loops 823 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2290 -> 2280
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2256
+DŽ: 2273 -> 2283
+DŽ: 2276 -> 2283
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2275
+DŽ: 2288 -> 2283
+DŽ: 2256 -> 2275
+DŽ: 2256 -> 2256
+
+ start over 993181 loops 830 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2290 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2265
+DŽ: 2276 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2271 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2273
+DŽ: 2265 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 1008181 loops 832 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2259 -> 2259
+DŽ: 2288 -> 2283
+DŽ: 2283 -> 2256
+DŽ: 2280 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2288 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2284 -> 2283
+DŽ: 2259 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2280 -> 2256
+DŽ: 2283 -> 2283
+
+ start over 1021985 loops 835 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2283
+DŽ: 2288 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2270 -> 2273
+DŽ: 2273 -> 2289
+DŽ: 2283 -> 2283
+DŽ: 2278 -> 2265
+DŽ: 2275 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2281 -> 2256
+
+ start over 1035623 loops 856 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2284 -> 2256
+DŽ: 2291 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2281 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2283
+DŽ: 2283 -> 2256
+DŽ: 2273 -> 2273
+DŽ: 2283 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2281 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2256
+
+ start over 1050543 loops 861 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2273
+DŽ: 2280 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2270
+DŽ: 2265 -> 2259
+DŽ: 2273 -> 2273
+DŽ: 2283 -> 2273
+
+ start over 1064247 loops 864 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2289
+DŽ: 2280 -> 2275
+DŽ: 2291 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2275
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2291 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2283
+DŽ: 2270 -> 2273
+
+ start over 1078180 loops 872 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2291
+DŽ: 2291 -> 2273
+DŽ: 2280 -> 2273
+DŽ: 2283 -> 2264
+DŽ: 2256 -> 2289
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2256 -> 2273
+DŽ: 2288 -> 2275
+
+ start over 1090843 loops 874 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2273
+DŽ: 2291 -> 2283
+DŽ: 2275 -> 2283
+DŽ: 2283 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2273 -> 2273
+DŽ: 2275 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2264 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2275
+
+ start over 1103761 loops 882 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2289
+DŽ: 2291 -> 2311
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2256
+DŽ: 2274 -> 2273
+DŽ: 2256 -> 2273
+DŽ: 2285 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2275 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2273
+
+ start over 1116068 loops 932 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2286
+DŽ: 2256 -> 2256
+DŽ: 2296 -> 2273
+DŽ: 2274 -> 2273
+DŽ: 2286 -> 2273
+DŽ: 2283 -> 2394
+DŽ: 2264 -> 2259
+DŽ: 2286 -> 2273
+DŽ: 2259 -> 2273
+DŽ: 2289 -> 2273
+
+ start over 1128657 loops 936 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2292
+DŽ: 2256 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2259 -> 2273
+DŽ: 2283 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2273
+DŽ: 2290 -> 2283
+DŽ: 2256 -> 2259
+DŽ: 2259 -> 2273
+DŽ: 2264 -> 2256
+DŽ: 2264 -> 2273
+DŽ: 2286 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2297
+
+ start over 1143637 loops 942 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2264
+DŽ: 2259 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2287 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2279 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2278 -> 2259
+DŽ: 2256 -> 2256
+DŽ: 2274 -> 2259
+DŽ: 2283 -> 2283
+DŽ: 2283 -> 2291
+DŽ: 2283 -> 2297
+DŽ: 2288 -> 2283
+
+ start over 1158161 loops 942 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2275
+DŽ: 2283 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2283 -> 2291
+DŽ: 2256 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2289 -> 2256
+DŽ: 2266 -> 2256
+DŽ: 2283 -> 2273
+DŽ: 2286 -> 2273
+DŽ: 2293 -> 2273
+DŽ: 2259 -> 2273
+DŽ: 2280 -> 2391
+
+ start over 1170367 loops 935 unique solutions 
+Original + vert_size 13 
+DŽ: 2283 -> 2275
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2273
+DŽ: 2283 -> 2273
+DŽ: 2274 -> 2273
+DŽ: 2283 -> 2283
+DŽ: 2273 -> 2394
+DŽ: 2256 -> 2283
+DŽ: 2296 -> 2273
+DŽ: 2275 -> 2283
+DŽ: 2259 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2259 -> 2259
+
+ start over 1183830 loops 953 unique solutions 
+Original + vert_size 0 
+DŽ: 2283 -> 2265
+DŽ: 2256 -> 2256
+DŽ: 2269 -> 2273
+DŽ: 2291 -> 2273
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2273 -> 2283
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+DŽ: 2256 -> 2256
+
+ start over 1196732 loops 950 unique solutions 
+Approx + random 
+DŽ: 2319 -> 2273
+DŽ: 2296 -> 2283
+end_heu: 1197335 loops with 951 unique solutions in 1799.59 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 2256 (was 2256) in 0.00092 s
+## FINAL WEIGHT 2256
+print_solution: 0.002297 s

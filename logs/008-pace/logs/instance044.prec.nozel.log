@@ -1,0 +1,868 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1550051586
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 321, |E| = 10208, |R| = 80
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 0 zero edges in 1.1e-05 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+  shortest_edge_between_terminals: 0 edges in 1.3e-05 s
+Compressed graph 321 -> 320
+  delete_edges: deleted 0 edges in 0.010765 s and 1 rounds
+  handle_small_terminal_degrees: terms 0 in 0 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+  shortest_edge_between_terminals: 0 edges in 1.3e-05 s
+Compressed graph 320 -> 320
+  delete_edges_shortest_path: deleted 0 edges in 0.027731 s
+  handle_small_terminal_degrees: terms 0 in 0 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+  shortest_edge_between_terminals: 0 edges in 1.2e-05 s
+Compressed graph 320 -> 320
+  handle_small_terminal_degrees: terms 0 in 0 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 0 s
+  shortest_edge_between_terminals: 0 edges in 1.2e-05 s
+Compressed graph 320 -> 320
+  delete_edges_shortest_path: deleted 0 edges in 0.027579 s
+  handle_small_terminal_degrees: terms 0 in 0 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+  shortest_edge_between_terminals: 0 edges in 1.2e-05 s
+Compressed graph 320 -> 320
+Compressed graph 320 -> 320
+>>> save_orig_graph
+>> Saved weight 0
+### ZEL_LVL=0 PRECISE_STARS=1
+
+Calling `contract_till_the_bitter_end`
+|V| = 320, |E| = 10208, |R| = 80
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 23050 (was 23050) in 0.002657 s
+0,,320,10208,80,,0,0,,23050,23050,0,0,0,,0,0,@@
+
+  delete_edges: deleted 0 edges in 0.010757 s and 1 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 1
+Found 0 isolated vertices
+Invalid ratios recomputed: 320
+Best ratio is 4545/22 (206.6), centered at 125
+Finding the best star... Star with 23 terminals centered in 8
+round took: 0.031176 s
+|V| = 320, |E| = 9042, |R| = 58
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16907 (was 19013) in 0.001756 s
+  refine_solution: new weight 16907 (was 16907) in 0.001704 s
+1,,320,9042,58,,320,0,,19013,16907,4545,4545,4545,,4545,23,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 2
+Found 23 isolated vertices
+Invalid ratios recomputed: 297
+Best ratio is 4882/24 (203.4), centered at 82
+Finding the best star... Star with 25 terminals centered in 8
+round took: 0.031288 s
+|V| = 320, |E| = 7518, |R| = 34
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16781 (was 17986) in 0.001443 s
+  refine_solution: new weight 16781 (was 16781) in 0.001411 s
+2,,297,7518,34,,297,0,,17986,16781,9427,9427,9427,,4882,25,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 3
+Found 49 isolated vertices
+Invalid ratios recomputed: 271
+Best ratio is 412/2 (206.0), centered at 8
+Finding the best star... Star with 3 terminals centered in 8
+round took: 0.022922 s
+|V| = 320, |E| = 7403, |R| = 32
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16781 (was 17986) in 0.001447 s
+  refine_solution: new weight 16781 (was 16781) in 0.001398 s
+3,,271,7403,32,,271,0,,17986,16781,9839,9839,9839,,412,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 4
+Found 51 isolated vertices
+Invalid ratios recomputed: 269
+Best ratio is 1655/8 (206.9), centered at 33
+Finding the best star... Star with 9 terminals centered in 8
+round took: 0.022535 s
+|V| = 320, |E| = 6916, |R| = 24
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 17140 (was 17622) in 0.001317 s
+  refine_solution: new weight 17140 (was 17140) in 0.00127 s
+4,,269,6916,24,,269,0,,17622,17140,11494,11494,11494,,1655,9,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 5
+Found 60 isolated vertices
+Invalid ratios recomputed: 260
+Best ratio is 1667/8 (208.4), centered at 223
+Finding the best star... Star with 9 terminals centered in 8
+round took: 0.020253 s
+|V| = 320, |E| = 6468, |R| = 16
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16964 (was 17241) in 0.001387 s
+  refine_solution: new weight 16662 (was 16964) in 0.001434 s
+  refine_solution: new weight 16662 (was 16662) in 0.001413 s
+5,,260,6468,16,,260,0,,17241,16662,13161,13161,13161,,1667,9,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 6
+Found 69 isolated vertices
+Invalid ratios recomputed: 251
+Best ratio is 1483/7 (211.9), centered at 317
+Finding the best star... Star with 8 terminals centered in 8
+round took: 0.018835 s
+|V| = 320, |E| = 6096, |R| = 9
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16873 (was 16921) in 0.00132 s
+  refine_solution: new weight 16873 (was 16873) in 0.001268 s
+6,,251,6096,9,,251,0,,16921,16873,14644,14644,14644,,1483,8,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 0 s
+Starting round 7
+Found 77 isolated vertices
+Invalid ratios recomputed: 243
+Best ratio is 1084/5 (216.8), centered at 227
+Finding the best star... Star with 6 terminals centered in 8
+round took: 0.018206 s
+|V| = 320, |E| = 5799, |R| = 4
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16534 (was 16584) in 0.001372 s
+  refine_solution: new weight 16534 (was 16534) in 0.00132 s
+7,,243,5799,4,,243,0,,16584,16534,15728,15728,15728,,1084,6,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+Starting round 8
+Found 83 isolated vertices
+Invalid ratios recomputed: 237
+Best ratio is 700/3 (233.3), centered at 120
+Finding the best star... Star with 4 terminals centered in 8
+round took: 0.015824 s
+|V| = 320, |E| = 5614, |R| = 1
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16352 (was 16428) in 0.001424 s
+  refine_solution: new weight 16352 (was 16352) in 0.001376 s
+8,,237,5614,1,,237,0,,16428,16352,16428,16428,16428,,700,4,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+contract_till_the_bitter_end: 0.248415 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 0
+DŽ: 16428 -> 16352
+  BEST solution improved 16428 -> 16352 (vert_size 0, round 1) *
+
+ start over 181 loops 1 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+
+ start over 360 loops 1 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16843
+DŽ: 16352 -> 16352
+DŽ: 16838 -> 16997
+DŽ: 16821 -> 17075
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16621
+DŽ: 16793 -> 17032
+
+ start over 7031 loops 151 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16915
+DŽ: 16352 -> 16352
+DŽ: 16906 -> 17143
+DŽ: 16352 -> 16352
+DŽ: 16880 -> 17196
+DŽ: 16352 -> 16658
+DŽ: 17189 -> 17271
+
+ start over 13788 loops 159 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17370
+DŽ: 17170 -> 17151
+DŽ: 16872 -> 17211
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+
+ start over 20772 loops 166 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16876 -> 17370
+DŽ: 16874 -> 17276
+DŽ: 16889 -> 17039
+DŽ: 16906 -> 17026
+DŽ: 16352 -> 16352
+DŽ: 17043 -> 17370
+DŽ: 17153 -> 17381
+
+ start over 27687 loops 174 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17054
+DŽ: 16984 -> 17118
+DŽ: 16352 -> 16352
+DŽ: 17152 -> 17214
+DŽ: 16774 -> 17003
+DŽ: 16868 -> 17143
+DŽ: 16774 -> 17107
+
+ start over 33863 loops 181 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16993
+DŽ: 16993 -> 16930
+DŽ: 16936 -> 17293
+DŽ: 16871 -> 17217
+DŽ: 16993 -> 17043
+DŽ: 16850 -> 17088
+DŽ: 16352 -> 16352
+DŽ: 16899 -> 17049
+
+ start over 40031 loops 189 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16853 -> 17072
+DŽ: 17027 -> 17177
+DŽ: 17151 -> 17385
+DŽ: 17049 -> 17356
+DŽ: 17156 -> 17386
+DŽ: 17052 -> 17322
+
+ start over 46103 loops 191 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16958
+DŽ: 17116 -> 17244
+DŽ: 17140 -> 17555
+DŽ: 16352 -> 16352
+DŽ: 17052 -> 17355
+DŽ: 16881 -> 17047
+
+ start over 51881 loops 195 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17181
+DŽ: 17088 -> 17271
+DŽ: 16352 -> 16352
+DŽ: 16922 -> 17197
+DŽ: 17555 -> 17570
+DŽ: 17177 -> 17298
+DŽ: 17058 -> 17108
+DŽ: 16352 -> 16352
+
+ start over 58605 loops 206 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17049 -> 17368
+DŽ: 17127 -> 17361
+DŽ: 17200 -> 17442
+DŽ: 17200 -> 17458
+DŽ: 17408 -> 17322
+DŽ: 17409 -> 17309
+
+ start over 64875 loops 210 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16880
+DŽ: 17393 -> 17487
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17191 -> 17360
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17472 -> 17355
+
+ start over 71811 loops 216 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17283 -> 17232
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17307 -> 17488
+DŽ: 17382 -> 17269
+DŽ: 17377 -> 17250
+DŽ: 17386 -> 17338
+
+ start over 78333 loops 219 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16631
+DŽ: 17391 -> 17639
+DŽ: 17232 -> 17303
+DŽ: 16867 -> 17186
+DŽ: 17389 -> 17302
+DŽ: 16352 -> 16807
+DŽ: 16352 -> 16352
+
+ start over 84694 loops 222 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17112
+DŽ: 17398 -> 17489
+DŽ: 16805 -> 17241
+DŽ: 17464 -> 17542
+DŽ: 16993 -> 17322
+DŽ: 16352 -> 16352
+DŽ: 16873 -> 17221
+DŽ: 16871 -> 16999
+
+ start over 91152 loops 235 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16740 -> 17152
+DŽ: 16969 -> 17143
+DŽ: 17050 -> 17321
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+
+ start over 97961 loops 240 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17217
+DŽ: 16352 -> 16352
+DŽ: 17236 -> 17416
+DŽ: 17010 -> 17280
+DŽ: 16959 -> 17272
+DŽ: 16352 -> 16352
+DŽ: 16760 -> 17081
+DŽ: 16950 -> 17261
+
+ start over 104678 loops 248 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17102 -> 17411
+DŽ: 17048 -> 17208
+DŽ: 16352 -> 16352
+DŽ: 17016 -> 17061
+DŽ: 17051 -> 17405
+DŽ: 17303 -> 17215
+
+ start over 111239 loops 253 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16950 -> 17242
+DŽ: 17321 -> 17648
+DŽ: 17321 -> 17409
+DŽ: 16352 -> 16352
+DŽ: 17338 -> 17626
+DŽ: 16352 -> 16352
+DŽ: 17437 -> 17544
+
+ start over 118290 loops 260 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17038
+DŽ: 17394 -> 17318
+DŽ: 16901 -> 17053
+DŽ: 16833 -> 17093
+DŽ: 16873 -> 17069
+DŽ: 16352 -> 16352
+DŽ: 16844 -> 16929
+
+ start over 124852 loops 265 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16814
+DŽ: 16352 -> 16352
+DŽ: 16926 -> 17190
+DŽ: 16352 -> 16352
+DŽ: 17160 -> 17222
+DŽ: 16834 -> 17133
+DŽ: 17154 -> 17452
+DŽ: 16352 -> 16352
+
+ start over 131515 loops 273 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17030
+DŽ: 16352 -> 16352
+DŽ: 16953 -> 17273
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17106 -> 17269
+DŽ: 16996 -> 17158
+DŽ: 16958 -> 17092
+
+ start over 138318 loops 279 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17320
+DŽ: 16983 -> 17025
+DŽ: 17005 -> 17250
+DŽ: 17066 -> 17366
+DŽ: 16972 -> 17257
+DŽ: 17071 -> 17253
+DŽ: 16986 -> 17190
+
+ start over 144234 loops 286 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17061 -> 17217
+DŽ: 16352 -> 16352
+DŽ: 17055 -> 17133
+DŽ: 17046 -> 17136
+DŽ: 17085 -> 17385
+DŽ: 17100 -> 17283
+
+ start over 150633 loops 293 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17091 -> 17384
+DŽ: 17093 -> 17310
+DŽ: 16352 -> 16352
+DŽ: 17017 -> 17412
+DŽ: 17088 -> 17198
+DŽ: 17063 -> 17049
+
+ start over 156947 loops 297 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16952
+DŽ: 17299 -> 17461
+DŽ: 17092 -> 17256
+DŽ: 17408 -> 17462
+DŽ: 17069 -> 17127
+DŽ: 17417 -> 17535
+DŽ: 17423 -> 17609
+DŽ: 17350 -> 17599
+
+ start over 163227 loops 304 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17462 -> 17522
+DŽ: 17332 -> 17502
+DŽ: 17414 -> 17406
+DŽ: 17410 -> 17505
+DŽ: 17357 -> 17399
+DŽ: 17377 -> 17655
+
+ start over 169530 loops 311 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16961
+DŽ: 17421 -> 17339
+DŽ: 17557 -> 17814
+DŽ: 17416 -> 17417
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17611 -> 17622
+
+ start over 176402 loops 315 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17418 -> 17503
+DŽ: 16352 -> 16352
+DŽ: 17691 -> 17644
+DŽ: 17386 -> 17460
+DŽ: 17387 -> 17565
+DŽ: 16352 -> 16352
+
+ start over 182671 loops 319 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17398 -> 17480
+DŽ: 17371 -> 17311
+DŽ: 17547 -> 17410
+DŽ: 17386 -> 17481
+DŽ: 17333 -> 17421
+
+ start over 188774 loops 318 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17392 -> 17494
+DŽ: 17547 -> 17755
+DŽ: 17550 -> 17748
+DŽ: 17388 -> 17641
+DŽ: 17717 -> 17721
+DŽ: 17660 -> 17834
+DŽ: 16352 -> 16568
+
+ start over 195835 loops 328 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17653 -> 17487
+DŽ: 17523 -> 17521
+DŽ: 17294 -> 17293
+DŽ: 17494 -> 17294
+DŽ: 17551 -> 17496
+DŽ: 16352 -> 16352
+DŽ: 17429 -> 17617
+
+ start over 202585 loops 339 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17520 -> 17425
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17286 -> 17365
+DŽ: 17298 -> 17295
+DŽ: 17278 -> 17307
+
+ start over 209283 loops 343 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16898
+DŽ: 17294 -> 17208
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17403 -> 17478
+DŽ: 17421 -> 17834
+DŽ: 17369 -> 17458
+
+ start over 215632 loops 346 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16887
+DŽ: 16352 -> 16352
+DŽ: 17406 -> 17514
+DŽ: 17474 -> 17476
+DŽ: 17718 -> 17657
+DŽ: 16352 -> 16352
+DŽ: 17464 -> 17719
+DŽ: 17208 -> 17136
+
+ start over 222495 loops 354 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17217
+DŽ: 16352 -> 16352
+DŽ: 17000 -> 17339
+DŽ: 17339 -> 17414
+DŽ: 17030 -> 17350
+DŽ: 17031 -> 17497
+DŽ: 17020 -> 17337
+
+ start over 228944 loops 359 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17100
+DŽ: 17006 -> 17006
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16688
+DŽ: 16994 -> 17225
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17027 -> 17423
+
+ start over 235400 loops 365 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17022 -> 17472
+DŽ: 16352 -> 16352
+DŽ: 16922 -> 17094
+DŽ: 16993 -> 17208
+DŽ: 16908 -> 17091
+DŽ: 16352 -> 16352
+
+ start over 241978 loops 375 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17010
+DŽ: 16352 -> 16352
+DŽ: 16996 -> 17214
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17298 -> 17560
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+
+ start over 249453 loops 379 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16928
+DŽ: 16352 -> 16352
+DŽ: 16978 -> 17044
+DŽ: 16352 -> 16352
+DŽ: 17381 -> 17390
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16998 -> 17254
+
+ start over 256135 loops 386 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16989
+DŽ: 16980 -> 17267
+DŽ: 16960 -> 17145
+DŽ: 16911 -> 17128
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16950 -> 17102
+
+ start over 262541 loops 393 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17307
+DŽ: 16962 -> 17264
+DŽ: 16943 -> 17040
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16969 -> 17289
+DŽ: 17077 -> 17309
+
+ start over 269409 loops 400 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16945
+DŽ: 16352 -> 16352
+DŽ: 17067 -> 17248
+DŽ: 17101 -> 17219
+DŽ: 17126 -> 17209
+DŽ: 16352 -> 16352
+DŽ: 17194 -> 17256
+
+ start over 275799 loops 405 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16972
+DŽ: 17179 -> 17341
+DŽ: 17186 -> 17489
+DŽ: 16352 -> 16352
+DŽ: 17272 -> 17515
+DŽ: 17125 -> 17395
+DŽ: 17245 -> 17401
+DŽ: 17272 -> 17357
+
+ start over 282200 loops 412 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 17061
+DŽ: 16352 -> 16352
+DŽ: 17278 -> 17194
+DŽ: 16862 -> 17211
+DŽ: 16949 -> 17108
+DŽ: 16884 -> 16971
+DŽ: 16943 -> 17114
+
+ start over 288631 loops 416 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17086 -> 17172
+DŽ: 17112 -> 17204
+DŽ: 17108 -> 17201
+DŽ: 17100 -> 17259
+DŽ: 16875 -> 17204
+DŽ: 16866 -> 17189
+
+ start over 294876 loops 422 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17179 -> 17239
+DŽ: 17098 -> 17262
+DŽ: 17025 -> 17195
+DŽ: 16953 -> 17116
+DŽ: 16352 -> 16352
+DŽ: 17181 -> 17340
+DŽ: 16352 -> 16352
+
+ start over 301440 loops 430 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17178
+DŽ: 17236 -> 17315
+DŽ: 17255 -> 17438
+DŽ: 17311 -> 17311
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17319 -> 17398
+
+ start over 307830 loops 436 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16660
+DŽ: 16352 -> 16352
+DŽ: 17201 -> 17350
+DŽ: 17307 -> 17397
+DŽ: 17318 -> 17242
+DŽ: 17039 -> 17215
+
+ start over 313527 loops 440 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16973 -> 17027
+DŽ: 16352 -> 16612
+DŽ: 17238 -> 17149
+DŽ: 16612 -> 16882
+DŽ: 17284 -> 17276
+
+ start over 319400 loops 443 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16986 -> 17227
+DŽ: 16959 -> 17269
+DŽ: 16924 -> 17332
+DŽ: 16987 -> 17146
+DŽ: 16352 -> 16590
+
+ start over 325796 loops 449 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17216 -> 17372
+DŽ: 17225 -> 17146
+DŽ: 17187 -> 17437
+DŽ: 17318 -> 17368
+DŽ: 16977 -> 17161
+DŽ: 16352 -> 16352
+
+ start over 331801 loops 449 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16979 -> 17217
+DŽ: 16352 -> 16352
+DŽ: 16986 -> 17138
+DŽ: 16352 -> 16352
+DŽ: 16980 -> 17236
+DŽ: 17138 -> 17271
+DŽ: 16352 -> 16352
+
+ start over 338780 loops 452 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16979 -> 17141
+DŽ: 17219 -> 17217
+DŽ: 16984 -> 17165
+DŽ: 16352 -> 16352
+DŽ: 17092 -> 17151
+DŽ: 17053 -> 17081
+DŽ: 17097 -> 17189
+
+ start over 345375 loops 470 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16967
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17103 -> 17211
+DŽ: 17250 -> 17525
+DŽ: 16996 -> 17093
+DŽ: 16352 -> 16352
+
+ start over 351837 loops 474 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17077 -> 17054
+DŽ: 17012 -> 17082
+DŽ: 17014 -> 17272
+DŽ: 17247 -> 17354
+DŽ: 17077 -> 17173
+DŽ: 17109 -> 17185
+
+ start over 358455 loops 474 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17263
+DŽ: 17251 -> 17489
+DŽ: 16352 -> 16352
+DŽ: 17071 -> 17167
+DŽ: 17036 -> 17221
+DŽ: 17186 -> 17382
+DŽ: 17173 -> 17437
+
+ start over 364343 loops 486 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17119
+DŽ: 16836 -> 17220
+DŽ: 16905 -> 17006
+DŽ: 16352 -> 16352
+DŽ: 16905 -> 17273
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16968 -> 17168
+
+ start over 371085 loops 493 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16905
+DŽ: 16992 -> 17281
+DŽ: 16957 -> 17111
+DŽ: 16352 -> 16352
+DŽ: 16984 -> 17102
+DŽ: 16820 -> 17183
+DŽ: 17174 -> 17405
+
+ start over 377737 loops 498 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16846 -> 17033
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16826 -> 16983
+DŽ: 16839 -> 17152
+DŽ: 16352 -> 16352
+
+ start over 383980 loops 500 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17118 -> 17100
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16832 -> 17002
+DŽ: 16352 -> 16352
+
+ start over 390322 loops 502 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17327
+DŽ: 16811 -> 17202
+DŽ: 16839 -> 17152
+DŽ: 16352 -> 16352
+DŽ: 17266 -> 17391
+DŽ: 17261 -> 17428
+DŽ: 17224 -> 17523
+DŽ: 17507 -> 17559
+
+ start over 397092 loops 515 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 16999
+DŽ: 16352 -> 16352
+DŽ: 17247 -> 17333
+DŽ: 16965 -> 17150
+DŽ: 16944 -> 17270
+DŽ: 16961 -> 17328
+DŽ: 16352 -> 16352
+
+ start over 403303 loops 522 unique solutions 
+Original + vert_size 13 
+DŽ: 16428 -> 17018
+DŽ: 16948 -> 17247
+DŽ: 16946 -> 17358
+DŽ: 16352 -> 16352
+DŽ: 16981 -> 17379
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 17368 -> 17380
+
+ start over 410158 loops 530 unique solutions 
+Original + vert_size 0 
+DŽ: 16428 -> 16352
+DŽ: 17338 -> 17487
+DŽ: 17240 -> 17421
+DŽ: 17204 -> 17204
+DŽ: 16352 -> 16352
+DŽ: 17308 -> 17170
+DŽ: 16352 -> 16352
+
+ start over 416181 loops 531 unique solutions 
+Approx + random 
+DŽ: 23050 -> 16801
+DŽ: 17220 -> 17569
+DŽ: 17189 -> 17406
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+DŽ: 16352 -> 16352
+
+ start over 422694 loops 539 unique solutions 
+Approx + random 
+DŽ: 23050 -> 17292
+DŽ: 16352 -> 16352
+DŽ: 17340 -> 17454
+DŽ: 16352 -> 16352
+DŽ: 17104 -> 17057
+DŽ: 17458 -> 17517
+end_heu: 427813 loops with 543 unique solutions in 1799.65 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 16352 (was 16352) in 0.001423 s
+## FINAL WEIGHT 16352
+print_solution: 0.002872 s

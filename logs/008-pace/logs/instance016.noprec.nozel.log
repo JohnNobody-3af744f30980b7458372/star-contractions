@@ -1,0 +1,4126 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1549735597
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 1992, |E| = 3176, |R| = 51
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 0 zero edges in 7e-06 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 6, suppress 4 in 1.2e-05 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 8e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+Compressed graph 1992 -> 1980
+  delete_edges: deleted 191 edges in 0.000861 s and 2 rounds
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 4, suppress 189 in 0.000105 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 11 in 1.2e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 6e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 6e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 1980 -> 1775
+  delete_edges_shortest_path: deleted 318 edges in 0.026361 s
+  handle_small_terminal_degrees: terms 22 in 1.3e-05 s
+  handle_small_Steiner_degrees: steiner 20, suppress 460 in 9.1e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 6 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 12 in 5e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 1775 -> 1254
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+  shortest_edge_between_terminals: 2 edges in 3e-06 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 1254 -> 1243
+  delete_edges_shortest_path: deleted 50 edges in 0.007387 s
+  handle_small_terminal_degrees: terms 2 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 91 in 2.4e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 2e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 2e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 1243 -> 1149
+Compressed graph 1149 -> 1149
+>>> save_orig_graph
+>> Saved weight 5920157
+### ZEL_LVL=0 PRECISE_STARS=0
+
+Calling `contract_till_the_bitter_end`
+|V| = 1149, |E| = 1740, |R| = 49
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000325 s
+0,,1149,1740,49,,0,0,,14454359,14454359,5920157,5920157,5920157,,0,0,@@
+
+  delete_edges: deleted 8 edges in 0.000119 s and 1 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 14 in 6e-06 s
+Starting round 1
+Found 14 isolated vertices
+Invalid ratios recomputed: 1135
+Best ratio is 1545/1 (1545.0), centered at 296
+Finding the best star... Star with 2 terminals centered in 296
+round took: 0.01773 s
+|V| = 1149, |E| = 1712, |R| = 48
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000291 s
+1,,1135,1712,48,,1135,0,,14454359,14454359,5921702,5921702,5921702,,1545,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 2
+Found 20 isolated vertices
+Invalid ratios recomputed: 85
+Best ratio is 2165/1 (2165.0), centered at 174
+Finding the best star... Star with 2 terminals centered in 290
+round took: 0.001468 s
+|V| = 1149, |E| = 1706, |R| = 47
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000285 s
+2,,1129,1706,47,,85,0,,14454359,14454359,5923867,5923867,5923867,,2165,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+Starting round 3
+Found 24 isolated vertices
+Invalid ratios recomputed: 96
+Best ratio is 2233/1 (2233.0), centered at 289
+Finding the best star... Star with 2 terminals centered in 289
+round took: 0.001542 s
+|V| = 1149, |E| = 1700, |R| = 46
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000285 s
+3,,1125,1700,46,,96,0,,14454359,14454359,5926100,5926100,5926100,,2233,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+Starting round 4
+Found 30 isolated vertices
+Invalid ratios recomputed: 110
+Best ratio is 4508/2 (2254.0), centered at 838
+Finding the best star... Star with 3 terminals centered in 284
+round took: 0.001634 s
+|V| = 1149, |E| = 1693, |R| = 44
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000285 s
+4,,1119,1693,44,,110,0,,14454359,14454359,5930608,5930608,5930608,,4508,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+Starting round 5
+Found 36 isolated vertices
+Invalid ratios recomputed: 114
+Best ratio is 6514/2 (3257.0), centered at 875
+Finding the best star... Star with 3 terminals centered in 873
+round took: 0.001707 s
+|V| = 1149, |E| = 1679, |R| = 42
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000301 s
+5,,1113,1679,42,,114,0,,14454359,14454359,5937122,5937122,5937122,,6514,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 6e-06 s
+Starting round 6
+Found 49 isolated vertices
+Invalid ratios recomputed: 80
+Best ratio is 2717/1 (2717.0), centered at 296
+Finding the best star... Star with 2 terminals centered in 296
+round took: 0.001476 s
+|V| = 1149, |E| = 1667, |R| = 41
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454359 (was 14454359) in 0.000284 s
+6,,1100,1667,41,,80,0,,14454359,14454359,5939839,5939839,5939839,,2717,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 1 in 3e-06 s
+Starting round 7
+Found 56 isolated vertices
+Invalid ratios recomputed: 88
+Best ratio is 7456/2 (3728.0), centered at 363
+Finding the best star... Star with 3 terminals centered in 284
+round took: 0.001623 s
+|V| = 1149, |E| = 1653, |R| = 39
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454231 (was 14454231) in 0.000286 s
+7,,1093,1653,39,,88,0,,14454231,14454231,5947295,5947295,5947295,,7456,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+Starting round 8
+Found 66 isolated vertices
+Invalid ratios recomputed: 126
+Best ratio is 3962/1 (3962.0), centered at 162
+Finding the best star... Star with 2 terminals centered in 284
+round took: 0.002109 s
+|V| = 1149, |E| = 1650, |R| = 38
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454067 (was 14454067) in 0.000287 s
+8,,1083,1650,38,,126,0,,14454067,14454067,5951257,5951257,5951257,,3962,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+Starting round 9
+Found 69 isolated vertices
+Invalid ratios recomputed: 124
+Best ratio is 7134/1 (7134.0), centered at 272
+Finding the best star... Star with 2 terminals centered in 276
+round took: 0.002252 s
+|V| = 1149, |E| = 1647, |R| = 37
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14452266 (was 14452266) in 0.00029 s
+9,,1080,1647,37,,124,0,,14452266,14452266,5958391,5958391,5958391,,7134,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+Starting round 10
+Found 72 isolated vertices
+Invalid ratios recomputed: 293
+Best ratio is 9601/1 (9601.0), centered at 276
+Finding the best star... Star with 2 terminals centered in 276
+round took: 0.006283 s
+|V| = 1149, |E| = 1640, |R| = 36
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14451804 (was 14451804) in 0.000289 s
+10,,1077,1640,36,,293,0,,14451804,14451804,5967992,5967992,5967992,,9601,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 2e-06 s
+Starting round 11
+Found 79 isolated vertices
+Invalid ratios recomputed: 293
+Best ratio is 10308/1 (10308.0), centered at 277
+Finding the best star... Star with 2 terminals centered in 277
+round took: 0.007482 s
+|V| = 1149, |E| = 1631, |R| = 35
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14451804 (was 14451804) in 0.000289 s
+11,,1070,1631,35,,293,0,,14451804,14451804,5978300,5978300,5978300,,10308,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+Starting round 12
+Found 86 isolated vertices
+Invalid ratios recomputed: 359
+Best ratio is 10710/1 (10710.0), centered at 277
+Finding the best star... Star with 2 terminals centered in 277
+round took: 0.008331 s
+|V| = 1149, |E| = 1626, |R| = 34
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14451804 (was 14451804) in 0.000293 s
+12,,1063,1626,34,,359,0,,14451804,14451804,5989010,5989010,5989010,,10710,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+Starting round 13
+Found 91 isolated vertices
+Invalid ratios recomputed: 359
+Best ratio is 10791/1 (10791.0), centered at 256
+Finding the best star... Star with 2 terminals centered in 256
+round took: 0.009343 s
+|V| = 1149, |E| = 1615, |R| = 33
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14452304 (was 14452304) in 0.000295 s
+13,,1058,1615,33,,359,0,,14452304,14452304,5999801,5999801,5999801,,10791,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 14
+Found 100 isolated vertices
+Invalid ratios recomputed: 246
+Best ratio is 11968/1 (11968.0), centered at 248
+Finding the best star... Star with 2 terminals centered in 249
+round took: 0.006227 s
+|V| = 1149, |E| = 1606, |R| = 32
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14452304 (was 14452304) in 0.000295 s
+14,,1049,1606,32,,246,0,,14452304,14452304,6011769,6011769,6011769,,11968,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 3e-06 s
+Starting round 15
+Found 108 isolated vertices
+Invalid ratios recomputed: 142
+Best ratio is 26629/1 (26629.0), centered at 276
+Finding the best star... Star with 2 terminals centered in 276
+round took: 0.002289 s
+|V| = 1149, |E| = 1593, |R| = 31
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14452304 (was 14452304) in 0.000293 s
+15,,1041,1593,31,,142,0,,14452304,14452304,6038398,6038398,6038398,,26629,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 16
+Found 118 isolated vertices
+Invalid ratios recomputed: 383
+Best ratio is 29472/1 (29472.0), centered at 114
+Finding the best star... Star with 2 terminals centered in 242
+round took: 0.015044 s
+|V| = 1149, |E| = 1574, |R| = 30
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14452304 (was 14452304) in 0.00029 s
+16,,1031,1574,30,,383,0,,14452304,14452304,6067870,6067870,6067870,,29472,2,@@
+
+  delete_edges: deleted 13 edges in 0.000781 s and 8 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 19 in 1e-05 s
+Starting round 17
+Found 150 isolated vertices
+Invalid ratios recomputed: 172
+Best ratio is 117898/2 (58949.0), centered at 1128
+Finding the best star... Star with 3 terminals centered in 249
+round took: 0.003581 s
+|V| = 1149, |E| = 1520, |R| = 28
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14452304 (was 14452304) in 0.000301 s
+17,,999,1520,28,,172,0,,14452304,14452304,6185768,6185768,6185768,,117898,3,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 5 in 8e-06 s
+Starting round 18
+Found 173 isolated vertices
+Invalid ratios recomputed: 254
+Best ratio is 64924/1 (64924.0), centered at 74
+Finding the best star... Star with 2 terminals centered in 255
+round took: 0.006218 s
+|V| = 1149, |E| = 1492, |R| = 27
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454061 (was 14454061) in 0.000292 s
+18,,976,1492,27,,254,0,,14454061,14454061,6250692,6250692,6250692,,64924,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 19
+Found 191 isolated vertices
+Invalid ratios recomputed: 445
+Best ratio is 126480/1 (126480.0), centered at 214
+Finding the best star... Star with 2 terminals centered in 437
+round took: 0.016807 s
+|V| = 1149, |E| = 1471, |R| = 26
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454061 (was 14454061) in 0.000293 s
+19,,958,1471,26,,445,0,,14454061,14454061,6377172,6377172,6377172,,126480,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 20
+Found 208 isolated vertices
+Invalid ratios recomputed: 567
+Best ratio is 130209/1 (130209.0), centered at 15
+Finding the best star... Star with 2 terminals centered in 437
+round took: 0.022651 s
+|V| = 1149, |E| = 1451, |R| = 25
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14454061 (was 14454061) in 0.000291 s
+20,,941,1451,25,,567,0,,14454061,14454061,6507381,6507381,6507381,,130209,2,@@
+
+  handle_small_Steiner_degrees: steiner 3, suppress 0 in 4e-06 s
+Starting round 21
+Found 223 isolated vertices
+Invalid ratios recomputed: 598
+Best ratio is 314084/2 (157042.0), centered at 1005
+Finding the best star... Star with 3 terminals centered in 437
+round took: 0.030195 s
+|V| = 1149, |E| = 1383, |R| = 23
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000301 s
+21,,926,1383,23,,598,0,,14422258,14422258,6821465,6821465,6821465,,314084,3,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 7 in 1.2e-05 s
+Starting round 22
+Found 284 isolated vertices
+Invalid ratios recomputed: 656
+Best ratio is 161421/1 (161421.0), centered at 192
+Finding the best star... Star with 2 terminals centered in 264
+round took: 0.038421 s
+|V| = 1149, |E| = 1371, |R| = 22
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.0003 s
+22,,865,1371,22,,656,0,,14422258,14422258,6982886,6982886,6982886,,161421,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+Starting round 23
+Found 286 isolated vertices
+Invalid ratios recomputed: 654
+Best ratio is 178147/1 (178147.0), centered at 143
+Finding the best star... Star with 2 terminals centered in 273
+round took: 0.038442 s
+|V| = 1149, |E| = 1358, |R| = 21
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000299 s
+23,,863,1358,21,,654,0,,14422258,14422258,7161033,7161033,7161033,,178147,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 3 in 8e-06 s
+Starting round 24
+Found 299 isolated vertices
+Invalid ratios recomputed: 641
+Best ratio is 196375/1 (196375.0), centered at 20
+Finding the best star... Star with 2 terminals centered in 240
+round took: 0.037344 s
+|V| = 1149, |E| = 1335, |R| = 20
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000295 s
+24,,850,1335,20,,641,0,,14422258,14422258,7357408,7357408,7357408,,196375,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 5e-06 s
+Starting round 25
+Found 317 isolated vertices
+Invalid ratios recomputed: 623
+Best ratio is 230297/1 (230297.0), centered at 240
+Finding the best star... Star with 2 terminals centered in 250
+round took: 0.036301 s
+|V| = 1149, |E| = 1329, |R| = 19
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000298 s
+25,,832,1329,19,,623,0,,14422258,14422258,7587705,7587705,7587705,,230297,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 0 in 2e-06 s
+Starting round 26
+Found 319 isolated vertices
+Invalid ratios recomputed: 621
+Best ratio is 242592/1 (242592.0), centered at 246
+Finding the best star... Star with 2 terminals centered in 246
+round took: 0.036238 s
+|V| = 1149, |E| = 1326, |R| = 18
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000294 s
+26,,830,1326,18,,621,0,,14422258,14422258,7830297,7830297,7830297,,242592,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 27
+Found 322 isolated vertices
+Invalid ratios recomputed: 618
+Best ratio is 246164/1 (246164.0), centered at 246
+Finding the best star... Star with 2 terminals centered in 253
+round took: 0.036158 s
+|V| = 1149, |E| = 1322, |R| = 17
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000294 s
+27,,827,1322,17,,618,0,,14422258,14422258,8076461,8076461,8076461,,246164,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+Starting round 28
+Found 323 isolated vertices
+Invalid ratios recomputed: 617
+Best ratio is 257736/1 (257736.0), centered at 253
+Finding the best star... Star with 2 terminals centered in 280
+round took: 0.035906 s
+|V| = 1149, |E| = 1314, |R| = 16
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14422258 (was 14422258) in 0.000296 s
+28,,826,1314,16,,617,0,,14422258,14422258,8334197,8334197,8334197,,257736,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 1 in 4e-06 s
+Starting round 29
+Found 331 isolated vertices
+Invalid ratios recomputed: 613
+Best ratio is 548145/2 (274072.5), centered at 198
+Finding the best star... Star with 3 terminals centered in 252
+round took: 0.035415 s
+|V| = 1149, |E| = 1294, |R| = 14
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14407337 (was 14407337) in 0.000297 s
+29,,818,1294,14,,613,0,,14407337,14407337,8882342,8882342,8882342,,548145,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 6 in 5e-06 s
+Starting round 30
+Found 350 isolated vertices
+Invalid ratios recomputed: 236
+Best ratio is 280037/1 (280037.0), centered at 185
+Finding the best star... Star with 2 terminals centered in 268
+round took: 0.008857 s
+|V| = 1149, |E| = 1276, |R| = 13
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14407337 (was 14407337) in 0.000302 s
+30,,799,1276,13,,236,0,,14407337,14407337,9162379,9162379,9162379,,280037,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 2 in 8e-06 s
+Starting round 31
+Found 360 isolated vertices
+Invalid ratios recomputed: 618
+Best ratio is 299286/1 (299286.0), centered at 252
+Finding the best star... Star with 2 terminals centered in 252
+round took: 0.035088 s
+|V| = 1149, |E| = 1269, |R| = 12
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14407337 (was 14407337) in 0.000298 s
+31,,789,1269,12,,618,0,,14407337,14407337,9461665,9461665,9461665,,299286,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 3e-06 s
+Starting round 32
+Found 364 isolated vertices
+Invalid ratios recomputed: 233
+Best ratio is 306770/1 (306770.0), centered at 268
+Finding the best star... Star with 2 terminals centered in 268
+round took: 0.01088 s
+|V| = 1149, |E| = 1263, |R| = 11
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14407337 (was 14407337) in 0.000293 s
+32,,785,1263,11,,233,0,,14407337,14407337,9768435,9768435,9768435,,306770,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 6e-06 s
+Starting round 33
+Found 368 isolated vertices
+Invalid ratios recomputed: 658
+Best ratio is 308465/1 (308465.0), centered at 150
+Finding the best star... Star with 2 terminals centered in 295
+round took: 0.037874 s
+|V| = 1149, |E| = 1253, |R| = 10
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14406471 (was 14406471) in 0.000311 s
+33,,781,1253,10,,658,0,,14406471,14406471,10076900,10076900,10076900,,308465,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 34
+Found 375 isolated vertices
+Invalid ratios recomputed: 651
+Best ratio is 326104/1 (326104.0), centered at 244
+Finding the best star... Star with 2 terminals centered in 244
+round took: 0.036986 s
+|V| = 1149, |E| = 1249, |R| = 9
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14406471 (was 14406471) in 0.000296 s
+34,,774,1249,9,,651,0,,14406471,14406471,10403004,10403004,10403004,,326104,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+Starting round 35
+Found 377 isolated vertices
+Invalid ratios recomputed: 649
+Best ratio is 326397/1 (326397.0), centered at 154
+Finding the best star... Star with 2 terminals centered in 294
+round took: 0.036827 s
+|V| = 1149, |E| = 1241, |R| = 8
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14406471 (was 14406471) in 0.000299 s
+35,,772,1241,8,,649,0,,14406471,14406471,10729401,10729401,10729401,,326397,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 36
+Found 384 isolated vertices
+Invalid ratios recomputed: 642
+Best ratio is 357421/1 (357421.0), centered at 260
+Finding the best star... Star with 2 terminals centered in 260
+round took: 0.035955 s
+|V| = 1149, |E| = 1230, |R| = 7
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14406471 (was 14406471) in 0.000296 s
+36,,765,1230,7,,642,0,,14406471,14406471,11086822,11086822,11086822,,357421,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 5 in 8e-06 s
+Starting round 37
+Found 394 isolated vertices
+Invalid ratios recomputed: 632
+Best ratio is 391419/1 (391419.0), centered at 171
+Finding the best star... Star with 2 terminals centered in 292
+round took: 0.03509 s
+|V| = 1149, |E| = 1220, |R| = 6
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14406471 (was 14406471) in 0.000296 s
+37,,755,1220,6,,632,0,,14406471,14406471,11478241,11478241,11478241,,391419,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 6e-06 s
+Starting round 38
+Found 398 isolated vertices
+Invalid ratios recomputed: 628
+Best ratio is 437998/1 (437998.0), centered at 269
+Finding the best star... Star with 2 terminals centered in 292
+round took: 0.035293 s
+|V| = 1149, |E| = 1213, |R| = 5
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14406471 (was 14406471) in 0.000296 s
+38,,751,1213,5,,628,0,,14406471,14406471,11916239,11916239,11916239,,437998,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 39
+Found 403 isolated vertices
+Invalid ratios recomputed: 623
+Best ratio is 1011197/2 (505598.5), centered at 439
+Finding the best star... Star with 3 terminals centered in 292
+round took: 0.043469 s
+|V| = 1149, |E| = 1178, |R| = 3
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14183889 (was 14183889) in 0.000298 s
+39,,746,1178,3,,623,0,,14183889,14183889,12927436,12927436,12927436,,1011197,3,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 7 in 1.3e-05 s
+Starting round 40
+Found 435 isolated vertices
+Invalid ratios recomputed: 714
+Best ratio is 510367/1 (510367.0), centered at 265
+Finding the best star... Star with 2 terminals centered in 265
+round took: 0.051672 s
+|V| = 1149, |E| = 1146, |R| = 2
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14183889 (was 14183889) in 0.000301 s
+40,,714,1146,2,,714,0,,14183889,14183889,13437803,13437803,13437803,,510367,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 8e-06 s
+Starting round 41
+Found 457 isolated vertices
+Invalid ratios recomputed: 692
+Best ratio is 746086/1 (746086.0), centered at 18
+Finding the best star... Star with 2 terminals centered in 265
+round took: 0.050325 s
+|V| = 1149, |E| = 1135, |R| = 1
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 14183889 (was 14183889) in 0.000293 s
+41,,692,1135,1,,692,0,,14183889,14183889,14183889,14183889,14183889,,746086,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+contract_till_the_bitter_end: 0.925135 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 5920157
+DŽ: 14183889 -> 14175925
+  BEST solution improved 14183889 -> 14175925 (vert_size 0, round 1) *
+  BEST solution improved 14175925 -> 14175007 (vert_size 7, round 5)
+  BEST solution improved 14175007 -> 14174887 (vert_size 4, round 123) *
+  BEST solution improved 14174887 -> 14174174 (vert_size 4, round 181)
+  BEST solution improved 14174174 -> 14171206 (vert_size 2, round 630) *
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14172521 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14175007 -> 14174887
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172100 -> 14171206
+DŽ: 14173234 -> 14171919
+DŽ: 14175007 -> 14174887
+DŽ: 14171626 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14174174 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174636 -> 14174174
+DŽ: 14172001 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171243 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14172339 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171482 -> 14222264
+
+ start over 34031 loops 141 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14376276
+DŽ: 14171498 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14182786 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172100 -> 14222264
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14188231 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172094 -> 14171206
+DŽ: 14171243 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171387 -> 14171206
+DŽ: 14173656 -> 14171668
+DŽ: 14171446 -> 14171206
+DŽ: 14171374 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171387 -> 14222264
+DŽ: 14175323 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171908 -> 14225694
+DŽ: 14171762 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 65513 loops 159 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14199664
+DŽ: 14171908 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171917 -> 14171206
+DŽ: 14171446 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14177815 -> 14171668
+DŽ: 14199400 -> 14197401
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14181034 -> 14225945
+DŽ: 14174413 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171446 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171849 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174413 -> 14225232
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174413 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171445 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 96327 loops 182 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14198629
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171837 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171602 -> 14171206
+DŽ: 14181514 -> 14175212
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14174294 -> 14174174
+DŽ: 14171363 -> 14171206
+DŽ: 14174294 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171800 -> 14171206
+DŽ: 14173506 -> 14171206
+DŽ: 14182262 -> 14176115
+DŽ: 14174331 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14173115 -> 14171206
+DŽ: 14171363 -> 14171206
+DŽ: 14171489 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14174331 -> 14174174
+DŽ: 14171206 -> 14222264
+DŽ: 14171800 -> 14222264
+
+ start over 127031 loops 210 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171609 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14171800 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171363 -> 14171206
+DŽ: 14174294 -> 14174174
+DŽ: 14172220 -> 14171206
+DŽ: 14171243 -> 14222264
+DŽ: 14174174 -> 14174174
+DŽ: 14171326 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171602 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171602 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173506 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 154835 loops 230 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171800 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14172800 -> 14223302
+DŽ: 14171800 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14225232
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14174887 -> 14174887
+DŽ: 14171507 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171882 -> 14171206
+DŽ: 14171882 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14171507 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172039 -> 14171206
+DŽ: 14171788 -> 14222264
+DŽ: 14172957 -> 14172957
+
+ start over 183980 loops 266 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14226983
+DŽ: 14226983 -> 14225232
+DŽ: 14174887 -> 14174887
+DŽ: 14172133 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14174887 -> 14174887
+DŽ: 14174791 -> 14174174
+DŽ: 14172039 -> 14171206
+DŽ: 14171445 -> 14171206
+DŽ: 14222445 -> 14222264
+DŽ: 14171981 -> 14171206
+DŽ: 14173202 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171882 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14173202 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171334 -> 14171206
+DŽ: 14171334 -> 14171206
+DŽ: 14173202 -> 14171206
+DŽ: 14173451 -> 14171668
+DŽ: 14171515 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171823 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172989 -> 14171206
+
+ start over 215904 loops 290 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14174887
+DŽ: 14171668 -> 14171668
+DŽ: 14172513 -> 14171919
+DŽ: 14174636 -> 14174174
+DŽ: 14174636 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14171803 -> 14171206
+DŽ: 14172562 -> 14171668
+DŽ: 14172521 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171243 -> 14171206
+DŽ: 14171600 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171825 -> 14171206
+DŽ: 14171823 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171243 -> 14171206
+
+ start over 246299 loops 313 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171481 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172220 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173258 -> 14171206
+DŽ: 14171978 -> 14171206
+DŽ: 14171600 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171943 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14172027 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172641 -> 14222264
+DŽ: 14171668 -> 14171668
+DŽ: 14171668 -> 14171668
+DŽ: 14171788 -> 14171206
+DŽ: 14173258 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14174294 -> 14174174
+DŽ: 14172224 -> 14171668
+
+ start over 276127 loops 355 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14403245
+DŽ: 14171206 -> 14171206
+DŽ: 14172027 -> 14171206
+DŽ: 14211367 -> 14197256
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14172594 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14174449 -> 14174174
+DŽ: 14171206 -> 14222264
+DŽ: 14174756 -> 14174636
+DŽ: 14215708 -> 14197305
+DŽ: 14176246 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171860 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174911 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14174449 -> 14174174
+DŽ: 14174174 -> 14174174
+DŽ: 14171705 -> 14222726
+DŽ: 14171363 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14177273 -> 14171206
+DŽ: 14171823 -> 14171668
+DŽ: 14171498 -> 14171206
+DŽ: 14172430 -> 14171206
+DŽ: 14171762 -> 14222264
+
+ start over 306889 loops 376 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14175007 -> 14171919
+DŽ: 14172249 -> 14171206
+DŽ: 14172169 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172702 -> 14171206
+DŽ: 14172169 -> 14171206
+DŽ: 14171823 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172017 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172137 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172513 -> 14171668
+DŽ: 14208399 -> 14194182
+DŽ: 14172137 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174730 -> 14174174
+DŽ: 14171326 -> 14171206
+DŽ: 14175212 -> 14175212
+DŽ: 14172262 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 336626 loops 404 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14252663
+DŽ: 14171206 -> 14171206
+DŽ: 14172989 -> 14171206
+DŽ: 14174294 -> 14225232
+DŽ: 14174850 -> 14174174
+DŽ: 14171573 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14180261 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172880 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172989 -> 14222264
+DŽ: 14171592 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14179027 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171573 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172017 -> 14171206
+DŽ: 14179489 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14176485 -> 14171206
+DŽ: 14172459 -> 14171206
+DŽ: 14176605 -> 14171206
+DŽ: 14171474 -> 14171206
+DŽ: 14171474 -> 14171774
+DŽ: 14176522 -> 14171206
+
+ start over 367943 loops 435 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14176642 -> 14171206
+DŽ: 14176642 -> 14171206
+DŽ: 14176642 -> 14171206
+DŽ: 14172880 -> 14171206
+DŽ: 14175925 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172880 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171334 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171565 -> 14171206
+DŽ: 14172459 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171334 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171354 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171573 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171642 -> 14171206
+DŽ: 14171900 -> 14222832
+DŽ: 14171890 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172443 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 398798 loops 456 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174294 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171919 -> 14171919
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171334 -> 14171668
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171788 -> 14172236
+DŽ: 14171890 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14174008 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171890 -> 14171206
+DŽ: 14174473 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171489 -> 14171206
+DŽ: 14174138 -> 14174174
+DŽ: 14174533 -> 14174174
+
+ start over 426915 loops 463 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14397301
+DŽ: 14174533 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171916 -> 14171668
+DŽ: 14171424 -> 14171206
+DŽ: 14173895 -> 14171206
+DŽ: 14171334 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14174174 -> 14174174
+DŽ: 14174174 -> 14174174
+DŽ: 14173246 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174533 -> 14174174
+DŽ: 14174984 -> 14171206
+DŽ: 14171243 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171799 -> 14171206
+DŽ: 14171762 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173246 -> 14174174
+DŽ: 14172255 -> 14171206
+DŽ: 14172739 -> 14171206
+DŽ: 14173688 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172001 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 460350 loops 509 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171498 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174100 -> 14171206
+DŽ: 14172702 -> 14171206
+DŽ: 14175925 -> 14172957
+DŽ: 14171206 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14174174 -> 14174174
+DŽ: 14174138 -> 14171774
+DŽ: 14172124 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171955 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171387 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171955 -> 14244778
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172887 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 488833 loops 544 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400731
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171981 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14172887 -> 14172706
+DŽ: 14171955 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171662 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171602 -> 14171206
+DŽ: 14174452 -> 14171206
+DŽ: 14173568 -> 14222264
+DŽ: 14173147 -> 14171206
+DŽ: 14173448 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171663 -> 14171206
+DŽ: 14173448 -> 14171206
+DŽ: 14173235 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172706 -> 14172706
+
+ start over 519692 loops 570 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173137 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172170 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173568 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171882 -> 14171206
+DŽ: 14172562 -> 14171668
+DŽ: 14172140 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172706 -> 14172706
+DŽ: 14172656 -> 14171206
+DŽ: 14172339 -> 14171206
+DŽ: 14173137 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14174636
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14173137 -> 14171206
+DŽ: 14172717 -> 14171206
+DŽ: 14173576 -> 14171919
+DŽ: 14171919 -> 14222977
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 549239 loops 597 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14172957
+DŽ: 14172255 -> 14172521
+DŽ: 14193720 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14172813 -> 14171919
+DŽ: 14172813 -> 14171919
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172813 -> 14171919
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171788 -> 14171206
+DŽ: 14172255 -> 14171206
+DŽ: 14175481 -> 14174887
+DŽ: 14171668 -> 14171668
+DŽ: 14172100 -> 14171206
+DŽ: 14172957 -> 14224015
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171882 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172050 -> 14171774
+DŽ: 14172513 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171589 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171454 -> 14171206
+
+ start over 578181 loops 614 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14380269
+DŽ: 14172957 -> 14172957
+DŽ: 14171206 -> 14171206
+DŽ: 14172957 -> 14172957
+DŽ: 14171507 -> 14171206
+DŽ: 14172957 -> 14172957
+DŽ: 14172220 -> 14171919
+DŽ: 14379403 -> 14377314
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171706 -> 14171668
+DŽ: 14172778 -> 14171206
+DŽ: 14175137 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14380269 -> 14176115
+DŽ: 14171738 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171244 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171489 -> 14222264
+DŽ: 14171482 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172957 -> 14172957
+DŽ: 14171206 -> 14171206
+DŽ: 14172126 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172006 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172898 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 611181 loops 654 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14402783
+DŽ: 14173470 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171944 -> 14171668
+DŽ: 14171668 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14386416 -> 14378468
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172516 -> 14222264
+DŽ: 14173470 -> 14171206
+DŽ: 14172290 -> 14171206
+DŽ: 14172418 -> 14171206
+DŽ: 14174507 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174507 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173174 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172752 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14180271 -> 14225945
+DŽ: 14172290 -> 14171206
+DŽ: 14171532 -> 14171206
+DŽ: 14171542 -> 14171206
+DŽ: 14176106 -> 14174174
+DŽ: 14172521 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14222977 -> 14222977
+DŽ: 14171206 -> 14171206
+DŽ: 14171529 -> 14171206
+
+ start over 644181 loops 685 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14398328
+DŽ: 14171206 -> 14171206
+DŽ: 14172219 -> 14171206
+DŽ: 14172561 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171659 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172282 -> 14171206
+DŽ: 14171366 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14172101 -> 14222264
+DŽ: 14171559 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171558 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172064 -> 14194182
+DŽ: 14171207 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171558 -> 14171206
+DŽ: 14172101 -> 14171206
+DŽ: 14172269 -> 14171206
+DŽ: 14171559 -> 14171206
+DŽ: 14172282 -> 14171206
+DŽ: 14171559 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 675421 loops 716 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171390 -> 14171206
+DŽ: 14172657 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171763 -> 14222264
+DŽ: 14172269 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172138 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171391 -> 14171206
+DŽ: 14172101 -> 14171668
+DŽ: 14171763 -> 14171206
+DŽ: 14171210 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172282 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172282 -> 14171668
+DŽ: 14171206 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172657 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172282 -> 14171206
+DŽ: 14171668 -> 14171668
+
+ start over 703505 loops 724 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400731
+DŽ: 14171206 -> 14171206
+DŽ: 14172520 -> 14174174
+DŽ: 14172049 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14172014 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172101 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14172282 -> 14172521
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171425 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14193720
+DŽ: 14171364 -> 14174174
+DŽ: 14171388 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172526 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172933 -> 14171206
+DŽ: 14172052 -> 14171206
+DŽ: 14172169 -> 14171206
+
+ start over 734297 loops 769 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14397111
+DŽ: 14171206 -> 14171206
+DŽ: 14172169 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171362 -> 14171206
+DŽ: 14171837 -> 14171206
+DŽ: 14171364 -> 14171206
+DŽ: 14172049 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172488 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172049 -> 14171206
+DŽ: 14171932 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171763 -> 14171206
+DŽ: 14199031 -> 14195471
+DŽ: 14173361 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172049 -> 14171206
+DŽ: 14171850 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173323 -> 14193720
+DŽ: 14173361 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173364 -> 14171668
+DŽ: 14171206 -> 14171206
+
+ start over 763751 loops 805 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14173241 -> 14171206
+DŽ: 14172899 -> 14171206
+DŽ: 14171850 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171693 -> 14171206
+DŽ: 14172194 -> 14171774
+DŽ: 14171763 -> 14171206
+DŽ: 14171850 -> 14171668
+DŽ: 14172013 -> 14171774
+DŽ: 14171895 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173360 -> 14171206
+DŽ: 14174002 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171589 -> 14171206
+DŽ: 14171454 -> 14171206
+DŽ: 14172194 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14172013 -> 14171774
+DŽ: 14172009 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171207 -> 14171206
+DŽ: 14171754 -> 14171206
+DŽ: 14171693 -> 14171206
+DŽ: 14172194 -> 14171774
+DŽ: 14175925 -> 14175925
+DŽ: 14172268 -> 14171774
+DŽ: 14171890 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 794411 loops 830 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14403245
+DŽ: 14178532 -> 14174636
+DŽ: 14171635 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172194 -> 14171774
+DŽ: 14171948 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171874 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172113 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172231 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14172113 -> 14171206
+DŽ: 14173277 -> 14171668
+DŽ: 14172778 -> 14171668
+DŽ: 14171454 -> 14171206
+DŽ: 14171887 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171932 -> 14171206
+DŽ: 14173115 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 824568 loops 860 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14172357 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172513 -> 14171919
+DŽ: 14171668 -> 14171668
+DŽ: 14172574 -> 14171668
+DŽ: 14173396 -> 14171206
+DŽ: 14173188 -> 14174636
+DŽ: 14176649 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171207 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172220 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171932 -> 14171206
+DŽ: 14172113 -> 14222264
+DŽ: 14171788 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14172220 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 853359 loops 886 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14175925 -> 14175925
+DŽ: 14172513 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14173188 -> 14174174
+DŽ: 14174294 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172220 -> 14171919
+DŽ: 14175481 -> 14174887
+DŽ: 14172220 -> 14171919
+DŽ: 14172960 -> 14174174
+DŽ: 14171919 -> 14171919
+DŽ: 14172220 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172076 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172706 -> 14172706
+DŽ: 14175481 -> 14174887
+DŽ: 14174174 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172682 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171788 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171917 -> 14222264
+
+ start over 882668 loops 912 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171788 -> 14171668
+DŽ: 14172641 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14172220 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172220 -> 14174174
+DŽ: 14172513 -> 14171919
+DŽ: 14175674 -> 14175674
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172682 -> 14171668
+DŽ: 14171668 -> 14171668
+DŽ: 14172641 -> 14222264
+DŽ: 14173077 -> 14171206
+DŽ: 14171800 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172220 -> 14171206
+DŽ: 14171788 -> 14171668
+DŽ: 14171800 -> 14171668
+DŽ: 14172941 -> 14171206
+DŽ: 14171969 -> 14222264
+DŽ: 14173077 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14172562 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172401 -> 14171206
+
+ start over 913982 loops 937 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14405028
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14190512 -> 14177726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174972 -> 14174174
+DŽ: 14173817 -> 14171668
+DŽ: 14172941 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172562 -> 14171668
+DŽ: 14173355 -> 14171206
+DŽ: 14196873 -> 14177290
+DŽ: 14171206 -> 14171206
+DŽ: 14172304 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175929 -> 14174174
+DŽ: 14172304 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14173636 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172766 -> 14171668
+DŽ: 14171943 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14173636 -> 14171206
+DŽ: 14171498 -> 14193720
+
+ start over 945606 loops 979 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400731
+DŽ: 14172049 -> 14171206
+DŽ: 14172006 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172417 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14174355 -> 14174174
+DŽ: 14172513 -> 14171206
+DŽ: 14172936 -> 14171206
+DŽ: 14173174 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14179083 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173277 -> 14174636
+DŽ: 14178199 -> 14171206
+DŽ: 14173278 -> 14171206
+DŽ: 14173817 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174158 -> 14171206
+DŽ: 14172513 -> 14174636
+DŽ: 14173470 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14179083 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172513 -> 14171206
+DŽ: 14173064 -> 14171206
+
+ start over 972938 loops 1001 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400731
+DŽ: 14174158 -> 14171206
+DŽ: 14172935 -> 14171206
+DŽ: 14178541 -> 14171668
+DŽ: 14173278 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14178199 -> 14171206
+DŽ: 14174158 -> 14171206
+DŽ: 14175903 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14178197 -> 14175674
+DŽ: 14171206 -> 14171206
+DŽ: 14171662 -> 14171206
+DŽ: 14171507 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171544 -> 14222264
+DŽ: 14171206 -> 14222264
+DŽ: 14172438 -> 14171206
+DŽ: 14172813 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172548 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14176817 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14175783 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171679 -> 14171206
+DŽ: 14172174 -> 14171206
+
+ start over 1003895 loops 1033 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171783 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172257 -> 14171206
+DŽ: 14171799 -> 14171206
+DŽ: 14171911 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172825 -> 14171206
+DŽ: 14172037 -> 14171206
+DŽ: 14172137 -> 14222264
+DŽ: 14172037 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171484 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172137 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171484 -> 14171206
+DŽ: 14171838 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174358 -> 14171206
+DŽ: 14173355 -> 14171206
+DŽ: 14172356 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14222264
+
+ start over 1035448 loops 1058 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400111
+DŽ: 14171206 -> 14171206
+DŽ: 14176485 -> 14171206
+DŽ: 14383744 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172893 -> 14171206
+DŽ: 14172182 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172789 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14178041 -> 14244778
+DŽ: 14171206 -> 14171206
+DŽ: 14179356 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172101 -> 14172521
+DŽ: 14178668 -> 14171206
+DŽ: 14171895 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172101 -> 14171206
+DŽ: 14172789 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174074 -> 14171206
+DŽ: 14172788 -> 14171206
+DŽ: 14187331 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172788 -> 14171206
+DŽ: 14171206 -> 14222264
+
+ start over 1064650 loops 1084 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14402783
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173210 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172631 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14174449 -> 14174174
+DŽ: 14257636 -> 14249687
+DŽ: 14171206 -> 14171206
+DŽ: 14175019 -> 14174174
+DŽ: 14174174 -> 14174174
+DŽ: 14175019 -> 14174174
+DŽ: 14248986 -> 14248314
+DŽ: 14253774 -> 14250400
+DŽ: 14171206 -> 14171206
+DŽ: 14171894 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1093840 loops 1120 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14171454 -> 14171206
+DŽ: 14172257 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173515 -> 14171668
+DŽ: 14172898 -> 14171206
+DŽ: 14175137 -> 14196688
+DŽ: 14171387 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172915 -> 14171206
+DŽ: 14172476 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14174911 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172476 -> 14222726
+DŽ: 14171387 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14173138 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14253774 -> 14199342
+DŽ: 14196688 -> 14196688
+DŽ: 14172915 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172915 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172915 -> 14171206
+DŽ: 14171482 -> 14171206
+
+ start over 1121489 loops 1147 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172649 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175481 -> 14174887
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14172339 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172339 -> 14171206
+DŽ: 14174294 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174302 -> 14174174
+DŽ: 14175007 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14172649 -> 14171206
+DŽ: 14172228 -> 14222264
+DŽ: 14172158 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171573 -> 14171206
+DŽ: 14172649 -> 14171206
+DŽ: 14172648 -> 14171206
+DŽ: 14172158 -> 14171919
+
+ start over 1152300 loops 1165 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14199708
+DŽ: 14171573 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14174294 -> 14174174
+DŽ: 14171334 -> 14171206
+DŽ: 14172562 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173258 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172599 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173117 -> 14171206
+DŽ: 14171823 -> 14171668
+DŽ: 14171900 -> 14171774
+DŽ: 14172717 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173138 -> 14171668
+DŽ: 14172837 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172717 -> 14171668
+DŽ: 14171697 -> 14171206
+DŽ: 14172257 -> 14174174
+DŽ: 14171206 -> 14171206
+
+ start over 1182181 loops 1198 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400982
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171363 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172682 -> 14171206
+DŽ: 14171693 -> 14171206
+DŽ: 14214108 -> 14198439
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172599 -> 14174636
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172125 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172857 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173395 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173395 -> 14171668
+DŽ: 14172511 -> 14171668
+DŽ: 14199722 -> 14197401
+DŽ: 14172666 -> 14171206
+DŽ: 14172401 -> 14171206
+DŽ: 14171662 -> 14171206
+DŽ: 14172666 -> 14171206
+
+ start over 1212540 loops 1235 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400269
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171662 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173491 -> 14222977
+DŽ: 14172385 -> 14171206
+DŽ: 14172492 -> 14171206
+DŽ: 14175188 -> 14174887
+DŽ: 14172438 -> 14171206
+DŽ: 14400269 -> 14198629
+DŽ: 14172257 -> 14171206
+DŽ: 14171886 -> 14222726
+DŽ: 14181342 -> 14176115
+DŽ: 14172265 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172607 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172806 -> 14171206
+DŽ: 14174584 -> 14174174
+DŽ: 14174846 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171878 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172041 -> 14171206
+DŽ: 14172796 -> 14171206
+
+ start over 1242454 loops 1258 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171998 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172257 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14171317 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172392 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172806 -> 14171206
+DŽ: 14172265 -> 14222264
+DŽ: 14171206 -> 14222264
+DŽ: 14172392 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173119 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14173791 -> 14171206
+DŽ: 14171873 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173996 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14172520 -> 14171206
+DŽ: 14174281 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1271497 loops 1285 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14199091
+DŽ: 14199091 -> 14198629
+DŽ: 14172211 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172211 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175925 -> 14226983
+DŽ: 14172392 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174125 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14172392 -> 14171206
+DŽ: 14177481 -> 14171206
+DŽ: 14171572 -> 14171206
+DŽ: 14226065 -> 14225945
+DŽ: 14171206 -> 14171206
+DŽ: 14181121 -> 14174174
+DŽ: 14175793 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14173513 -> 14171206
+DŽ: 14172014 -> 14171206
+DŽ: 14172014 -> 14171206
+DŽ: 14197608 -> 14196688
+DŽ: 14177179 -> 14222726
+DŽ: 14177508 -> 14171206
+DŽ: 14172983 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1299473 loops 1321 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171998 -> 14171206
+DŽ: 14222726 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171998 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174128 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171616 -> 14171206
+DŽ: 14194457 -> 14244778
+DŽ: 14195035 -> 14193720
+DŽ: 14173488 -> 14171668
+DŽ: 14194457 -> 14194182
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14193901 -> 14193720
+DŽ: 14173488 -> 14171668
+DŽ: 14171978 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172126 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1324181 loops 1342 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14379643
+DŽ: 14173488 -> 14171206
+DŽ: 14194640 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14172379 -> 14171668
+DŽ: 14172322 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14193720 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14181563 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14172612 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172158 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172788 -> 14171206
+DŽ: 14173344 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174163 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173765 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171774
+DŽ: 14172511 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14172969 -> 14171206
+DŽ: 14172788 -> 14171206
+
+ start over 1352640 loops 1367 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400731
+DŽ: 14171206 -> 14171206
+DŽ: 14172511 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14172133 -> 14171206
+DŽ: 14172511 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173702 -> 14172487
+DŽ: 14174887 -> 14174887
+DŽ: 14172133 -> 14171206
+DŽ: 14172788 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14172471 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171635 -> 14171206
+DŽ: 14172391 -> 14171774
+DŽ: 14172788 -> 14171206
+DŽ: 14172351 -> 14171206
+DŽ: 14171635 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172330 -> 14171774
+DŽ: 14173570 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171693 -> 14171206
+DŽ: 14172330 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171783 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171693 -> 14171206
+DŽ: 14171693 -> 14171206
+
+ start over 1383303 loops 1393 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14196836
+DŽ: 14171790 -> 14171206
+DŽ: 14172010 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171783 -> 14171206
+DŽ: 14222264 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173643 -> 14171206
+DŽ: 14173175 -> 14171206
+DŽ: 14173488 -> 14222726
+DŽ: 14172893 -> 14171206
+DŽ: 14172993 -> 14171206
+DŽ: 14172010 -> 14171206
+DŽ: 14172376 -> 14222264
+DŽ: 14172838 -> 14171668
+DŽ: 14172376 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172838 -> 14171668
+DŽ: 14173488 -> 14171668
+DŽ: 14172261 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14173020 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172739 -> 14171206
+
+ start over 1412753 loops 1422 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14201119
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173175 -> 14171206
+DŽ: 14171886 -> 14171206
+DŽ: 14171775 -> 14171206
+DŽ: 14173201 -> 14171668
+DŽ: 14172780 -> 14171668
+DŽ: 14172780 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171944 -> 14171668
+DŽ: 14198657 -> 14196688
+DŽ: 14171206 -> 14171206
+DŽ: 14200253 -> 14198901
+DŽ: 14173488 -> 14171668
+DŽ: 14171886 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173114 -> 14171206
+DŽ: 14194219 -> 14244778
+DŽ: 14173114 -> 14222264
+DŽ: 14244778 -> 14244778
+DŽ: 14171206 -> 14171206
+DŽ: 14198657 -> 14196688
+DŽ: 14172930 -> 14171206
+DŽ: 14173144 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14198657 -> 14196688
+DŽ: 14173207 -> 14193720
+
+ start over 1441730 loops 1447 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14172456 -> 14171919
+DŽ: 14173201 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14193720 -> 14193720
+DŽ: 14196725 -> 14196688
+DŽ: 14198657 -> 14196688
+DŽ: 14171206 -> 14171206
+DŽ: 14172456 -> 14171919
+DŽ: 14175150 -> 14225232
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14222264
+DŽ: 14182090 -> 14175349
+DŽ: 14175253 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14175925 -> 14175925
+DŽ: 14174636 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14196688 -> 14196688
+DŽ: 14172694 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172088 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14171919 -> 14171919
+DŽ: 14173069 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172714 -> 14171919
+
+ start over 1470855 loops 1481 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14399233
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14179982 -> 14171206
+DŽ: 14179982 -> 14171206
+DŽ: 14175253 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14175212 -> 14175212
+DŽ: 14172702 -> 14174174
+DŽ: 14173170 -> 14171206
+DŽ: 14172945 -> 14171206
+DŽ: 14171544 -> 14222264
+DŽ: 14173397 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14176470 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174636 -> 14174636
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173174 -> 14171206
+DŽ: 14174039 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14179982 -> 14171206
+DŽ: 14172574 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1499527 loops 1513 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14172945 -> 14222264
+DŽ: 14172351 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173709 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172257 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171544 -> 14171206
+DŽ: 14174898 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173064 -> 14171206
+DŽ: 14174039 -> 14171206
+DŽ: 14173184 -> 14171206
+DŽ: 14172726 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172917 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174806 -> 14171206
+DŽ: 14172726 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173245 -> 14193720
+DŽ: 14172978 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172917 -> 14171206
+DŽ: 14173182 -> 14171206
+
+ start over 1528813 loops 1542 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14403245
+DŽ: 14172677 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173365 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173184 -> 14171206
+DŽ: 14173184 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14173051 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173605 -> 14171206
+DŽ: 14172726 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172376 -> 14171206
+DŽ: 14173184 -> 14171206
+DŽ: 14172812 -> 14171668
+DŽ: 14402981 -> 14401444
+DŽ: 14173990 -> 14172381
+DŽ: 14171206 -> 14171206
+DŽ: 14172469 -> 14171206
+DŽ: 14173991 -> 14172381
+DŽ: 14171206 -> 14171206
+DŽ: 14172694 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172006 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173991 -> 14172381
+DŽ: 14171206 -> 14171206
+DŽ: 14172896 -> 14171668
+
+ start over 1560742 loops 1574 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14199091
+DŽ: 14172589 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172381 -> 14172381
+DŽ: 14172812 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14177984 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172208 -> 14171206
+DŽ: 14172469 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14206568 -> 14199804
+DŽ: 14172434 -> 14222264
+DŽ: 14172574 -> 14171206
+DŽ: 14177984 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14175876 -> 14172236
+DŽ: 14174793 -> 14174174
+DŽ: 14171916 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14172245 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14172983 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14174793 -> 14174636
+DŽ: 14178428 -> 14172244
+
+ start over 1590481 loops 1602 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14172983 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174630 -> 14174174
+DŽ: 14174510 -> 14174174
+DŽ: 14171774 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14177984 -> 14171206
+DŽ: 14174630 -> 14174174
+DŽ: 14172281 -> 14172244
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171886 -> 14171206
+DŽ: 14177390 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174174
+DŽ: 14172161 -> 14171206
+DŽ: 14172124 -> 14171668
+DŽ: 14174630 -> 14225232
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172161 -> 14171206
+DŽ: 14174974 -> 14171668
+DŽ: 14172796 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14174948 -> 14174174
+
+ start over 1619545 loops 1626 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174449 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14175306 -> 14174887
+DŽ: 14172606 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14225694
+DŽ: 14171206 -> 14171206
+DŽ: 14174850 -> 14196688
+DŽ: 14175306 -> 14175349
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174636 -> 14174174
+DŽ: 14175925 -> 14175925
+DŽ: 14172037 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14225945
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14222977 -> 14222977
+DŽ: 14172360 -> 14171206
+DŽ: 14172381 -> 14172381
+
+ start over 1649454 loops 1652 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171981 -> 14171206
+DŽ: 14172606 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14225694 -> 14225232
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174730 -> 14174174
+DŽ: 14174694 -> 14171206
+DŽ: 14225694 -> 14225694
+DŽ: 14174694 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174654 -> 14225232
+DŽ: 14171206 -> 14171206
+DŽ: 14174112 -> 14174174
+DŽ: 14174112 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14173873 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174355 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1677876 loops 1679 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14199804
+DŽ: 14171919 -> 14171919
+DŽ: 14173873 -> 14171206
+DŽ: 14225694 -> 14225694
+DŽ: 14173170 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172450 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14171326 -> 14171206
+DŽ: 14176269 -> 14175349
+DŽ: 14172314 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172513 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172588 -> 14171668
+DŽ: 14171953 -> 14171668
+DŽ: 14171800 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173222 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172956 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172956 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173164 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1708669 loops 1709 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14403245
+DŽ: 14171206 -> 14171206
+DŽ: 14173222 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171953 -> 14171206
+DŽ: 14172224 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172255 -> 14171206
+DŽ: 14173469 -> 14171919
+DŽ: 14173222 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173552 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172513 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172169 -> 14171668
+DŽ: 14172812 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14174174
+DŽ: 14172071 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172812 -> 14171668
+
+ start over 1737250 loops 1738 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14402783
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172363 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171901 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173137 -> 14171206
+DŽ: 14172158 -> 14171206
+DŽ: 14172314 -> 14171206
+DŽ: 14172158 -> 14171206
+DŽ: 14172606 -> 14171206
+DŽ: 14180833 -> 14174174
+DŽ: 14173277 -> 14171206
+DŽ: 14175221 -> 14174174
+DŽ: 14172232 -> 14171206
+DŽ: 14173397 -> 14171206
+DŽ: 14172606 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172981 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173137 -> 14171206
+DŽ: 14171206 -> 14171668
+DŽ: 14172606 -> 14171206
+DŽ: 14171317 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1766782 loops 1768 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14177290
+DŽ: 14173599 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172538 -> 14172381
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14177290 -> 14177290
+DŽ: 14172678 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172731 -> 14171206
+DŽ: 14171363 -> 14222264
+DŽ: 14172731 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172299 -> 14171668
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172381 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172462 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172299 -> 14171668
+
+ start over 1798747 loops 1797 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14399828
+DŽ: 14171956 -> 14171206
+DŽ: 14171799 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172462 -> 14172244
+DŽ: 14172397 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172076 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14199760 -> 14249246
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14217775 -> 14249246
+DŽ: 14172434 -> 14171206
+DŽ: 14173017 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172606 -> 14171206
+DŽ: 14172434 -> 14171206
+DŽ: 14172133 -> 14171206
+
+ start over 1824181 loops 1828 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175212
+DŽ: 14194738 -> 14194182
+DŽ: 14193901 -> 14193720
+DŽ: 14171788 -> 14171206
+DŽ: 14194776 -> 14193720
+DŽ: 14174294 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14194182 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14172908 -> 14171206
+DŽ: 14173171 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14182638 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171573 -> 14171206
+DŽ: 14172508 -> 14171206
+DŽ: 14172139 -> 14174742
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1851466 loops 1855 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171573 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173672 -> 14171206
+DŽ: 14172139 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175674 -> 14175212
+DŽ: 14172899 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14173626 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14172139 -> 14171774
+DŽ: 14172088 -> 14171668
+DŽ: 14171746 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172656 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172280 -> 14171206
+DŽ: 14172001 -> 14171206
+DŽ: 14172039 -> 14222264
+DŽ: 14171206 -> 14222264
+DŽ: 14171668 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14222264
+
+ start over 1881405 loops 1870 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14246278
+DŽ: 14175674 -> 14175212
+DŽ: 14171206 -> 14171206
+DŽ: 14172463 -> 14171668
+DŽ: 14174093 -> 14171206
+DŽ: 14172583 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172501 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171363 -> 14171206
+DŽ: 14172299 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14222264
+DŽ: 14172115 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171363 -> 14171206
+DŽ: 14171679 -> 14171206
+DŽ: 14172182 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14176877 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 1910764 loops 1903 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14400731
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14176874 -> 14171206
+DŽ: 14172936 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14195257 -> 14195220
+DŽ: 14171206 -> 14171206
+DŽ: 14171960 -> 14171206
+DŽ: 14172706 -> 14172706
+DŽ: 14171206 -> 14171206
+DŽ: 14172052 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14173451 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172641 -> 14171206
+DŽ: 14194182 -> 14194182
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14214605 -> 14176577
+DŽ: 14171206 -> 14171206
+
+ start over 1940338 loops 1932 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14172171 -> 14171668
+DŽ: 14172141 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172682 -> 14171206
+DŽ: 14173508 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14173508 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14172052 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172682 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14201350 -> 14196123
+DŽ: 14173967 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173477 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173046 -> 14171206
+DŽ: 14174191 -> 14171206
+DŽ: 14173636 -> 14171668
+DŽ: 14171762 -> 14171206
+DŽ: 14173508 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173477 -> 14171206
+DŽ: 14172615 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14173263 -> 14171206
+DŽ: 14173477 -> 14193720
+
+ start over 1969552 loops 1957 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14173967 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14172363 -> 14171878
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173729 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14196029 -> 14194182
+DŽ: 14171206 -> 14171206
+DŽ: 14173636 -> 14171668
+DŽ: 14173246 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173292 -> 14171206
+DŽ: 14172141 -> 14171206
+DŽ: 14173508 -> 14171206
+DŽ: 14173516 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14174171 -> 14171668
+DŽ: 14173829 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173246 -> 14171206
+DŽ: 14173246 -> 14171206
+DŽ: 14174174 -> 14196688
+DŽ: 14171206 -> 14171206
+DŽ: 14172141 -> 14171668
+
+ start over 1997741 loops 1983 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14250149
+DŽ: 14175925 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172558 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173532 -> 14222264
+DŽ: 14172558 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171679 -> 14171206
+DŽ: 14172141 -> 14171206
+DŽ: 14173174 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14177133 -> 14176577
+DŽ: 14171206 -> 14171206
+DŽ: 14174130 -> 14171206
+DŽ: 14172399 -> 14172244
+DŽ: 14171944 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171679 -> 14171206
+DŽ: 14172780 -> 14171668
+DŽ: 14172141 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14193720
+DŽ: 14173201 -> 14171206
+DŽ: 14172934 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172399 -> 14172244
+DŽ: 14172861 -> 14172706
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2027785 loops 2015 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172838 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171481 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172822 -> 14171206
+DŽ: 14171960 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175092 -> 14171206
+DŽ: 14175925 -> 14175925
+DŽ: 14175007 -> 14174887
+DŽ: 14172405 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172694 -> 14172521
+DŽ: 14172822 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173290 -> 14222264
+DŽ: 14172220 -> 14171206
+DŽ: 14172694 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2058565 loops 2042 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14172875 -> 14171206
+DŽ: 14173571 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173100 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171642 -> 14171206
+DŽ: 14172520 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14173290 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172339 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14172125 -> 14171668
+DŽ: 14172231 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14172656 -> 14171206
+DŽ: 14172231 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172599 -> 14222264
+DŽ: 14172620 -> 14171206
+DŽ: 14171944 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14172754 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171911 -> 14171206
+DŽ: 14171911 -> 14171206
+
+ start over 2089181 loops 2069 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14172231 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172244 -> 14223302
+DŽ: 14172244 -> 14172244
+DŽ: 14171791 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171635 -> 14171668
+DŽ: 14175481 -> 14174887
+DŽ: 14172256 -> 14171206
+DŽ: 14172256 -> 14171206
+DŽ: 14172333 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171334 -> 14171206
+DŽ: 14171626 -> 14171206
+DŽ: 14171581 -> 14171206
+DŽ: 14172333 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172174 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172256 -> 14222264
+DŽ: 14171573 -> 14171206
+
+ start over 2119623 loops 2094 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14172377 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171573 -> 14171206
+DŽ: 14171626 -> 14171206
+DŽ: 14171626 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175126 -> 14174887
+DŽ: 14171581 -> 14171206
+DŽ: 14172333 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14172556 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173354 -> 14171919
+DŽ: 14172618 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171881 -> 14222264
+DŽ: 14172618 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172837 -> 14171206
+DŽ: 14172094 -> 14171206
+DŽ: 14173089 -> 14171774
+DŽ: 14172375 -> 14171206
+DŽ: 14172837 -> 14171206
+DŽ: 14175030 -> 14174174
+
+ start over 2149680 loops 2121 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14172499 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172837 -> 14171206
+DŽ: 14172182 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173103 -> 14171668
+DŽ: 14172800 -> 14172244
+DŽ: 14175126 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171984 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173103 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171984 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172158 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171907 -> 14171206
+DŽ: 14172664 -> 14172244
+DŽ: 14175312 -> 14174636
+DŽ: 14172375 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171510 -> 14171206
+
+ start over 2179742 loops 2155 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14402759
+DŽ: 14172375 -> 14222264
+DŽ: 14172244 -> 14172244
+DŽ: 14172359 -> 14171206
+DŽ: 14175192 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14178837 -> 14174636
+DŽ: 14171919 -> 14171919
+DŽ: 14172664 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171329 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14174628 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172138 -> 14171206
+DŽ: 14172138 -> 14171206
+DŽ: 14176162 -> 14174636
+DŽ: 14174636 -> 14225232
+DŽ: 14173156 -> 14171668
+DŽ: 14172101 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172101 -> 14171206
+DŽ: 14172600 -> 14171206
+DŽ: 14174510 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171664 -> 14171206
+DŽ: 14174628 -> 14174174
+
+ start over 2208669 loops 2180 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14225945
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172718 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172822 -> 14171206
+DŽ: 14174628 -> 14174174
+DŽ: 14171861 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171937 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172319 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171371 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171552 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171552 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+
+ start over 2236776 loops 2201 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14378930
+DŽ: 14171206 -> 14171206
+DŽ: 14172038 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171371 -> 14171206
+DŽ: 14171929 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174309 -> 14172949
+DŽ: 14172055 -> 14171774
+DŽ: 14171670 -> 14171206
+DŽ: 14171670 -> 14171206
+DŽ: 14172244 -> 14223302
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172425 -> 14172244
+DŽ: 14171929 -> 14171774
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171796 -> 14222726
+DŽ: 14171609 -> 14171206
+DŽ: 14172949 -> 14173510
+DŽ: 14171206 -> 14171206
+DŽ: 14172629 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171953 -> 14171668
+DŽ: 14222726 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171635 -> 14171206
+DŽ: 14172071 -> 14171668
+DŽ: 14171693 -> 14171206
+
+ start over 2267574 loops 2243 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14380731
+DŽ: 14171206 -> 14171206
+DŽ: 14175004 -> 14171919
+DŽ: 14380731 -> 14377755
+DŽ: 14171907 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14377833 -> 14375962
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172388 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172456 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171916 -> 14171206
+DŽ: 14171919 -> 14222977
+DŽ: 14171206 -> 14171206
+DŽ: 14171693 -> 14171206
+DŽ: 14171508 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175004 -> 14172381
+DŽ: 14171206 -> 14171206
+DŽ: 14172778 -> 14171206
+DŽ: 14175004 -> 14171919
+DŽ: 14172133 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172015 -> 14171206
+DŽ: 14172933 -> 14171206
+DŽ: 14173953 -> 14171919
+DŽ: 14172133 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14172076 -> 14174174
+
+ start over 2298461 loops 2276 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172487 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171700 -> 14171206
+DŽ: 14175829 -> 14175212
+DŽ: 14171737 -> 14171206
+DŽ: 14171327 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175212 -> 14175212
+DŽ: 14171919 -> 14222977
+DŽ: 14171206 -> 14171206
+DŽ: 14172668 -> 14171206
+DŽ: 14172388 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171911 -> 14171206
+DŽ: 14174355 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172038 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172249 -> 14171206
+DŽ: 14174911 -> 14174174
+DŽ: 14171672 -> 14171206
+DŽ: 14171992 -> 14171774
+DŽ: 14172244 -> 14175212
+
+ start over 2326362 loops 2297 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14174923 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14174923 -> 14174174
+DŽ: 14172536 -> 14171206
+DŽ: 14174793 -> 14174174
+DŽ: 14175674 -> 14226270
+DŽ: 14171206 -> 14171206
+DŽ: 14175925 -> 14175925
+DŽ: 14226270 -> 14226270
+DŽ: 14171918 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174549 -> 14174174
+DŽ: 14171791 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174510 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14175068 -> 14174174
+DŽ: 14174793 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14175068 -> 14174174
+DŽ: 14175023 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174593 -> 14174174
+DŽ: 14175067 -> 14174174
+
+ start over 2352107 loops 2321 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14174392 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14174593 -> 14174174
+DŽ: 14172244 -> 14172244
+DŽ: 14175393 -> 14175212
+DŽ: 14174771 -> 14174174
+DŽ: 14174510 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174510 -> 14174174
+DŽ: 14174593 -> 14174742
+DŽ: 14171206 -> 14171206
+DŽ: 14174510 -> 14174174
+DŽ: 14175212 -> 14175212
+DŽ: 14172244 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172895 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172895 -> 14171206
+DŽ: 14173325 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171507 -> 14222264
+DŽ: 14173170 -> 14174174
+DŽ: 14172988 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172650 -> 14171206
+
+ start over 2382435 loops 2354 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14401444
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172536 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174475 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172244 -> 14172244
+DŽ: 14177433 -> 14171668
+DŽ: 14172393 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173708 -> 14171206
+DŽ: 14177433 -> 14171668
+DŽ: 14174475 -> 14174174
+DŽ: 14172450 -> 14171206
+DŽ: 14172570 -> 14171206
+DŽ: 14177551 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171668
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171931 -> 14171206
+DŽ: 14172632 -> 14171668
+
+ start over 2407583 loops 2377 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14199804
+DŽ: 14173456 -> 14173419
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171668 -> 14222726
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14177290 -> 14177290
+DŽ: 14177433 -> 14171668
+DŽ: 14187808 -> 14171668
+DŽ: 14172900 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172195 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14173321 -> 14171206
+DŽ: 14172383 -> 14171206
+DŽ: 14172772 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172900 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172255 -> 14171206
+DŽ: 14222726 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14172900 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174322 -> 14225380
+DŽ: 14171951 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172649 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14172126 -> 14171206
+
+ start over 2438508 loops 2400 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14172006 -> 14171668
+DŽ: 14175925 -> 14175925
+DŽ: 14174911 -> 14174174
+DŽ: 14172900 -> 14171206
+DŽ: 14172772 -> 14171206
+DŽ: 14174875 -> 14171206
+DŽ: 14175829 -> 14175212
+DŽ: 14172006 -> 14171206
+DŽ: 14172772 -> 14171206
+DŽ: 14173250 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173077 -> 14171206
+DŽ: 14222726 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14222726 -> 14222726
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173138 -> 14171206
+DŽ: 14172501 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14174098 -> 14225694
+DŽ: 14171206 -> 14171206
+DŽ: 14173322 -> 14171206
+DŽ: 14173250 -> 14171668
+DŽ: 14171206 -> 14171206
+
+ start over 2466181 loops 2432 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14172912 -> 14171668
+DŽ: 14171206 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174246 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173250 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173209 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14173069 -> 14171919
+DŽ: 14172006 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174154 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172375 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172159 -> 14171206
+DŽ: 14174584 -> 14174174
+DŽ: 14172379 -> 14171668
+DŽ: 14222264 -> 14222264
+
+ start over 2496031 loops 2458 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14173224 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172161 -> 14171206
+DŽ: 14172654 -> 14171206
+DŽ: 14174911 -> 14174742
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174331 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14173732 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171828 -> 14171206
+DŽ: 14174742 -> 14225232
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171668 -> 14174636
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14173732 -> 14171206
+DŽ: 14172051 -> 14171206
+DŽ: 14171730 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2524181 loops 2490 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14401348
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175674 -> 14174636
+DŽ: 14172434 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174577 -> 14174174
+DŽ: 14173068 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14174911 -> 14174174
+DŽ: 14172001 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172689 -> 14222264
+DŽ: 14202316 -> 14197726
+DŽ: 14172434 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174174 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14173426 -> 14222264
+DŽ: 14178361 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2551181 loops 2515 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14172570 -> 14171206
+DŽ: 14172001 -> 14171206
+DŽ: 14174923 -> 14196688
+DŽ: 14172434 -> 14171206
+DŽ: 14173812 -> 14171206
+DŽ: 14174946 -> 14196688
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14177947 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175066 -> 14174174
+DŽ: 14171737 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174593 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172001 -> 14171206
+DŽ: 14172001 -> 14171206
+DŽ: 14172844 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2575181 loops 2522 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14401444
+DŽ: 14172844 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172038 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173277 -> 14171668
+DŽ: 14172764 -> 14222264
+DŽ: 14172156 -> 14171206
+DŽ: 14172989 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172001 -> 14171206
+DŽ: 14172408 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173648 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171737 -> 14171206
+DŽ: 14171737 -> 14171206
+DŽ: 14173606 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14172764 -> 14171206
+DŽ: 14173451 -> 14222264
+DŽ: 14172434 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14222264 -> 14222264
+DŽ: 14172408 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173606 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172575 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2604417 loops 2549 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14225945
+DŽ: 14171977 -> 14171668
+DŽ: 14172517 -> 14171774
+DŽ: 14174887 -> 14171919
+DŽ: 14172236 -> 14171774
+DŽ: 14172989 -> 14222264
+DŽ: 14173246 -> 14171206
+DŽ: 14173451 -> 14171206
+DŽ: 14173648 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173648 -> 14222264
+DŽ: 14178962 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174184 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173246 -> 14171206
+DŽ: 14173397 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2628578 loops 2582 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14402783
+DŽ: 14171206 -> 14171206
+DŽ: 14172846 -> 14222264
+DŽ: 14172351 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172306 -> 14171206
+DŽ: 14178446 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14178198 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173709 -> 14171206
+DŽ: 14225232 -> 14225232
+DŽ: 14174130 -> 14171206
+DŽ: 14172434 -> 14171206
+DŽ: 14173371 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175897 -> 14177256
+DŽ: 14171206 -> 14171206
+DŽ: 14174919 -> 14174174
+DŽ: 14174174 -> 14174174
+DŽ: 14171799 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14184277 -> 14172487
+DŽ: 14171206 -> 14171206
+DŽ: 14171672 -> 14171206
+DŽ: 14171736 -> 14171206
+DŽ: 14172650 -> 14171206
+DŽ: 14173205 -> 14171206
+DŽ: 14171799 -> 14171206
+DŽ: 14171807 -> 14171206
+
+ start over 2660301 loops 2606 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14226983
+DŽ: 14173077 -> 14171206
+DŽ: 14172269 -> 14171206
+DŽ: 14173318 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172337 -> 14171206
+DŽ: 14172269 -> 14171206
+DŽ: 14175925 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172278 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171679 -> 14171206
+DŽ: 14171672 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174533 -> 14174174
+DŽ: 14172363 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14175925 -> 14175925
+DŽ: 14173249 -> 14171668
+DŽ: 14172433 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14172618 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2691692 loops 2639 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171899 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171823 -> 14171206
+DŽ: 14172121 -> 14171206
+DŽ: 14175674 -> 14175212
+DŽ: 14174549 -> 14225232
+DŽ: 14172198 -> 14171206
+DŽ: 14172219 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172937 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172182 -> 14171668
+DŽ: 14172182 -> 14171206
+DŽ: 14175007 -> 14174887
+DŽ: 14171206 -> 14171206
+DŽ: 14174887 -> 14174887
+DŽ: 14172224 -> 14171668
+DŽ: 14172224 -> 14171668
+DŽ: 14175674 -> 14175212
+DŽ: 14171206 -> 14171206
+DŽ: 14173859 -> 14222264
+DŽ: 14172638 -> 14172244
+DŽ: 14172224 -> 14171206
+DŽ: 14172224 -> 14171668
+DŽ: 14172043 -> 14171668
+
+ start over 2720841 loops 2665 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14172483 -> 14172244
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171668
+DŽ: 14172933 -> 14172521
+DŽ: 14173729 -> 14171206
+DŽ: 14172194 -> 14171919
+DŽ: 14174594 -> 14174174
+DŽ: 14175007 -> 14174887
+DŽ: 14172224 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173606 -> 14171206
+DŽ: 14173606 -> 14171206
+DŽ: 14173358 -> 14174174
+DŽ: 14171565 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173875 -> 14171206
+DŽ: 14174082 -> 14171206
+DŽ: 14174377 -> 14171206
+DŽ: 14172156 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174549 -> 14174174
+DŽ: 14173927 -> 14171206
+DŽ: 14171206 -> 14222264
+DŽ: 14173476 -> 14171206
+DŽ: 14174402 -> 14171206
+DŽ: 14172156 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14174450 -> 14174174
+
+ start over 2749107 loops 2689 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14403245
+DŽ: 14203155 -> 14197256
+DŽ: 14173606 -> 14171206
+DŽ: 14197256 -> 14197256
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172219 -> 14171206
+DŽ: 14171326 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172917 -> 14171206
+DŽ: 14172219 -> 14222264
+DŽ: 14173348 -> 14171206
+DŽ: 14172496 -> 14172521
+DŽ: 14171326 -> 14171206
+DŽ: 14172496 -> 14171206
+DŽ: 14172915 -> 14171668
+DŽ: 14174428 -> 14171206
+DŽ: 14173476 -> 14171206
+DŽ: 14172915 -> 14171206
+DŽ: 14172989 -> 14222264
+DŽ: 14175126 -> 14174887
+DŽ: 14172614 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171354 -> 14171206
+DŽ: 14172050 -> 14174742
+DŽ: 14171848 -> 14222264
+DŽ: 14172769 -> 14171206
+DŽ: 14171357 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172521 -> 14171206
+
+ start over 2781181 loops 2716 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14173348 -> 14171206
+DŽ: 14172917 -> 14171206
+DŽ: 14171720 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14173228 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172050 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172989 -> 14172989
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172503 -> 14171206
+DŽ: 14172989 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172375 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172383 -> 14171206
+DŽ: 14172503 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172228 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2810350 loops 2749 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14402783
+DŽ: 14172228 -> 14171206
+DŽ: 14172375 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172265 -> 14171206
+DŽ: 14172933 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171824 -> 14171206
+DŽ: 14181861 -> 14171919
+DŽ: 14213689 -> 14195661
+DŽ: 14171206 -> 14171206
+DŽ: 14172047 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171789 -> 14171668
+DŽ: 14172015 -> 14171206
+DŽ: 14173516 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174742 -> 14174742
+DŽ: 14172778 -> 14171206
+DŽ: 14172933 -> 14171206
+DŽ: 14172196 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14189957 -> 14174288
+DŽ: 14171206 -> 14171206
+DŽ: 14173237 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172451 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2840539 loops 2786 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14201143
+DŽ: 14173334 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171944 -> 14171206
+DŽ: 14173079 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172632 -> 14171206
+DŽ: 14171944 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174673 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14213195 -> 14173147
+DŽ: 14171508 -> 14222264
+DŽ: 14171501 -> 14171206
+DŽ: 14172196 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14201143 -> 14197726
+DŽ: 14175225 -> 14196688
+DŽ: 14172917 -> 14171206
+DŽ: 14172751 -> 14171206
+DŽ: 14172643 -> 14171206
+DŽ: 14171363 -> 14171206
+DŽ: 14174329 -> 14174174
+DŽ: 14171621 -> 14171206
+
+ start over 2868181 loops 2810 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14196688 -> 14193720
+DŽ: 14172631 -> 14171206
+DŽ: 14175223 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172880 -> 14171206
+DŽ: 14172933 -> 14171206
+DŽ: 14175829 -> 14175212
+DŽ: 14194606 -> 14244778
+DŽ: 14171206 -> 14174174
+DŽ: 14174329 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172933 -> 14171206
+DŽ: 14172039 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172459 -> 14171206
+DŽ: 14172220 -> 14171919
+DŽ: 14174832 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172880 -> 14171206
+DŽ: 14193757 -> 14193720
+DŽ: 14171206 -> 14171206
+DŽ: 14244778 -> 14193720
+DŽ: 14174294 -> 14225232
+
+ start over 2895260 loops 2833 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14174788 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14174688 -> 14174174
+DŽ: 14172895 -> 14171206
+DŽ: 14173354 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14173354 -> 14222977
+DŽ: 14171206 -> 14171206
+DŽ: 14171565 -> 14171206
+DŽ: 14173354 -> 14222977
+DŽ: 14172459 -> 14222264
+DŽ: 14172459 -> 14171919
+DŽ: 14171919 -> 14172480
+DŽ: 14172039 -> 14171206
+DŽ: 14172360 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14172933 -> 14171919
+DŽ: 14172501 -> 14172381
+DŽ: 14172401 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172730 -> 14171206
+DŽ: 14222977 -> 14222977
+DŽ: 14172837 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 2922727 loops 2854 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14198629
+DŽ: 14171206 -> 14171206
+DŽ: 14172456 -> 14171919
+DŽ: 14171206 -> 14171206
+DŽ: 14171919 -> 14222977
+DŽ: 14222977 -> 14222977
+DŽ: 14178090 -> 14171206
+DŽ: 14222977 -> 14222977
+DŽ: 14172682 -> 14222264
+DŽ: 14172817 -> 14171206
+DŽ: 14172682 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171361 -> 14171206
+DŽ: 14178090 -> 14171668
+DŽ: 14178090 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14196123 -> 14195661
+DŽ: 14171206 -> 14171206
+DŽ: 14172078 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14177628 -> 14171206
+DŽ: 14177984 -> 14222264
+DŽ: 14172676 -> 14171206
+DŽ: 14222977 -> 14222977
+DŽ: 14196123 -> 14196123
+DŽ: 14177629 -> 14171206
+DŽ: 14176717 -> 14171206
+
+ start over 2949284 loops 2887 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14178593 -> 14171774
+DŽ: 14172265 -> 14171206
+DŽ: 14171919 -> 14171919
+DŽ: 14172385 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172345 -> 14171206
+DŽ: 14173020 -> 14171668
+DŽ: 14172983 -> 14171668
+DŽ: 14172385 -> 14171206
+DŽ: 14173020 -> 14171206
+DŽ: 14177638 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174473 -> 14174174
+DŽ: 14173441 -> 14171206
+DŽ: 14174473 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14172126 -> 14171206
+DŽ: 14195661 -> 14195661
+DŽ: 14171206 -> 14171206
+DŽ: 14171998 -> 14171206
+DŽ: 14172126 -> 14171206
+DŽ: 14172385 -> 14171206
+DŽ: 14171542 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172265 -> 14171206
+
+ start over 2979541 loops 2907 unique solutions 
+Approx + random 
+DŽ: 14454359 -> 14201605
+DŽ: 14171668 -> 14171206
+DŽ: 14171662 -> 14171206
+DŽ: 14172298 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172503 -> 14171206
+DŽ: 14175556 -> 14174174
+DŽ: 14171206 -> 14171206
+DŽ: 14174854 -> 14174636
+DŽ: 14172806 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172517 -> 14172236
+DŽ: 14171206 -> 14171206
+DŽ: 14174846 -> 14174174
+DŽ: 14171668 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14174846 -> 14174174
+DŽ: 14174174 -> 14174174
+DŽ: 14172190 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 3009181 loops 2941 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14172717 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172088 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171833 -> 14171668
+DŽ: 14172190 -> 14171668
+DŽ: 14172088 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172236 -> 14222832
+DŽ: 14173111 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171781 -> 14171206
+DŽ: 14172930 -> 14171206
+DŽ: 14172206 -> 14171206
+DŽ: 14171744 -> 14171206
+DŽ: 14172190 -> 14171668
+DŽ: 14222832 -> 14222832
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171746 -> 14171206
+DŽ: 14172066 -> 14171774
+DŽ: 14172088 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172066 -> 14171774
+DŽ: 14171206 -> 14171206
+
+ start over 3038678 loops 2969 unique solutions 
+Original + vert_size 13 
+DŽ: 14183889 -> 14175925
+DŽ: 14172298 -> 14171206
+DŽ: 14172206 -> 14171668
+DŽ: 14171878 -> 14171206
+DŽ: 14172208 -> 14171668
+DŽ: 14172078 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171746 -> 14171206
+DŽ: 14172326 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172078 -> 14171668
+DŽ: 14172326 -> 14171668
+DŽ: 14172206 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171865 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171626 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14172715 -> 14171668
+DŽ: 14172088 -> 14171668
+DŽ: 14172117 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172326 -> 14171668
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+
+ start over 3064629 loops 2970 unique solutions 
+Original + vert_size 0 
+DŽ: 14183889 -> 14175925
+DŽ: 14171206 -> 14171206
+DŽ: 14171668 -> 14171206
+DŽ: 14172171 -> 14222264
+DŽ: 14171206 -> 14171206
+DŽ: 14171744 -> 14171206
+DŽ: 14172078 -> 14171668
+DŽ: 14172078 -> 14171668
+DŽ: 14172088 -> 14171668
+DŽ: 14172381 -> 14172381
+DŽ: 14171206 -> 14171206
+DŽ: 14171206 -> 14171206
+DŽ: 14172817 -> 14171206
+end_heu: 3076518 loops with 2978 unique solutions in 1799.98 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 14171206 (was 14171206) in 0.000525 s
+## FINAL WEIGHT 14171206
+print_solution: 0.001324 s

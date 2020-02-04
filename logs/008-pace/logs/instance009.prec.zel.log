@@ -1,0 +1,864 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1557962311
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 3804, |E| = 6213, |R| = 38
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 1 zero edges in 1.9e-05 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 1, suppress 0 in 1e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1.1e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 3804 -> 3801
+  delete_edges: deleted 546 edges in 0.001454 s and 3 rounds
+  handle_small_terminal_degrees: terms 1 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 4, suppress 554 in 0.000138 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 14 in 8e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 3801 -> 3226
+  delete_edges_shortest_path: deleted 649 edges in 0.067703 s
+  handle_small_terminal_degrees: terms 22 in 1.3e-05 s
+  handle_small_Steiner_degrees: steiner 53, suppress 932 in 0.000197 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 10 in 7e-06 s
+  handle_small_Steiner_degrees: steiner 4, suppress 52 in 1.5e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 1 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 1 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 3226 -> 2149
+  handle_small_terminal_degrees: terms 0 in 2e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+  shortest_edge_between_terminals: 1 edges in 2e-06 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 2149 -> 2135
+  delete_edges_shortest_path: deleted 64 edges in 0.019349 s
+  handle_small_terminal_degrees: terms 2 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 2, suppress 125 in 3.5e-05 s
+  shortest_edge_between_terminals: 3 edges in 3e-06 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 9 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 2e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 2e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 2135 -> 1993
+Compressed graph 1993 -> 1993
+>>> save_orig_graph
+>> Saved weight 10129696
+### ZEL_LVL=9 PRECISE_STARS=1
+
+Calling `contract_till_the_bitter_end`
+|V| = 1993, |E| = 3053, |R| = 34
+>> 46916 (1521: 782 807 782) (0.000654 s)
+>> 42638 (298: 808 809 808) (0.000603 s)
+>> 4261 (773: 771 772 771) (0.000594 s)
+>> 3132 (1035: 774 777 774) (0.000564 s)
+>> 2582 (781: 780 1016 780) (0.000547 s)
+>> 2298 (1841: 787 790 787) (0.000528 s)
+>> 1584 (1032: 770 776 770) (0.000524 s)
+>> 0 (-1: -1 -1 -1) (0.000415 s)
+Zelikovsky 0.463927 s
+>> 46916 (1521: 808 807 782) (0.466486 s)
+>> 42638 (298: 813 809 808) (0.460343 s)
+>> 4261 (773: 776 772 771) (0.473852 s)
+>> 2582 (781: 1016 779 780) (0.473112 s)
+>> 2511 (1567: 778 813 783) (0.471164 s)
+>> 2298 (1841: 791 790 787) (0.469954 s)
+>> 2041 (1035: 777 778 774) (0.469854 s)
+>> 1563 (322: 796 797 777) (0.468991 s)
+>> 1431 (799: 796 802 798) (0.477532 s)
+>> 256 (735: 801 1958 795) (0.475806 s)
+>> 144 (1674: 803 801 796) (0.475037 s)
+>> 0 (-1: -1 -1 -1) (0.474399 s)
+Zelikovsky- 5.66067 s
+>>> get_solution
+  refine_solution: new weight 15857472 (was 15861264) in 0.000377 s
+  refine_solution: new weight 15857472 (was 15857472) in 0.000367 s
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000394 s
+0,,1993,3053,34,,0,0,,15912479,15912479,15863016,15861264,15857472,,0,0,@@
+
+  delete_edges: deleted 8 edges in 0.000222 s and 1 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 13 in 8e-06 s
+Starting round 1
+Found 13 isolated vertices
+Invalid ratios recomputed: 1980
+Best ratio is 761/1 (761.0), centered at 735
+Finding the best star... Star with 2 terminals centered in 1958
+round took: 0.242456 s
+|V| = 1993, |E| = 3028, |R| = 33
+>> 46916 (1521: 782 807 782) (0.000633 s)
+>> 42638 (298: 808 809 808) (0.000589 s)
+>> 4261 (773: 771 772 771) (0.000571 s)
+>> 3132 (1035: 774 777 774) (0.000554 s)
+>> 2582 (781: 780 1016 780) (0.000536 s)
+>> 2298 (1841: 787 790 787) (0.000514 s)
+>> 1584 (1032: 770 776 770) (0.000504 s)
+>> 0 (-1: -1 -1 -1) (0.000412 s)
+Zelikovsky 0.457407 s
+>> 46916 (1521: 808 807 782) (0.456552 s)
+>> 42638 (298: 813 809 808) (0.455889 s)
+>> 4261 (773: 776 772 771) (0.469381 s)
+>> 2582 (781: 1016 779 780) (0.468286 s)
+>> 2511 (1567: 778 813 783) (0.466784 s)
+>> 2298 (1841: 791 790 787) (0.464989 s)
+>> 2041 (1035: 777 778 774) (0.464992 s)
+>> 1563 (322: 796 797 777) (0.464124 s)
+>> 1431 (799: 796 802 798) (0.472662 s)
+>> 144 (1674: 803 1958 796) (0.471581 s)
+>> 7 (741: 795 791 803) (0.47109 s)
+>> 0 (-1: -1 -1 -1) (0.470359 s)
+Zelikovsky- 5.60073 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15861257) in 0.000381 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.00037 s
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000364 s
+1,,1980,3028,33,,1980,0,,15912479,15912479,15863016,15861257,15857465,,761,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 6e-06 s
+Starting round 2
+Found 16 isolated vertices
+Invalid ratios recomputed: 1240
+Best ratio is 1737/1 (1737.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.204907 s
+|V| = 1993, |E| = 3025, |R| = 32
+>> 46916 (1521: 782 807 782) (0.000609 s)
+>> 42638 (298: 808 809 808) (0.000574 s)
+>> 4261 (773: 771 772 771) (0.000556 s)
+>> 3132 (1035: 774 777 774) (0.000535 s)
+>> 2582 (781: 780 1016 780) (0.000515 s)
+>> 2298 (1841: 787 790 787) (0.000499 s)
+>> 1584 (1032: 770 776 770) (0.000492 s)
+>> 0 (-1: -1 -1 -1) (0.000405 s)
+Zelikovsky 0.456527 s
+>> 46916 (1521: 808 807 782) (0.4553 s)
+>> 42638 (298: 813 809 808) (0.454732 s)
+>> 4261 (773: 776 772 771) (0.468025 s)
+>> 2582 (781: 1016 779 780) (0.467326 s)
+>> 2511 (1567: 778 813 783) (0.465794 s)
+>> 2298 (1841: 791 790 787) (0.464754 s)
+>> 2041 (1035: 777 778 774) (0.464024 s)
+>> 1563 (322: 796 797 777) (0.462972 s)
+>> 1431 (799: 796 802 798) (0.4718 s)
+>> 144 (1674: 803 1958 796) (0.470332 s)
+>> 7 (741: 795 791 803) (0.469855 s)
+>> 0 (-1: -1 -1 -1) (0.469755 s)
+Zelikovsky- 5.58867 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15861257) in 0.000379 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.000368 s
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000364 s
+2,,1977,3025,32,,1240,0,,15912479,15912479,15863016,15861257,15857465,,1737,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+Starting round 3
+Found 18 isolated vertices
+Invalid ratios recomputed: 1244
+Best ratio is 2696/1 (2696.0), centered at 756
+Finding the best star... Star with 2 terminals centered in 1016
+round took: 0.204044 s
+|V| = 1993, |E| = 3022, |R| = 31
+>> 46916 (1521: 782 807 782) (0.000588 s)
+>> 42638 (298: 808 809 808) (0.000567 s)
+>> 4261 (773: 771 772 771) (0.000535 s)
+>> 3132 (1035: 774 777 774) (0.000517 s)
+>> 2582 (781: 780 1016 780) (0.000495 s)
+>> 2298 (1841: 787 790 787) (0.000476 s)
+>> 1884 (1031: 770 1395 770) (0.000477 s)
+>> 0 (-1: -1 -1 -1) (0.000386 s)
+Zelikovsky 0.453471 s
+>> 46916 (1521: 808 807 782) (0.453615 s)
+>> 42638 (298: 813 809 808) (0.453137 s)
+>> 4261 (773: 1016 772 771) (0.466658 s)
+>> 2582 (781: 1016 779 780) (0.465343 s)
+>> 2511 (1567: 778 813 783) (0.464078 s)
+>> 2298 (1841: 791 790 787) (0.463189 s)
+>> 2041 (1035: 777 778 774) (0.462389 s)
+>> 1563 (322: 796 797 777) (0.461379 s)
+>> 1431 (799: 796 802 798) (0.469657 s)
+>> 144 (1674: 803 1958 796) (0.468376 s)
+>> 7 (741: 795 791 803) (0.467247 s)
+>> 0 (-1: -1 -1 -1) (0.467605 s)
+Zelikovsky- 5.56667 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15861257) in 0.000382 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.000371 s
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000364 s
+3,,1975,3022,31,,1244,0,,15912479,15912479,15866206,15861257,15857465,,2696,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+Starting round 4
+Found 21 isolated vertices
+Invalid ratios recomputed: 1223
+Best ratio is 12552/3 (4184.0), centered at 787
+Finding the best star... Star with 4 terminals centered in 795
+round took: 0.199958 s
+|V| = 1993, |E| = 3002, |R| = 28
+>> 46916 (1521: 782 807 782) (0.000525 s)
+>> 42638 (298: 808 809 808) (0.000492 s)
+>> 4261 (773: 771 772 771) (0.000471 s)
+>> 3132 (1035: 774 777 774) (0.000456 s)
+>> 2582 (781: 780 1016 780) (0.000435 s)
+>> 1884 (1031: 770 1395 770) (0.000418 s)
+>> 0 (-1: -1 -1 -1) (0.000366 s)
+Zelikovsky 0.442048 s
+>> 46916 (1521: 808 807 782) (0.444913 s)
+>> 42638 (298: 813 809 808) (0.444578 s)
+>> 4261 (773: 1016 772 771) (0.457531 s)
+>> 2582 (781: 1016 779 780) (0.456193 s)
+>> 2511 (1567: 778 813 783) (0.455243 s)
+>> 2041 (1035: 777 778 774) (0.45444 s)
+>> 1563 (322: 796 797 777) (0.453008 s)
+>> 1431 (799: 796 802 798) (0.461233 s)
+>> 144 (1674: 803 1958 796) (0.460237 s)
+>> 0 (-1: -1 -1 -1) (0.459957 s)
+Zelikovsky- 4.55075 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15861257) in 0.000387 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.000368 s
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.000365 s
+4,,1972,3002,28,,1223,0,,15911046,15911046,15866199,15861257,15857465,,12552,4,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 6e-06 s
+Starting round 5
+Found 41 isolated vertices
+Invalid ratios recomputed: 1244
+Best ratio is 4387/1 (4387.0), centered at 795
+Finding the best star... Star with 2 terminals centered in 1958
+round took: 0.20306 s
+|V| = 1993, |E| = 2991, |R| = 27
+>> 46916 (1521: 782 807 782) (0.000501 s)
+>> 42638 (298: 808 809 808) (0.000477 s)
+>> 4261 (773: 771 772 771) (0.000461 s)
+>> 3132 (1035: 774 777 774) (0.00044 s)
+>> 2582 (781: 780 1016 780) (0.000423 s)
+>> 1884 (1031: 770 1395 770) (0.000409 s)
+>> 0 (-1: -1 -1 -1) (0.000347 s)
+Zelikovsky 0.436306 s
+>> 46916 (1521: 808 807 782) (0.438348 s)
+>> 42638 (298: 813 809 808) (0.43807 s)
+>> 4261 (773: 1016 772 771) (0.4514 s)
+>> 2582 (781: 1016 779 780) (0.449781 s)
+>> 2511 (1567: 778 813 783) (0.448742 s)
+>> 2041 (1035: 777 778 774) (0.448059 s)
+>> 1563 (322: 796 797 777) (0.44729 s)
+>> 1431 (799: 796 802 798) (0.455513 s)
+>> 144 (1674: 803 1958 796) (0.453778 s)
+>> 0 (-1: -1 -1 -1) (0.4541 s)
+Zelikovsky- 4.48848 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15861257) in 0.000379 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.000369 s
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.000377 s
+5,,1952,2991,27,,1244,0,,15911046,15911046,15866199,15861257,15857465,,4387,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 5e-06 s
+Starting round 6
+Found 50 isolated vertices
+Invalid ratios recomputed: 1236
+Best ratio is 5245/1 (5245.0), centered at 748
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.202188 s
+|V| = 1993, |E| = 2979, |R| = 26
+>> 46916 (1521: 782 807 782) (0.000493 s)
+>> 42638 (298: 808 809 808) (0.000462 s)
+>> 4261 (773: 771 772 771) (0.000441 s)
+>> 3132 (1035: 774 777 774) (0.000426 s)
+>> 2582 (781: 780 1016 780) (0.000407 s)
+>> 1884 (1031: 770 1395 770) (0.00039 s)
+>> 0 (-1: -1 -1 -1) (0.000344 s)
+Zelikovsky 0.432372 s
+>> 46916 (1521: 808 807 782) (0.43504 s)
+>> 42638 (298: 813 809 808) (0.434881 s)
+>> 4261 (773: 1016 772 771) (0.448073 s)
+>> 2582 (781: 1016 779 780) (0.446772 s)
+>> 2511 (1567: 778 813 783) (0.446001 s)
+>> 2041 (1035: 777 778 774) (0.444924 s)
+>> 1563 (322: 796 797 777) (0.443902 s)
+>> 1431 (799: 796 802 798) (0.452242 s)
+>> 144 (1674: 803 796 786) (0.4511 s)
+>> 0 (-1: -1 -1 -1) (0.450898 s)
+Zelikovsky- 4.45723 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15861257) in 0.000379 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.000371 s
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.000364 s
+6,,1943,2979,26,,1236,0,,15911046,15911046,15866199,15861257,15857465,,5245,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 7
+Found 56 isolated vertices
+Invalid ratios recomputed: 1230
+Best ratio is 17152/3 (5717.3), centered at 694
+Finding the best star... Star with 4 terminals centered in 1395
+round took: 0.201443 s
+|V| = 1993, |E| = 2961, |R| = 23
+>> 46916 (1521: 807 808 807) (0.000439 s)
+>> 8660 (1137: 803 809 803) (0.00041 s)
+>> 4261 (773: 771 772 771) (0.000401 s)
+>> 2313 (1567: 778 783 778) (0.000381 s)
+>> 2269 (799: 797 798 797) (0.000368 s)
+>> 1881 (760: 774 777 774) (0.000368 s)
+>> 1635 (322: 786 796 786) (0.000348 s)
+>> 4632 (988: 789 792 789) (0.000339 s)
+>> 45953 (29: 804 813 804) (0.000335 s)
+>> 1584 (1032: 770 1395 770) (0.000319 s)
+>> 0 (-1: -1 -1 -1) (0.000302 s)
+Zelikovsky 0.424947 s
+>> 46916 (1521: 808 1395 807) (0.427583 s)
+>> 42638 (298: 813 809 808) (0.427731 s)
+>> 4261 (773: 813 772 771) (0.441708 s)
+>> 2511 (1567: 778 813 783) (0.440318 s)
+>> 2041 (1035: 777 778 774) (0.439162 s)
+>> 1563 (322: 796 797 777) (0.43849 s)
+>> 1431 (799: 796 802 798) (0.44544 s)
+>> 144 (1674: 803 796 786) (0.443875 s)
+>> 0 (-1: -1 -1 -1) (0.444447 s)
+Zelikovsky- 3.95184 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15857912) in 0.000377 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.000371 s
+>>> get_solution
+  refine_solution: new weight 15906983 (was 15906983) in 0.000367 s
+7,,1937,2961,23,,1230,0,,15906983,15906983,15901372,15857912,15857465,,17152,4,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 6e-06 s
+Starting round 8
+Found 71 isolated vertices
+Invalid ratios recomputed: 1224
+Best ratio is 5847/1 (5847.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.200503 s
+|V| = 1993, |E| = 2956, |R| = 22
+>> 46916 (1521: 807 808 807) (0.00042 s)
+>> 8660 (1137: 786 809 786) (0.000396 s)
+>> 4261 (773: 771 772 771) (0.000385 s)
+>> 2513 (1452: 789 792 789) (0.000369 s)
+>> 2313 (1567: 778 783 778) (0.000366 s)
+>> 2269 (799: 797 798 797) (0.000354 s)
+>> 1881 (760: 774 777 774) (0.000341 s)
+>> 1584 (1032: 770 1395 770) (0.000326 s)
+>> 0 (-1: -1 -1 -1) (0.000308 s)
+Zelikovsky 0.42073 s
+>> 46916 (1521: 808 1395 807) (0.424316 s)
+>> 42638 (298: 813 809 808) (0.425211 s)
+>> 4261 (773: 813 772 771) (0.438403 s)
+>> 2511 (1567: 778 813 783) (0.437123 s)
+>> 2041 (1035: 777 778 774) (0.436132 s)
+>> 1563 (322: 796 797 777) (0.435546 s)
+>> 520 (799: 796 802 798) (0.442256 s)
+>> 0 (-1: -1 -1 -1) (0.441282 s)
+Zelikovsky- 3.48308 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15857912) in 0.000374 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.00037 s
+>>> get_solution
+  refine_solution: new weight 15906983 (was 15906983) in 0.001095 s
+8,,1922,2956,22,,1224,0,,15906983,15906983,15902935,15857912,15857465,,5847,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 8e-06 s
+Starting round 9
+Found 75 isolated vertices
+Invalid ratios recomputed: 1229
+Best ratio is 5902/1 (5902.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.205143 s
+|V| = 1993, |E| = 2951, |R| = 21
+>> 46916 (1521: 807 808 807) (0.000413 s)
+>> 8660 (1137: 786 809 786) (0.000384 s)
+>> 4261 (773: 771 772 771) (0.000385 s)
+>> 3822 (846: 789 792 789) (0.000359 s)
+>> 2313 (1567: 778 783 778) (0.000364 s)
+>> 1881 (760: 774 777 774) (0.00034 s)
+>> 1584 (1032: 770 1395 770) (0.000327 s)
+>> 0 (-1: -1 -1 -1) (0.00031 s)
+Zelikovsky 0.417215 s
+>> 46916 (1521: 808 1395 807) (0.422597 s)
+>> 42638 (298: 813 809 808) (0.422883 s)
+>> 4261 (773: 813 772 771) (0.436064 s)
+>> 2511 (1567: 778 813 783) (0.435055 s)
+>> 2041 (1035: 777 778 774) (0.434115 s)
+>> 1563 (322: 796 786 777) (0.433317 s)
+>> 520 (799: 796 802 798) (0.440524 s)
+>> 0 (-1: -1 -1 -1) (0.439527 s)
+Zelikovsky- 3.46674 s
+>>> get_solution
+  refine_solution: new weight 15857465 (was 15857912) in 0.000377 s
+  refine_solution: new weight 15857465 (was 15857465) in 0.00037 s
+>>> get_solution
+  refine_solution: new weight 15906983 (was 15906983) in 0.000368 s
+9,,1918,2951,21,,1229,0,,15906983,15906983,15901892,15857912,15857465,,5902,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+Starting round 10
+Found 80 isolated vertices
+Invalid ratios recomputed: 1224
+Best ratio is 6874/1 (6874.0), centered at 760
+Finding the best star... Star with 2 terminals centered in 777
+round took: 0.200674 s
+|V| = 1993, |E| = 2942, |R| = 20
+>> 46916 (1521: 807 808 807) (0.000393 s)
+>> 8660 (1137: 786 809 786) (0.000367 s)
+>> 4261 (773: 771 772 771) (0.00036 s)
+>> 3822 (846: 789 792 789) (0.000353 s)
+>> 2313 (1567: 778 783 778) (0.000345 s)
+>> 1584 (1032: 770 777 770) (0.000329 s)
+>> 0 (-1: -1 -1 -1) (0.000299 s)
+Zelikovsky 0.41259 s
+>> 46916 (1521: 808 1395 807) (0.418731 s)
+>> 42638 (298: 813 809 808) (0.419221 s)
+>> 4261 (773: 813 772 771) (0.432421 s)
+>> 2511 (1567: 778 813 783) (0.431374 s)
+>> 1563 (322: 796 786 778) (0.430336 s)
+>> 1251 (1035: 777 796 774) (0.437441 s)
+>> 520 (799: 777 802 798) (0.437027 s)
+>> 0 (-1: -1 -1 -1) (0.436294 s)
+Zelikovsky- 3.44554 s
+>>> get_solution
+  refine_solution: new weight 15857586 (was 15858033) in 0.00038 s
+  refine_solution: new weight 15857586 (was 15857586) in 0.000376 s
+>>> get_solution
+  refine_solution: new weight 15907533 (was 15907533) in 0.000367 s
+10,,1913,2942,20,,1224,0,,15907533,15907533,15901383,15858033,15857586,,6874,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 11
+Found 89 isolated vertices
+Invalid ratios recomputed: 1285
+Best ratio is 7493/1 (7493.0), centered at 778
+Finding the best star... Star with 2 terminals centered in 1395
+round took: 0.20896 s
+|V| = 1993, |E| = 2930, |R| = 19
+>> 46916 (1521: 807 808 807) (0.000382 s)
+>> 8660 (1137: 786 809 786) (0.000364 s)
+>> 4261 (773: 771 772 771) (0.000349 s)
+>> 3822 (846: 789 792 789) (0.000338 s)
+>> 1251 (1035: 774 777 774) (0.000328 s)
+>> 0 (-1: -1 -1 -1) (0.000318 s)
+Zelikovsky 0.407617 s
+>> 46916 (1521: 808 1395 807) (0.414361 s)
+>> 42638 (298: 813 809 808) (0.414915 s)
+>> 4261 (773: 813 772 771) (0.427751 s)
+>> 1563 (322: 796 813 786) (0.426415 s)
+>> 1251 (1035: 777 796 774) (0.433936 s)
+>> 520 (799: 777 802 798) (0.433118 s)
+>> 0 (-1: -1 -1 -1) (0.432308 s)
+Zelikovsky- 2.98522 s
+>>> get_solution
+  refine_solution: new weight 15861047 (was 15861047) in 0.000379 s
+>>> get_solution
+  refine_solution: new weight 15907533 (was 15907533) in 0.000371 s
+11,,1904,2930,19,,1285,0,,15907533,15907533,15904205,15861047,15861047,,7493,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 1 in 4e-06 s
+Starting round 12
+Found 98 isolated vertices
+Invalid ratios recomputed: 1276
+Best ratio is 15707/2 (7853.5), centered at 690
+Finding the best star... Star with 3 terminals centered in 777
+round took: 0.21118 s
+|V| = 1993, |E| = 2900, |R| = 17
+>> 46916 (1521: 777 807 777) (0.000354 s)
+>> 42638 (298: 808 809 808) (0.000332 s)
+>> 520 (799: 786 798 786) (0.000324 s)
+>> 3822 (846: 789 792 789) (0.000314 s)
+>> 0 (-1: -1 -1 -1) (0.000305 s)
+Zelikovsky 0.397035 s
+>> 46916 (1521: 808 807 777) (0.404827 s)
+>> 42638 (298: 813 809 808) (0.405193 s)
+>> 2569 (767: 813 772 771) (0.417756 s)
+>> 1563 (322: 796 813 786) (0.416805 s)
+>> 520 (799: 796 802 798) (0.423939 s)
+>> 0 (-1: -1 -1 -1) (0.423059 s)
+Zelikovsky- 2.49373 s
+>>> get_solution
+  refine_solution: new weight 15860022 (was 15860022) in 0.000383 s
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.000375 s
+12,,1895,2900,17,,1276,0,,15907312,15907312,15862591,15860022,15860022,,15707,3,@@
+
+  handle_small_Steiner_degrees: steiner 2, suppress 10 in 1.2e-05 s
+Starting round 13
+Found 129 isolated vertices
+Invalid ratios recomputed: 1245
+Best ratio is 8331/1 (8331.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.221568 s
+|V| = 1993, |E| = 2874, |R| = 16
+>> 46916 (1521: 777 807 777) (0.000341 s)
+>> 42638 (298: 808 809 808) (0.000319 s)
+>> 520 (799: 786 798 786) (0.000311 s)
+>> 4112 (988: 789 792 789) (0.000305 s)
+>> 0 (-1: -1 -1 -1) (0.000294 s)
+Zelikovsky 0.388778 s
+>> 46916 (1521: 808 807 777) (0.396103 s)
+>> 42638 (298: 813 809 808) (0.397444 s)
+>> 2569 (767: 813 772 771) (0.409598 s)
+>> 520 (799: 786 802 798) (0.408768 s)
+>> 0 (-1: -1 -1 -1) (0.408516 s)
+Zelikovsky- 2.02229 s
+>>> get_solution
+  refine_solution: new weight 15861585 (was 15861585) in 0.000381 s
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.00037 s
+13,,1864,2874,16,,1245,0,,15907312,15907312,15864154,15861585,15861585,,8331,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+Starting round 14
+Found 136 isolated vertices
+Invalid ratios recomputed: 1218
+Best ratio is 9969/1 (9969.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.209735 s
+|V| = 1993, |E| = 2868, |R| = 15
+>> 46916 (1521: 777 807 777) (0.000328 s)
+>> 42638 (298: 808 809 808) (0.000308 s)
+>> 520 (799: 786 798 786) (0.000313 s)
+>> 0 (-1: -1 -1 -1) (0.00029 s)
+Zelikovsky 0.386065 s
+>> 46916 (1521: 808 807 777) (0.394439 s)
+>> 42638 (298: 813 809 808) (0.394811 s)
+>> 2569 (767: 813 772 771) (0.406875 s)
+>> 520 (799: 786 802 798) (0.406111 s)
+>> 0 (-1: -1 -1 -1) (0.406038 s)
+Zelikovsky- 2.01012 s
+>>> get_solution
+  refine_solution: new weight 15861585 (was 15861585) in 0.000381 s
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.000371 s
+14,,1857,2868,15,,1218,0,,15907312,15907312,15864154,15861585,15861585,,9969,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 15
+Found 141 isolated vertices
+Invalid ratios recomputed: 1213
+Best ratio is 159840/1 (159840.0), centered at 752
+Finding the best star... Star with 2 terminals centered in 783
+round took: 0.214942 s
+|V| = 1993, |E| = 2852, |R| = 14
+>> 46916 (1521: 783 807 783) (0.000318 s)
+>> 42638 (298: 808 809 808) (0.000299 s)
+>> 520 (799: 786 798 786) (0.000296 s)
+>> 0 (-1: -1 -1 -1) (0.000281 s)
+Zelikovsky 0.381012 s
+>> 46916 (1521: 808 807 783) (0.389127 s)
+>> 42638 (298: 813 809 808) (0.390008 s)
+>> 2569 (767: 813 772 771) (0.402065 s)
+>> 520 (799: 786 802 798) (0.401341 s)
+>> 0 (-1: -1 -1 -1) (0.401154 s)
+Zelikovsky- 1.98552 s
+>>> get_solution
+  refine_solution: new weight 15861585 (was 15861585) in 0.000377 s
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.00037 s
+15,,1852,2852,14,,1213,0,,15907312,15907312,15864154,15861585,15861585,,159840,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 6 in 7e-06 s
+Starting round 16
+Found 156 isolated vertices
+Invalid ratios recomputed: 1559
+Best ratio is 162563/1 (162563.0), centered at 766
+Finding the best star... Star with 2 terminals centered in 772
+round took: 0.243475 s
+|V| = 1993, |E| = 2833, |R| = 13
+>> 46916 (1521: 772 807 772) (0.000311 s)
+>> 42638 (298: 808 809 808) (0.000289 s)
+>> 520 (799: 786 798 786) (0.000282 s)
+>> 0 (-1: -1 -1 -1) (0.000276 s)
+Zelikovsky 0.374781 s
+>> 46916 (1521: 808 807 772) (0.382946 s)
+>> 42638 (298: 813 809 808) (0.383681 s)
+>> 520 (799: 786 802 798) (0.39544 s)
+>> 0 (-1: -1 -1 -1) (0.395188 s)
+Zelikovsky- 1.55883 s
+>>> get_solution
+  refine_solution: new weight 15862802 (was 15862802) in 0.000378 s
+>>> get_solution
+  refine_solution: new weight 15905960 (was 15905960) in 0.000375 s
+16,,1837,2833,13,,1559,0,,15905960,15905960,15862802,15862802,15862802,,162563,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 17
+Found 166 isolated vertices
+Invalid ratios recomputed: 1549
+Best ratio is 164409/1 (164409.0), centered at 807
+Finding the best star... Star with 2 terminals centered in 807
+round took: 0.243717 s
+|V| = 1993, |E| = 2824, |R| = 12
+>> 42638 (298: 807 809 807) (0.000301 s)
+>> 520 (799: 786 798 786) (0.000279 s)
+>> 0 (-1: -1 -1 -1) (0.000272 s)
+Zelikovsky 0.370263 s
+>> 42638 (298: 813 809 807) (0.37899 s)
+>> 10128 (323: 772 813 786) (0.382847 s)
+>> 520 (799: 772 802 798) (0.398741 s)
+>> 0 (-1: -1 -1 -1) (0.397487 s)
+Zelikovsky- 1.55964 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.000383 s
+>>> get_solution
+  refine_solution: new weight 15903082 (was 15903082) in 0.000381 s
+17,,1827,2824,12,,1549,0,,15903082,15903082,15859924,15849796,15849796,,164409,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 6e-06 s
+Starting round 18
+Found 173 isolated vertices
+Invalid ratios recomputed: 1633
+Best ratio is 258486/1 (258486.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 792
+round took: 0.251757 s
+|V| = 1993, |E| = 2818, |R| = 11
+>> 42638 (298: 807 809 807) (0.000295 s)
+>> 520 (799: 792 798 792) (0.000272 s)
+>> 0 (-1: -1 -1 -1) (0.000271 s)
+Zelikovsky 0.368545 s
+>> 42638 (298: 813 809 807) (0.377403 s)
+>> 10128 (323: 772 813 792) (0.381741 s)
+>> 520 (799: 772 802 798) (0.396654 s)
+>> 0 (-1: -1 -1 -1) (0.395751 s)
+Zelikovsky- 1.55312 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.000382 s
+>>> get_solution
+  refine_solution: new weight 15903082 (was 15903082) in 0.000371 s
+18,,1820,2818,11,,1633,0,,15903082,15903082,15859924,15849796,15849796,,258486,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 19
+Found 178 isolated vertices
+Invalid ratios recomputed: 1516
+Best ratio is 261918/1 (261918.0), centered at 758
+Finding the best star... Star with 2 terminals centered in 774
+round took: 0.245205 s
+|V| = 1993, |E| = 2813, |R| = 10
+>> 42638 (298: 807 809 807) (0.000289 s)
+>> 520 (799: 792 798 792) (0.000267 s)
+>> 0 (-1: -1 -1 -1) (0.000257 s)
+Zelikovsky 0.366372 s
+>> 42638 (298: 813 809 807) (0.375418 s)
+>> 10128 (323: 774 813 792) (0.379234 s)
+>> 520 (799: 774 802 798) (0.394345 s)
+>> 0 (-1: -1 -1 -1) (0.393502 s)
+Zelikovsky- 1.54407 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.000392 s
+>>> get_solution
+  refine_solution: new weight 15903082 (was 15903082) in 0.000371 s
+19,,1815,2813,10,,1516,0,,15903082,15903082,15859924,15849796,15849796,,261918,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+Starting round 20
+Found 181 isolated vertices
+Invalid ratios recomputed: 1755
+Best ratio is 327222/1 (327222.0), centered at 792
+Finding the best star... Star with 2 terminals centered in 792
+round took: 0.270847 s
+|V| = 1993, |E| = 2808, |R| = 9
+>> 42638 (298: 807 809 807) (0.000283 s)
+>> 0 (-1: -1 -1 -1) (0.000264 s)
+Zelikovsky 0.363855 s
+>> 42638 (298: 813 809 807) (0.373307 s)
+>> 10128 (323: 774 813 792) (0.377202 s)
+>> 0 (-1: -1 -1 -1) (0.391769 s)
+Zelikovsky- 1.14359 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.000383 s
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.000372 s
+20,,1812,2808,9,,1755,0,,15902562,15902562,15859924,15849796,15849796,,327222,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 21
+Found 186 isolated vertices
+Invalid ratios recomputed: 1661
+Best ratio is 329319/1 (329319.0), centered at 728
+Finding the best star... Star with 2 terminals centered in 802
+round took: 0.292986 s
+|V| = 1993, |E| = 2799, |R| = 8
+>> 42638 (298: 807 809 807) (0.00028 s)
+>> 0 (-1: -1 -1 -1) (0.000258 s)
+Zelikovsky 0.360646 s
+>> 42638 (298: 813 809 807) (0.370905 s)
+>> 10128 (323: 774 813 802) (0.374407 s)
+>> 0 (-1: -1 -1 -1) (0.388435 s)
+Zelikovsky- 1.13508 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.000382 s
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.00037 s
+21,,1807,2799,8,,1661,0,,15902562,15902562,15859924,15849796,15849796,,329319,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 22
+Found 192 isolated vertices
+Invalid ratios recomputed: 1655
+Best ratio is 337096/1 (337096.0), centered at 767
+Finding the best star... Star with 2 terminals centered in 771
+round took: 0.371062 s
+|V| = 1993, |E| = 2789, |R| = 7
+>> 42638 (298: 807 809 807) (0.000273 s)
+>> 0 (-1: -1 -1 -1) (0.000251 s)
+Zelikovsky 0.358195 s
+>> 42638 (298: 813 809 807) (0.367307 s)
+>> 10128 (323: 771 813 802) (0.371109 s)
+>> 0 (-1: -1 -1 -1) (0.384722 s)
+Zelikovsky- 1.12444 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.000382 s
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.000369 s
+22,,1801,2789,7,,1655,0,,15902562,15902562,15859924,15849796,15849796,,337096,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 3 in 6e-06 s
+Starting round 23
+Found 200 isolated vertices
+Invalid ratios recomputed: 1778
+Best ratio is 357838/1 (357838.0), centered at 804
+Finding the best star... Star with 2 terminals centered in 804
+round took: 0.334651 s
+|V| = 1993, |E| = 2776, |R| = 6
+>> 42638 (298: 804 809 804) (0.000267 s)
+>> 0 (-1: -1 -1 -1) (0.000246 s)
+Zelikovsky 0.35571 s
+>> 42638 (298: 813 809 804) (0.362823 s)
+>> 10128 (323: 771 813 802) (0.367675 s)
+Zelikovsky- 0.73177 s
+>>> get_solution
+  refine_solution: new weight 15849796 (was 15849796) in 0.00038 s
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.00037 s
+23,,1793,2776,6,,1778,0,,15902562,15902562,15859924,15849796,15849796,,357838,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 5e-06 s
+Starting round 24
+Found 208 isolated vertices
+Invalid ratios recomputed: 1785
+Best ratio is 359055/1 (359055.0), centered at 29
+Finding the best star... Star with 2 terminals centered in 804
+round took: 0.340153 s
+|V| = 1993, |E| = 2735, |R| = 5
+>> 42638 (298: 804 809 804) (0.000258 s)
+>> 0 (-1: -1 -1 -1) (0.000242 s)
+Zelikovsky 0.348885 s
+>> 42638 (298: 813 809 804) (0.350767 s)
+>> 0 (-1: -1 -1 -1) (0.360903 s)
+Zelikovsky- 0.712715 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000384 s
+>>> get_solution
+  refine_solution: new weight 15895054 (was 15895054) in 0.000372 s
+24,,1785,2735,5,,1785,0,,15895054,15895054,15852416,15852416,15852416,,359055,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 8 in 7e-06 s
+Starting round 25
+Found 248 isolated vertices
+Invalid ratios recomputed: 1745
+Best ratio is 469383/1 (469383.0), centered at 780
+Finding the best star... Star with 2 terminals centered in 804
+round took: 0.331357 s
+|V| = 1993, |E| = 2718, |R| = 4
+>> 42638 (298: 804 809 804) (0.000251 s)
+>> 0 (-1: -1 -1 -1) (0.000235 s)
+Zelikovsky 0.337726 s
+>> 42638 (298: 813 809 804) (0.346293 s)
+Zelikovsky- 0.34732 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000381 s
+>>> get_solution
+  refine_solution: new weight 15895054 (was 15895054) in 0.00037 s
+25,,1745,2718,4,,1745,0,,15895054,15895054,15852416,15852416,15852416,,469383,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 5e-06 s
+Starting round 26
+Found 252 isolated vertices
+Invalid ratios recomputed: 1741
+Best ratio is 721044/1 (721044.0), centered at 41
+Finding the best star... Star with 2 terminals centered in 813
+round took: 0.433438 s
+|V| = 1993, |E| = 2684, |R| = 3
+>> 0 (-1: -1 -1 -1) (0.000247 s)
+Zelikovsky 0.32748 s
+>> 0 (-1: -1 -1 -1) (0.336684 s)
+Zelikovsky- 0.337478 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000383 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000379 s
+26,,1741,2684,3,,1741,0,,15852416,15852416,15852416,15852416,15852416,,721044,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 6 in 1e-05 s
+Starting round 27
+Found 282 isolated vertices
+Invalid ratios recomputed: 1711
+Best ratio is 764319/1 (764319.0), centered at 271
+Finding the best star... Star with 2 terminals centered in 813
+round took: 0.395098 s
+|V| = 1993, |E| = 2653, |R| = 2
+Zelikovsky 0.325279 s
+Zelikovsky- 0.000758 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.00038 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000371 s
+27,,1711,2653,2,,1711,0,,15852416,15852416,15852416,15852416,15852416,,764319,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 7 in 1.1e-05 s
+Starting round 28
+Found 310 isolated vertices
+Invalid ratios recomputed: 1683
+Best ratio is 945575/1 (945575.0), centered at 322
+Finding the best star... Star with 2 terminals centered in 802
+round took: 0.411059 s
+|V| = 1993, |E| = 2635, |R| = 1
+Zelikovsky 0.322209 s
+Zelikovsky- 0.000751 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000383 s
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000367 s
+28,,1683,2635,1,,1683,0,,15852416,15852416,15852416,15852416,15852416,,945575,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 0 in 3e-06 s
+contract_till_the_bitter_end: 92.2314 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 10129696
+end_heu: 0 loops with 0 unique solutions in 6e-05 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000789 s
+## FINAL WEIGHT 15852416
+print_solution: 0.001982 s

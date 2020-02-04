@@ -1,0 +1,3340 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1549734632
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 3804, |E| = 6213, |R| = 38
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 1 zero edges in 1.4e-05 s
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 1, suppress 0 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 3804 -> 3801
+  delete_edges: deleted 546 edges in 0.001895 s and 3 rounds
+  handle_small_terminal_degrees: terms 1 in 7e-06 s
+  handle_small_Steiner_degrees: steiner 4, suppress 554 in 0.000222 s
+  shortest_edge_between_terminals: 0 edges in 2e-06 s
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 14 in 1.3e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 9e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 7e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 3801 -> 3226
+  delete_edges_shortest_path: deleted 649 edges in 0.069313 s
+  handle_small_terminal_degrees: terms 22 in 1.4e-05 s
+  handle_small_Steiner_degrees: steiner 53, suppress 932 in 0.0002 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 10 in 8e-06 s
+  handle_small_Steiner_degrees: steiner 4, suppress 52 in 1.6e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 1 in 4e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 1 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 3226 -> 2149
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+  shortest_edge_between_terminals: 1 edges in 3e-06 s
+  handle_small_terminal_degrees: terms 0 in 1e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 2149 -> 2135
+  delete_edges_shortest_path: deleted 64 edges in 0.019371 s
+  handle_small_terminal_degrees: terms 2 in 3e-06 s
+  handle_small_Steiner_degrees: steiner 2, suppress 125 in 3.6e-05 s
+  shortest_edge_between_terminals: 3 edges in 3e-06 s
+  handle_small_terminal_degrees: terms 0 in 5e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 9 in 5e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 2e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 3e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 2e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 2e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 2135 -> 1993
+Compressed graph 1993 -> 1993
+>>> save_orig_graph
+>> Saved weight 10129696
+### ZEL_LVL=0 PRECISE_STARS=0
+
+Calling `contract_till_the_bitter_end`
+|V| = 1993, |E| = 3053, |R| = 34
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000407 s
+0,,1993,3053,34,,0,0,,15912479,15912479,10129696,10129696,10129696,,0,0,@@
+
+  delete_edges: deleted 8 edges in 0.000224 s and 1 rounds
+  handle_small_Steiner_degrees: steiner 0, suppress 13 in 6e-06 s
+Starting round 1
+Found 13 isolated vertices
+Invalid ratios recomputed: 1980
+Best ratio is 761/1 (761.0), centered at 735
+Finding the best star... Star with 2 terminals centered in 1958
+round took: 0.107 s
+|V| = 1993, |E| = 3028, |R| = 33
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000367 s
+1,,1980,3028,33,,1980,0,,15912479,15912479,10130457,10130457,10130457,,761,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 6e-06 s
+Starting round 2
+Found 16 isolated vertices
+Invalid ratios recomputed: 785
+Best ratio is 1737/1 (1737.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.059791 s
+|V| = 1993, |E| = 3025, |R| = 32
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000365 s
+2,,1977,3025,32,,785,0,,15912479,15912479,10132194,10132194,10132194,,1737,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+Starting round 3
+Found 18 isolated vertices
+Invalid ratios recomputed: 784
+Best ratio is 2696/1 (2696.0), centered at 756
+Finding the best star... Star with 2 terminals centered in 1016
+round took: 0.059151 s
+|V| = 1993, |E| = 3022, |R| = 31
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15912479 (was 15912479) in 0.000365 s
+3,,1975,3022,31,,784,0,,15912479,15912479,10134890,10134890,10134890,,2696,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+Starting round 4
+Found 21 isolated vertices
+Invalid ratios recomputed: 521
+Best ratio is 8374/2 (4187.0), centered at 1841
+Finding the best star... Star with 3 terminals centered in 787
+round took: 0.0236 s
+|V| = 1993, |E| = 3009, |R| = 29
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15911053 (was 15911053) in 0.000363 s
+4,,1972,3009,29,,521,0,,15911053,15911053,10143264,10143264,10143264,,8374,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 7e-06 s
+Starting round 5
+Found 34 isolated vertices
+Invalid ratios recomputed: 817
+Best ratio is 4178/1 (4178.0), centered at 741
+Finding the best star... Star with 2 terminals centered in 795
+round took: 0.059868 s
+|V| = 1993, |E| = 3000, |R| = 28
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.00037 s
+5,,1959,3000,28,,817,0,,15911046,15911046,10147442,10147442,10147442,,4178,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 6
+Found 41 isolated vertices
+Invalid ratios recomputed: 829
+Best ratio is 4387/1 (4387.0), centered at 795
+Finding the best star... Star with 2 terminals centered in 1958
+round took: 0.060725 s
+|V| = 1993, |E| = 2991, |R| = 27
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.00037 s
+6,,1952,2991,27,,829,0,,15911046,15911046,10151829,10151829,10151829,,4387,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 5e-06 s
+Starting round 7
+Found 50 isolated vertices
+Invalid ratios recomputed: 860
+Best ratio is 5245/1 (5245.0), centered at 748
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.061356 s
+|V| = 1993, |E| = 2979, |R| = 26
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.00037 s
+7,,1943,2979,26,,860,0,,15911046,15911046,10157074,10157074,10157074,,5245,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 8
+Found 56 isolated vertices
+Invalid ratios recomputed: 865
+Best ratio is 5847/1 (5847.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.062489 s
+|V| = 1993, |E| = 2973, |R| = 25
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15911046 (was 15911046) in 0.000367 s
+8,,1937,2973,25,,865,0,,15911046,15911046,10162921,10162921,10162921,,5847,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 3e-06 s
+Starting round 9
+Found 60 isolated vertices
+Invalid ratios recomputed: 868
+Best ratio is 11790/2 (5895.0), centered at 1608
+Finding the best star... Star with 3 terminals centered in 779
+round took: 0.064618 s
+|V| = 1993, |E| = 2961, |R| = 23
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15906983 (was 15906983) in 0.000367 s
+9,,1933,2961,23,,868,0,,15906983,15906983,10174711,10174711,10174711,,11790,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 4e-06 s
+Starting round 10
+Found 71 isolated vertices
+Invalid ratios recomputed: 586
+Best ratio is 5362/1 (5362.0), centered at 779
+Finding the best star... Star with 2 terminals centered in 1395
+round took: 0.027024 s
+|V| = 1993, |E| = 2957, |R| = 22
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15906983 (was 15906983) in 0.000382 s
+10,,1922,2957,22,,586,0,,15906983,15906983,10180073,10180073,10180073,,5362,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 7e-06 s
+Starting round 11
+Found 75 isolated vertices
+Invalid ratios recomputed: 585
+Best ratio is 5902/1 (5902.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.02781 s
+|V| = 1993, |E| = 2951, |R| = 21
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15906983 (was 15906983) in 0.000368 s
+11,,1918,2951,21,,585,0,,15906983,15906983,10185975,10185975,10185975,,5902,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 5e-06 s
+Starting round 12
+Found 80 isolated vertices
+Invalid ratios recomputed: 868
+Best ratio is 6874/1 (6874.0), centered at 760
+Finding the best star... Star with 2 terminals centered in 777
+round took: 0.067088 s
+|V| = 1993, |E| = 2942, |R| = 20
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15907533 (was 15907533) in 0.000369 s
+12,,1913,2942,20,,868,0,,15907533,15907533,10192849,10192849,10192849,,6874,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 13
+Found 89 isolated vertices
+Invalid ratios recomputed: 514
+Best ratio is 7493/1 (7493.0), centered at 778
+Finding the best star... Star with 2 terminals centered in 1395
+round took: 0.026657 s
+|V| = 1993, |E| = 2930, |R| = 19
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15907533 (was 15907533) in 0.000368 s
+13,,1904,2930,19,,514,0,,15907533,15907533,10200342,10200342,10200342,,7493,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 1 in 4e-06 s
+Starting round 14
+Found 98 isolated vertices
+Invalid ratios recomputed: 581
+Best ratio is 15707/2 (7853.5), centered at 1032
+Finding the best star... Star with 3 terminals centered in 777
+round took: 0.028559 s
+|V| = 1993, |E| = 2900, |R| = 17
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.000371 s
+14,,1895,2900,17,,581,0,,15907312,15907312,10216049,10216049,10216049,,15707,3,@@
+
+  handle_small_Steiner_degrees: steiner 2, suppress 10 in 1.1e-05 s
+Starting round 15
+Found 129 isolated vertices
+Invalid ratios recomputed: 565
+Best ratio is 8331/1 (8331.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.034979 s
+|V| = 1993, |E| = 2874, |R| = 16
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.000373 s
+15,,1864,2874,16,,565,0,,15907312,15907312,10224380,10224380,10224380,,8331,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 4e-06 s
+Starting round 16
+Found 136 isolated vertices
+Invalid ratios recomputed: 863
+Best ratio is 9969/1 (9969.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 786
+round took: 0.071446 s
+|V| = 1993, |E| = 2868, |R| = 15
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.00037 s
+16,,1857,2868,15,,863,0,,15907312,15907312,10234349,10234349,10234349,,9969,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 17
+Found 141 isolated vertices
+Invalid ratios recomputed: 858
+Best ratio is 159840/1 (159840.0), centered at 752
+Finding the best star... Star with 2 terminals centered in 783
+round took: 0.077476 s
+|V| = 1993, |E| = 2852, |R| = 14
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15907312 (was 15907312) in 0.00037 s
+17,,1852,2852,14,,858,0,,15907312,15907312,10394189,10394189,10394189,,159840,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 6 in 7e-06 s
+Starting round 18
+Found 156 isolated vertices
+Invalid ratios recomputed: 550
+Best ratio is 162563/1 (162563.0), centered at 766
+Finding the best star... Star with 2 terminals centered in 772
+round took: 0.033787 s
+|V| = 1993, |E| = 2833, |R| = 13
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15905960 (was 15905960) in 0.00037 s
+18,,1837,2833,13,,550,0,,15905960,15905960,10556752,10556752,10556752,,162563,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 4e-06 s
+Starting round 19
+Found 166 isolated vertices
+Invalid ratios recomputed: 540
+Best ratio is 164409/1 (164409.0), centered at 807
+Finding the best star... Star with 2 terminals centered in 807
+round took: 0.034331 s
+|V| = 1993, |E| = 2824, |R| = 12
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15903082 (was 15903082) in 0.000375 s
+19,,1827,2824,12,,540,0,,15903082,15903082,10721161,10721161,10721161,,164409,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 7e-06 s
+Starting round 20
+Found 173 isolated vertices
+Invalid ratios recomputed: 684
+Best ratio is 258486/1 (258486.0), centered at 786
+Finding the best star... Star with 2 terminals centered in 792
+round took: 0.051636 s
+|V| = 1993, |E| = 2818, |R| = 11
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15903082 (was 15903082) in 0.000375 s
+20,,1820,2818,11,,684,0,,15903082,15903082,10979647,10979647,10979647,,258486,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 21
+Found 178 isolated vertices
+Invalid ratios recomputed: 854
+Best ratio is 261918/1 (261918.0), centered at 758
+Finding the best star... Star with 2 terminals centered in 774
+round took: 0.080896 s
+|V| = 1993, |E| = 2813, |R| = 10
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15903082 (was 15903082) in 0.000373 s
+21,,1815,2813,10,,854,0,,15903082,15903082,11241565,11241565,11241565,,261918,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 5e-06 s
+Starting round 22
+Found 181 isolated vertices
+Invalid ratios recomputed: 638
+Best ratio is 327222/1 (327222.0), centered at 792
+Finding the best star... Star with 2 terminals centered in 792
+round took: 0.042758 s
+|V| = 1993, |E| = 2808, |R| = 9
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.000374 s
+22,,1812,2808,9,,638,0,,15902562,15902562,11568787,11568787,11568787,,327222,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 23
+Found 186 isolated vertices
+Invalid ratios recomputed: 849
+Best ratio is 329319/1 (329319.0), centered at 728
+Finding the best star... Star with 2 terminals centered in 802
+round took: 0.08699 s
+|V| = 1993, |E| = 2799, |R| = 8
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.000373 s
+23,,1807,2799,8,,849,0,,15902562,15902562,11898106,11898106,11898106,,329319,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 5e-06 s
+Starting round 24
+Found 192 isolated vertices
+Invalid ratios recomputed: 843
+Best ratio is 337096/1 (337096.0), centered at 767
+Finding the best star... Star with 2 terminals centered in 771
+round took: 0.11326 s
+|V| = 1993, |E| = 2789, |R| = 7
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.000373 s
+24,,1801,2789,7,,843,0,,15902562,15902562,12235202,12235202,12235202,,337096,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 3 in 6e-06 s
+Starting round 25
+Found 200 isolated vertices
+Invalid ratios recomputed: 981
+Best ratio is 357838/1 (357838.0), centered at 804
+Finding the best star... Star with 2 terminals centered in 804
+round took: 0.088766 s
+|V| = 1993, |E| = 2776, |R| = 6
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15902562 (was 15902562) in 0.000372 s
+25,,1793,2776,6,,981,0,,15902562,15902562,12593040,12593040,12593040,,357838,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 5e-06 s
+Starting round 26
+Found 208 isolated vertices
+Invalid ratios recomputed: 950
+Best ratio is 359055/1 (359055.0), centered at 29
+Finding the best star... Star with 2 terminals centered in 804
+round took: 0.078189 s
+|V| = 1993, |E| = 2735, |R| = 5
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15895054 (was 15895054) in 0.000375 s
+26,,1785,2735,5,,950,0,,15895054,15895054,12952095,12952095,12952095,,359055,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 8 in 8e-06 s
+Starting round 27
+Found 248 isolated vertices
+Invalid ratios recomputed: 1186
+Best ratio is 469383/1 (469383.0), centered at 780
+Finding the best star... Star with 2 terminals centered in 804
+round took: 0.123482 s
+|V| = 1993, |E| = 2718, |R| = 4
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15895054 (was 15895054) in 0.000374 s
+27,,1745,2718,4,,1186,0,,15895054,15895054,13421478,13421478,13421478,,469383,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 6e-06 s
+Starting round 28
+Found 252 isolated vertices
+Invalid ratios recomputed: 1182
+Best ratio is 721044/1 (721044.0), centered at 41
+Finding the best star... Star with 2 terminals centered in 813
+round took: 0.135775 s
+|V| = 1993, |E| = 2684, |R| = 3
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000385 s
+28,,1741,2684,3,,1182,0,,15852416,15852416,14142522,14142522,14142522,,721044,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 6 in 1e-05 s
+Starting round 29
+Found 282 isolated vertices
+Invalid ratios recomputed: 1543
+Best ratio is 764319/1 (764319.0), centered at 271
+Finding the best star... Star with 2 terminals centered in 813
+round took: 0.205449 s
+|V| = 1993, |E| = 2653, |R| = 2
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000379 s
+29,,1711,2653,2,,1543,0,,15852416,15852416,14906841,14906841,14906841,,764319,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 7 in 1.1e-05 s
+Starting round 30
+Found 310 isolated vertices
+Invalid ratios recomputed: 1683
+Best ratio is 945575/1 (945575.0), centered at 322
+Finding the best star... Star with 2 terminals centered in 802
+round took: 0.302813 s
+|V| = 1993, |E| = 2635, |R| = 1
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 15852416 (was 15852416) in 0.000379 s
+30,,1683,2635,1,,1683,0,,15852416,15852416,15852416,15852416,15852416,,945575,2,@@
+
+  handle_small_Steiner_degrees: steiner 1, suppress 0 in 4e-06 s
+contract_till_the_bitter_end: 2.35381 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 10129696
+DŽ: 15852416 -> 15843275
+  BEST solution improved 15852416 -> 15843275 (vert_size 0, round 1) *
+  BEST solution improved 15843275 -> 15843252 (vert_size 2, round 86)
+  BEST solution improved 15843252 -> 15842939 (vert_size 4, round 171)
+  BEST solution improved 15842939 -> 15841949 (vert_size 4, round 231) *
+  BEST solution improved 15841949 -> 15841805 (vert_size 2, round 397) *
+DŽ: 15841805 -> 15841805
+DŽ: 15841949 -> 15841949
+DŽ: 15842939 -> 15842939
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+
+ start over 7391 loops 31 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15842873 -> 15841949
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842285 -> 15842285
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842939 -> 15842939
+
+ start over 18547 loops 51 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841949 -> 15841949
+DŽ: 15841805 -> 15841805
+DŽ: 15842107 -> 15842107
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842729 -> 15904548
+DŽ: 15843374 -> 15842962
+DŽ: 15843374 -> 15842962
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842896 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15843374 -> 15842962
+DŽ: 15842384 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842107 -> 15842107
+DŽ: 15842896 -> 15841972
+DŽ: 15841949 -> 15841949
+DŽ: 15842962 -> 15842962
+DŽ: 15841805 -> 15841805
+
+ start over 42181 loops 114 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15843795
+DŽ: 15841972 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842743 -> 15842397
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842285 -> 15842285
+DŽ: 15843282 -> 15844299
+DŽ: 15841805 -> 15841805
+DŽ: 15843495 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841949 -> 15841949
+DŽ: 15843687 -> 15843275
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15843459 -> 15842084
+DŽ: 15842114 -> 15842107
+DŽ: 15841805 -> 15841805
+DŽ: 15842969 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15843282 -> 15843275
+
+ start over 65340 loops 156 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841805 -> 15841805
+DŽ: 15842697 -> 15904820
+DŽ: 15851486 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842947 -> 15842084
+DŽ: 15843182 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15853017 -> 15841805
+DŽ: 15848444 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15844815 -> 15843252
+DŽ: 15848070 -> 15842962
+DŽ: 15841805 -> 15841805
+DŽ: 15842118 -> 15842118
+DŽ: 15842962 -> 15905705
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15844877 -> 15842262
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15846595 -> 15842107
+
+ start over 92234 loops 177 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15843795
+DŽ: 15843535 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15843336 -> 15841805
+DŽ: 15843045 -> 15904548
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842238 -> 15842238
+DŽ: 15841805 -> 15841805
+DŽ: 15852956 -> 15906018
+DŽ: 15841805 -> 15841805
+DŽ: 15843535 -> 15841972
+DŽ: 15843535 -> 15841972
+DŽ: 15843159 -> 15843159
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15843275 -> 15843275
+DŽ: 15841805 -> 15841805
+DŽ: 15843535 -> 15841972
+DŽ: 15843159 -> 15905902
+DŽ: 15854519 -> 15843275
+DŽ: 15841805 -> 15841805
+DŽ: 15851653 -> 15841972
+
+ start over 117129 loops 202 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15844838 -> 15843275
+DŽ: 15843159 -> 15843159
+DŽ: 15841805 -> 15841805
+DŽ: 15851486 -> 15841805
+DŽ: 15842262 -> 15842262
+DŽ: 15851653 -> 15843986
+DŽ: 15843078 -> 15842215
+DŽ: 15841805 -> 15841805
+DŽ: 15843159 -> 15843159
+DŽ: 15847971 -> 15842118
+DŽ: 15843368 -> 15904548
+DŽ: 15841805 -> 15841805
+DŽ: 15843795 -> 15842420
+DŽ: 15843391 -> 15842528
+DŽ: 15841972 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15847142 -> 15904861
+DŽ: 15842224 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15853362 -> 15842118
+DŽ: 15853049 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15847226 -> 15842118
+
+ start over 140605 loops 230 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15885932 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842530 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15843512 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15874688 -> 15841805
+DŽ: 15847018 -> 15842118
+DŽ: 15843393 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15843358 -> 15842118
+DŽ: 15842528 -> 15842528
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842084 -> 15842084
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15843393 -> 15842118
+DŽ: 15842118 -> 15842118
+DŽ: 15841805 -> 15841805
+  BEST solution improved 15842215 -> 15841731 (vert_size 4, round 161453) *
+DŽ: 15841731 -> 15841731
+DŽ: 15843078 -> 15842215
+DŽ: 15843391 -> 15842528
+
+ start over 164987 loops 231 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15847566 -> 15842215
+DŽ: 15843512 -> 15841949
+DŽ: 15841805 -> 15841805
+DŽ: 15843053 -> 15841805
+DŽ: 15842118 -> 15842118
+DŽ: 15842215 -> 15842215
+DŽ: 15841731 -> 15841731
+DŽ: 15847740 -> 15843252
+DŽ: 15842962 -> 15842962
+DŽ: 15841805 -> 15841805
+DŽ: 15847971 -> 15842118
+DŽ: 15843472 -> 15843472
+DŽ: 15841731 -> 15841731
+DŽ: 15843080 -> 15841805
+DŽ: 15842530 -> 15842118
+DŽ: 15842073 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15842118 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15846437 -> 15841949
+DŽ: 15841949 -> 15841949
+DŽ: 15841972 -> 15841972
+DŽ: 15842962 -> 15842962
+DŽ: 15843368 -> 15841805
+
+ start over 188483 loops 244 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15847463 -> 15842107
+DŽ: 15846606 -> 15842118
+DŽ: 15846606 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15841972 -> 15841972
+DŽ: 15843053 -> 15841805
+DŽ: 15843393 -> 15842118
+DŽ: 15847142 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15847740 -> 15843252
+DŽ: 15846606 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842118 -> 15842118
+DŽ: 15847971 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846606 -> 15842118
+
+ start over 209617 loops 245 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842118 -> 15842118
+DŽ: 15842073 -> 15841805
+DŽ: 15846750 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15852620 -> 15842939
+DŽ: 15842118 -> 15842118
+DŽ: 15847847 -> 15842118
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842118 -> 15842118
+DŽ: 15842975 -> 15905580
+DŽ: 15841731 -> 15841731
+DŽ: 15842107 -> 15842107
+DŽ: 15843670 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15843252 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842729 -> 15841805
+
+ start over 231344 loops 258 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852643
+DŽ: 15846437 -> 15841949
+DŽ: 15842285 -> 15842285
+DŽ: 15842873 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15843472 -> 15843472
+DŽ: 15853351 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842107 -> 15842107
+DŽ: 15842962 -> 15842962
+DŽ: 15841805 -> 15841805
+DŽ: 15843512 -> 15841949
+DŽ: 15841805 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15846595 -> 15842107
+DŽ: 15841805 -> 15841805
+DŽ: 15843905 -> 15842118
+DŽ: 15842551 -> 15842551
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843795 -> 15842420
+DŽ: 15842397 -> 15842397
+DŽ: 15841805 -> 15841805
+
+ start over 254783 loops 298 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841754 -> 15841754
+DŽ: 15843260 -> 15905870
+DŽ: 15842107 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15843772 -> 15852411
+DŽ: 15842729 -> 15841805
+DŽ: 15842896 -> 15841972
+DŽ: 15843018 -> 15842420
+DŽ: 15844635 -> 15843772
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843472 -> 15843472
+DŽ: 15845033 -> 15842420
+DŽ: 15842551 -> 15842551
+DŽ: 15842896 -> 15841972
+DŽ: 15843275 -> 15843275
+DŽ: 15842285 -> 15842285
+DŽ: 15843759 -> 15841972
+DŽ: 15842962 -> 15842962
+DŽ: 15847450 -> 15842962
+DŽ: 15843472 -> 15843472
+DŽ: 15843535 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+
+ start over 278711 loops 299 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15843275 -> 15843275
+DŽ: 15841805 -> 15904955
+DŽ: 15841949 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842107 -> 15905580
+DŽ: 15842118 -> 15842118
+DŽ: 15843670 -> 15905580
+DŽ: 15842995 -> 15842397
+DŽ: 15846750 -> 15842262
+DŽ: 15843654 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15858459 -> 15842107
+DŽ: 15848755 -> 15842084
+DŽ: 15858459 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15842285 -> 15842285
+
+ start over 296646 loops 340 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15841949 -> 15841949
+DŽ: 15853049 -> 15851796
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15858436 -> 15842084
+DŽ: 15843275 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15843994 -> 15841805
+DŽ: 15843654 -> 15842084
+DŽ: 15851788 -> 15842107
+DŽ: 15853770 -> 15841805
+DŽ: 15842107 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 313705 loops 350 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15846919 -> 15841972
+DŽ: 15858157 -> 15841805
+DŽ: 15842107 -> 15842107
+DŽ: 15842526 -> 15841805
+DŽ: 15841754 -> 15841754
+DŽ: 15858157 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841754 -> 15841754
+DŽ: 15841731 -> 15841731
+DŽ: 15844089 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843668 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842084 -> 15842084
+DŽ: 15852112 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 332241 loops 352 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15851966 -> 15842285
+DŽ: 15842526 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15847782 -> 15841805
+DŽ: 15842526 -> 15841805
+DŽ: 15843046 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846913 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841754 -> 15841754
+DŽ: 15851653 -> 15841972
+DŽ: 15847821 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843909 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 351476 loops 354 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15847887 -> 15843275
+DŽ: 15846919 -> 15841805
+DŽ: 15844072 -> 15842285
+DŽ: 15846584 -> 15841805
+DŽ: 15846919 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841949 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15847887 -> 15843275
+DŽ: 15842962 -> 15842962
+DŽ: 15844585 -> 15841972
+DŽ: 15842107 -> 15842107
+DŽ: 15841949 -> 15841949
+DŽ: 15841949 -> 15841949
+DŽ: 15851966 -> 15842285
+DŽ: 15853476 -> 15843795
+
+ start over 371153 loops 372 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853476 -> 15843795
+DŽ: 15841805 -> 15841805
+DŽ: 15844222 -> 15842118
+DŽ: 15844898 -> 15842285
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843909 -> 15841805
+DŽ: 15843275 -> 15843275
+DŽ: 15842547 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15853040 -> 15842118
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 390306 loops 379 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853675 -> 15841805
+DŽ: 15841949 -> 15841949
+DŽ: 15843909 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841949 -> 15905085
+DŽ: 15843909 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842238 -> 15842238
+DŽ: 15855108 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15844562 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15843275 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15853040 -> 15842118
+DŽ: 15855555 -> 15841949
+DŽ: 15849853 -> 15842939
+DŽ: 15843224 -> 15841805
+DŽ: 15843141 -> 15841805
+DŽ: 15842403 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 414789 loops 416 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15843336 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15846812 -> 15904548
+DŽ: 15843285 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15842952 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15843664 -> 15843252
+DŽ: 15842084 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15904548
+DŽ: 15852112 -> 15841805
+
+ start over 430656 loops 436 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15885932 -> 15841805
+DŽ: 15847138 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15853912 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847323 -> 15904507
+DŽ: 15841731 -> 15905204
+DŽ: 15846417 -> 15841805
+DŽ: 15843351 -> 15842939
+DŽ: 15842361 -> 15841949
+DŽ: 15842285 -> 15842285
+DŽ: 15847391 -> 15841972
+DŽ: 15853049 -> 15841805
+DŽ: 15841805 -> 15841805
+
+ start over 449719 loops 443 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15843768 -> 15843989
+DŽ: 15841949 -> 15841949
+DŽ: 15847156 -> 15841805
+DŽ: 15843825 -> 15842962
+DŽ: 15842873 -> 15841949
+DŽ: 15851486 -> 15841805
+DŽ: 15874760 -> 15841805
+DŽ: 15857457 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15858157 -> 15841805
+DŽ: 15848719 -> 15841805
+DŽ: 15842835 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15843636 -> 15841805
+DŽ: 15851754 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 466867 loops 449 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15843825 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846897 -> 15842285
+DŽ: 15843825 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15842962 -> 15842962
+DŽ: 15856594 -> 15841805
+DŽ: 15869691 -> 15841805
+DŽ: 15842962 -> 15842962
+DŽ: 15842285 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15858157 -> 15904548
+
+ start over 481988 loops 463 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15847539 -> 15841805
+DŽ: 15852890 -> 15842420
+DŽ: 15874760 -> 15841805
+DŽ: 15843351 -> 15842939
+DŽ: 15858157 -> 15841805
+DŽ: 15843636 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843989 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15847864 -> 15905995
+DŽ: 15854183 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15848383 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843459 -> 15842084
+DŽ: 15852410 -> 15841805
+
+ start over 501248 loops 482 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15846897 -> 15842285
+DŽ: 15841941 -> 15841805
+DŽ: 15848070 -> 15842962
+DŽ: 15842873 -> 15841949
+DŽ: 15842285 -> 15842285
+DŽ: 15842939 -> 15842939
+DŽ: 15843759 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15852447 -> 15842420
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852956 -> 15843275
+DŽ: 15843209 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15843316 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15847551 -> 15842939
+DŽ: 15847551 -> 15842939
+
+ start over 522489 loops 490 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15842215 -> 15842215
+DŽ: 15846885 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15847508 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15851966 -> 15842285
+DŽ: 15843629 -> 15842420
+DŽ: 15843606 -> 15842397
+DŽ: 15842939 -> 15842939
+DŽ: 15843209 -> 15842285
+DŽ: 15842397 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15846773 -> 15842285
+DŽ: 15844459 -> 15841972
+DŽ: 15842561 -> 15842215
+DŽ: 15842561 -> 15842215
+DŽ: 15842215 -> 15842215
+DŽ: 15847571 -> 15842215
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842962 -> 15842962
+
+ start over 547672 loops 512 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843855 -> 15905085
+DŽ: 15841972 -> 15841972
+DŽ: 15848679 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15851486 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15851486 -> 15841805
+DŽ: 15847980 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 563836 loops 541 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853193 -> 15841949
+DŽ: 15859291 -> 15842939
+DŽ: 15852705 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15843182 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842896 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15851630 -> 15841949
+DŽ: 15841949 -> 15841949
+DŽ: 15852554 -> 15841949
+DŽ: 15843182 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15847508 -> 15841972
+
+ start over 580996 loops 541 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852643 -> 15905705
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852705 -> 15843986
+DŽ: 15853476 -> 15843795
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852956 -> 15906018
+DŽ: 15841731 -> 15841731
+DŽ: 15843670 -> 15842107
+DŽ: 15854519 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15843535 -> 15841972
+DŽ: 15853529 -> 15842285
+
+ start over 599991 loops 574 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15848169 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15843825 -> 15842262
+DŽ: 15849013 -> 15842962
+DŽ: 15843067 -> 15842939
+DŽ: 15853216 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853216 -> 15841972
+DŽ: 15846591 -> 15841972
+DŽ: 15841731 -> 15841754
+DŽ: 15841731 -> 15841731
+DŽ: 15842896 -> 15841972
+DŽ: 15842946 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15843067 -> 15842939
+DŽ: 15851660 -> 15841972
+DŽ: 15852584 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842080 -> 15841805
+DŽ: 15842431 -> 15841805
+
+ start over 621348 loops 575 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15906425
+DŽ: 15841805 -> 15841805
+DŽ: 15843535 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15857937 -> 15842285
+DŽ: 15859627 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15858637 -> 15842285
+DŽ: 15841812 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15847226 -> 15842118
+DŽ: 15842359 -> 15842084
+DŽ: 15852408 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15857457 -> 15841805
+DŽ: 15847920 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 638181 loops 609 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15851966 -> 15842285
+DŽ: 15851653 -> 15841972
+DŽ: 15856761 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15847856 -> 15841805
+DŽ: 15843499 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15848256 -> 15904820
+DŽ: 15842285 -> 15842285
+DŽ: 15853912 -> 15841805
+DŽ: 15848643 -> 15841972
+DŽ: 15843079 -> 15842107
+DŽ: 15848791 -> 15842962
+DŽ: 15852705 -> 15843986
+DŽ: 15843336 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 656939 loops 625 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841972 -> 15841972
+DŽ: 15853178 -> 15904548
+DŽ: 15843565 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15842285 -> 15842285
+DŽ: 15844515 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15851486 -> 15841805
+DŽ: 15853018 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843499 -> 15905085
+DŽ: 15854245 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15843772 -> 15842397
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15847804 -> 15842107
+
+ start over 676977 loops 630 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15854117 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841972 -> 15841972
+DŽ: 15843526 -> 15842285
+DŽ: 15842939 -> 15842939
+DŽ: 15847936 -> 15842107
+DŽ: 15843565 -> 15842939
+DŽ: 15847018 -> 15842118
+DŽ: 15847794 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843499 -> 15841949
+DŽ: 15847440 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15859573 -> 15904548
+DŽ: 15847440 -> 15842084
+DŽ: 15852101 -> 15842420
+
+ start over 694701 loops 652 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15847970 -> 15843482
+DŽ: 15858164 -> 15904548
+DŽ: 15886006 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843526 -> 15904820
+DŽ: 15842939 -> 15842939
+DŽ: 15847080 -> 15841972
+DŽ: 15859573 -> 15841805
+DŽ: 15874688 -> 15904548
+DŽ: 15853040 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15875623 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15859573 -> 15841805
+DŽ: 15847080 -> 15841972
+
+ start over 710996 loops 671 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15865079 -> 15841805
+DŽ: 15858157 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15843368 -> 15841805
+DŽ: 15879176 -> 15841805
+DŽ: 15843761 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15843252 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15848023 -> 15841972
+DŽ: 15886006 -> 15841805
+DŽ: 15858157 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15859573 -> 15841805
+
+ start over 726199 loops 678 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15906945
+DŽ: 15852356 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843535 -> 15841972
+DŽ: 15841972 -> 15841972
+DŽ: 15853049 -> 15841805
+DŽ: 15842397 -> 15905870
+DŽ: 15852964 -> 15841805
+DŽ: 15853775 -> 15842084
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15856594 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15886433 -> 15843795
+DŽ: 15854196 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853328 -> 15842084
+DŽ: 15843670 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 746181 loops 699 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842743 -> 15842397
+DŽ: 15852946 -> 15842397
+DŽ: 15842975 -> 15842107
+DŽ: 15843647 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852356 -> 15841805
+DŽ: 15848466 -> 15842118
+DŽ: 15843265 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15842835 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15843182 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15843308 -> 15841972
+DŽ: 15844921 -> 15842118
+DŽ: 15842384 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15843664 -> 15905995
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 768435 loops 709 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15848467 -> 15842118
+DŽ: 15848466 -> 15842118
+DŽ: 15846300 -> 15841805
+DŽ: 15847970 -> 15843482
+DŽ: 15848175 -> 15843275
+DŽ: 15843275 -> 15843275
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15844921 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15842530 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15843795 -> 15906538
+DŽ: 15855039 -> 15843795
+DŽ: 15844921 -> 15842118
+DŽ: 15843983 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842215 -> 15842215
+DŽ: 15841731 -> 15841731
+DŽ: 15844623 -> 15842939
+DŽ: 15844838 -> 15843275
+
+ start over 790997 loops 719 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15845184 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843454 -> 15842118
+DŽ: 15843285 -> 15841949
+DŽ: 15845184 -> 15842420
+DŽ: 15843275 -> 15843275
+DŽ: 15843275 -> 15843275
+DŽ: 15842675 -> 15904548
+DŽ: 15852356 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15844138 -> 15843275
+DŽ: 15841972 -> 15841805
+DŽ: 15842962 -> 15842962
+DŽ: 15842964 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15842962 -> 15842962
+DŽ: 15842842 -> 15841972
+DŽ: 15843454 -> 15842118
+DŽ: 15842118 -> 15842118
+DŽ: 15844317 -> 15842118
+
+ start over 812843 loops 720 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15847163 -> 15841805
+DŽ: 15843454 -> 15842118
+DŽ: 15843983 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15842675 -> 15841805
+DŽ: 15842850 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843275 -> 15843275
+DŽ: 15842093 -> 15841972
+DŽ: 15842118 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15847163 -> 15841805
+DŽ: 15846300 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852101 -> 15906300
+DŽ: 15844459 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15843989 -> 15843989
+DŽ: 15841731 -> 15841731
+DŽ: 15842114 -> 15842107
+DŽ: 15843670 -> 15842107
+
+ start over 834385 loops 746 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843989 -> 15843989
+DŽ: 15841805 -> 15841805
+DŽ: 15842397 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15842850 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842819 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15843670 -> 15842107
+DŽ: 15842675 -> 15841805
+DŽ: 15843595 -> 15852388
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15844302 -> 15844302
+DŽ: 15842675 -> 15841805
+DŽ: 15844413 -> 15841805
+DŽ: 15841926 -> 15841805
+
+ start over 857130 loops 742 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15906425
+DŽ: 15867122 -> 15842285
+DŽ: 15843989 -> 15843989
+DŽ: 15841731 -> 15841731
+DŽ: 15843551 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15842118 -> 15842118
+DŽ: 15843482 -> 15842107
+DŽ: 15851653 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15844413 -> 15841805
+DŽ: 15865559 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15857074 -> 15842285
+
+ start over 870738 loops 793 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15851799 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15858637 -> 15842285
+DŽ: 15843989 -> 15906732
+DŽ: 15843535 -> 15841972
+DŽ: 15853444 -> 15904820
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15848272 -> 15843275
+DŽ: 15857074 -> 15842285
+DŽ: 15848956 -> 15842285
+DŽ: 15843535 -> 15841972
+DŽ: 15844334 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15844299 -> 15844299
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 888555 loops 800 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15853444 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15856761 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15852964 -> 15841805
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15847323 -> 15841972
+DŽ: 15843535 -> 15904507
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15869254 -> 15841805
+DŽ: 15852431 -> 15841972
+DŽ: 15844360 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 903695 loops 825 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15843795
+DŽ: 15847943 -> 15841972
+DŽ: 15853039 -> 15842118
+DŽ: 15847943 -> 15841972
+DŽ: 15847943 -> 15841972
+DŽ: 15848843 -> 15841805
+DŽ: 15853912 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15869254 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841972 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15854225 -> 15842118
+DŽ: 15847163 -> 15841805
+DŽ: 15843681 -> 15842118
+DŽ: 15854225 -> 15842118
+DŽ: 15858010 -> 15841805
+
+ start over 920130 loops 832 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15865392 -> 15842118
+DŽ: 15846300 -> 15841805
+DŽ: 15852101 -> 15842420
+DŽ: 15846913 -> 15841805
+DŽ: 15849032 -> 15842118
+DŽ: 15858323 -> 15904861
+DŽ: 15841731 -> 15841731
+DŽ: 15853039 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843688 -> 15842118
+DŽ: 15848360 -> 15843275
+DŽ: 15842285 -> 15842285
+DŽ: 15854225 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15844544 -> 15904861
+
+ start over 936743 loops 836 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15844418 -> 15841805
+DŽ: 15856594 -> 15841805
+DŽ: 15848360 -> 15843252
+DŽ: 15847469 -> 15842118
+DŽ: 15842675 -> 15841805
+DŽ: 15847226 -> 15842118
+DŽ: 15854225 -> 15842118
+DŽ: 15844544 -> 15842118
+DŽ: 15841805 -> 15841805
+DŽ: 15842627 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841972 -> 15841972
+DŽ: 15842659 -> 15842118
+DŽ: 15860917 -> 15842118
+DŽ: 15843175 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 954477 loops 850 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15851799 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15842236 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15842213 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15843687 -> 15843275
+DŽ: 15843359 -> 15842118
+DŽ: 15844418 -> 15842118
+DŽ: 15842526 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15843687 -> 15843275
+DŽ: 15841731 -> 15841731
+
+ start over 974644 loops 847 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15842526 -> 15842397
+DŽ: 15844418 -> 15904548
+DŽ: 15842084 -> 15842084
+DŽ: 15847192 -> 15905557
+DŽ: 15841731 -> 15841731
+DŽ: 15842213 -> 15842084
+DŽ: 15852643 -> 15842962
+DŽ: 15853912 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15852349 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15886795 -> 15841805
+
+ start over 986398 loops 891 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15852349 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842084 -> 15842084
+DŽ: 15853827 -> 15841805
+DŽ: 15859020 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842668 -> 15841805
+
+ start over 999160 loops 897 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15851653 -> 15841972
+DŽ: 15867691 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843389 -> 15841805
+DŽ: 15843275 -> 15906018
+DŽ: 15858157 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15860095 -> 15841805
+DŽ: 15851653 -> 15841972
+DŽ: 15843966 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843802 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15853476 -> 15842420
+DŽ: 15841972 -> 15841972
+
+ start over 1018900 loops 906 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15843795
+DŽ: 15841731 -> 15841731
+DŽ: 15849946 -> 15843275
+DŽ: 15842125 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15844231 -> 15841805
+DŽ: 15847905 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15853163 -> 15843482
+DŽ: 15841731 -> 15841731
+DŽ: 15847574 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15843283 -> 15842420
+DŽ: 15853176 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841949 -> 15841949
+DŽ: 15841731 -> 15841731
+
+ start over 1037772 loops 905 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15841731 -> 15841731
+DŽ: 15842547 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15853476 -> 15842420
+DŽ: 15853912 -> 15841805
+DŽ: 15842526 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15857586 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15851653 -> 15904507
+DŽ: 15866298 -> 15843986
+DŽ: 15855381 -> 15851940
+DŽ: 15844502 -> 15842939
+
+ start over 1051560 loops 929 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15848990 -> 15842939
+DŽ: 15858157 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15853153 -> 15843472
+DŽ: 15841731 -> 15841731
+DŽ: 15869254 -> 15841805
+DŽ: 15851277 -> 15841805
+DŽ: 15853951 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852349 -> 15904548
+DŽ: 15841731 -> 15905204
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848152 -> 15843252
+DŽ: 15841731 -> 15841731
+
+ start over 1067734 loops 933 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15844741
+DŽ: 15841949 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15847776 -> 15841805
+DŽ: 15852975 -> 15841731
+DŽ: 15852356 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843472 -> 15843472
+DŽ: 15843482 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853163 -> 15842107
+DŽ: 15842675 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15857457 -> 15841805
+DŽ: 15854633 -> 15841805
+DŽ: 15842939 -> 15842939
+
+ start over 1084175 loops 935 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15849506 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15849339 -> 15841805
+DŽ: 15852101 -> 15842420
+DŽ: 15843275 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15844398 -> 15841972
+DŽ: 15843495 -> 15842962
+DŽ: 15841805 -> 15841805
+DŽ: 15853912 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15844398 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853912 -> 15841805
+DŽ: 15841972 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15844746 -> 15842962
+
+ start over 1103119 loops 943 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15853368 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15843472 -> 15843472
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15852356 -> 15841805
+DŽ: 15842420 -> 15842420
+DŽ: 15842675 -> 15841805
+DŽ: 15843275 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15842962 -> 15842962
+DŽ: 15844502 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15844403 -> 15842262
+DŽ: 15843621 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15848084 -> 15843472
+DŽ: 15844302 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15842505 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843079 -> 15842107
+
+ start over 1127885 loops 973 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15841731 -> 15841731
+DŽ: 15844746 -> 15906018
+DŽ: 15843022 -> 15841805
+DŽ: 15847900 -> 15906300
+DŽ: 15841972 -> 15841972
+DŽ: 15843670 -> 15842107
+DŽ: 15842107 -> 15842107
+DŽ: 15841972 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15844746 -> 15842962
+DŽ: 15844469 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15843966 -> 15841805
+DŽ: 15842084 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15853351 -> 15842107
+DŽ: 15843556 -> 15841972
+
+ start over 1145582 loops 1004 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15854206 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15842962 -> 15842962
+DŽ: 15843670 -> 15842107
+DŽ: 15843588 -> 15905705
+DŽ: 15845448 -> 15904507
+DŽ: 15896844 -> 15842962
+DŽ: 15843189 -> 15841972
+DŽ: 15844447 -> 15841972
+DŽ: 15843022 -> 15841805
+DŽ: 15842598 -> 15841972
+DŽ: 15841805 -> 15841805
+DŽ: 15843499 -> 15841949
+DŽ: 15842962 -> 15842962
+DŽ: 15896844 -> 15842962
+DŽ: 15876853 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15847936 -> 15842107
+DŽ: 15843986 -> 15843986
+
+ start over 1166568 loops 1021 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15843795
+DŽ: 15858775 -> 15843986
+DŽ: 15848725 -> 15841972
+DŽ: 15858775 -> 15843986
+DŽ: 15848463 -> 15904548
+DŽ: 15841949 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847192 -> 15842084
+DŽ: 15852374 -> 15841972
+DŽ: 15843673 -> 15842084
+DŽ: 15854128 -> 15843986
+DŽ: 15847192 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15843986 -> 15843986
+DŽ: 15847215 -> 15842107
+DŽ: 15843888 -> 15843986
+
+ start over 1183222 loops 1021 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15843887 -> 15843986
+DŽ: 15843673 -> 15842084
+DŽ: 15844165 -> 15842962
+DŽ: 15844179 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15852101 -> 15842420
+DŽ: 15847559 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15847771 -> 15842420
+DŽ: 15842970 -> 15842107
+DŽ: 15843673 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15843189 -> 15841972
+DŽ: 15844156 -> 15842939
+DŽ: 15876323 -> 15841805
+DŽ: 15853170 -> 15904548
+DŽ: 15841731 -> 15841731
+
+ start over 1200346 loops 1035 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15843275
+DŽ: 15847192 -> 15842084
+DŽ: 15844142 -> 15842939
+DŽ: 15842084 -> 15842084
+DŽ: 15842939 -> 15905682
+DŽ: 15841731 -> 15841731
+DŽ: 15847435 -> 15842084
+DŽ: 15848070 -> 15842962
+DŽ: 15843673 -> 15842084
+DŽ: 15851703 -> 15905580
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848762 -> 15842084
+DŽ: 15841731 -> 15841731
+
+ start over 1214548 loops 1063 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842236 -> 15842107
+DŽ: 15856896 -> 15842107
+DŽ: 15866921 -> 15842107
+DŽ: 15866921 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15854183 -> 15842939
+DŽ: 15842236 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15851653 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15847434 -> 15842939
+DŽ: 15857662 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15842873 -> 15841949
+DŽ: 15847581 -> 15842962
+
+ start over 1230600 loops 1069 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842084 -> 15842215
+DŽ: 15842084 -> 15842084
+DŽ: 15853049 -> 15841805
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853770 -> 15841805
+DŽ: 15842084 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15853770 -> 15841805
+DŽ: 15841812 -> 15841805
+DŽ: 15853770 -> 15841805
+DŽ: 15847928 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15842084 -> 15842084
+
+ start over 1249348 loops 1078 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15844525 -> 15842962
+DŽ: 15842420 -> 15842420
+DŽ: 15847348 -> 15841805
+DŽ: 15847558 -> 15842939
+DŽ: 15847492 -> 15841949
+DŽ: 15853317 -> 15841805
+DŽ: 15847014 -> 15841805
+DŽ: 15842420 -> 15842420
+DŽ: 15853675 -> 15841805
+DŽ: 15842084 -> 15842084
+DŽ: 15860095 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848147 -> 15841972
+DŽ: 15847837 -> 15841805
+DŽ: 15843389 -> 15841805
+
+ start over 1265380 loops 1087 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15854700 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843643 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15844868 -> 15842107
+DŽ: 15841731 -> 15841754
+DŽ: 15843636 -> 15841805
+DŽ: 15853675 -> 15841805
+DŽ: 15842084 -> 15842084
+DŽ: 15843636 -> 15841805
+DŽ: 15853317 -> 15904955
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 1281349 loops 1098 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15842420 -> 15842420
+DŽ: 15841805 -> 15841805
+DŽ: 15843636 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15864185 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848597 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15842093 -> 15842107
+DŽ: 15856594 -> 15841805
+DŽ: 15849298 -> 15842118
+
+ start over 1296481 loops 1118 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15848766 -> 15842118
+DŽ: 15853085 -> 15841805
+DŽ: 15856594 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15856715 -> 15841805
+DŽ: 15846561 -> 15841805
+DŽ: 15852956 -> 15843275
+DŽ: 15852246 -> 15841805
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15842107 -> 15842107
+
+ start over 1309616 loops 1124 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15869254 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853951 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846561 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852151 -> 15841805
+DŽ: 15851653 -> 15841972
+DŽ: 15852964 -> 15841805
+
+ start over 1322659 loops 1125 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15876323 -> 15841805
+DŽ: 15865048 -> 15904548
+DŽ: 15842962 -> 15842962
+DŽ: 15842084 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841972 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15869254 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 1336244 loops 1133 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15905893
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15853664 -> 15842420
+DŽ: 15842118 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15846719 -> 15842107
+DŽ: 15847864 -> 15843252
+DŽ: 15843252 -> 15842262
+DŽ: 15858903 -> 15842551
+DŽ: 15846850 -> 15842238
+DŽ: 15841731 -> 15841731
+DŽ: 15846679 -> 15842067
+DŽ: 15846726 -> 15842238
+DŽ: 15853710 -> 15842551
+DŽ: 15849222 -> 15842551
+DŽ: 15841731 -> 15841731
+
+ start over 1356181 loops 1159 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15843795 -> 15842420
+DŽ: 15843275 -> 15843275
+DŽ: 15846862 -> 15841754
+DŽ: 15841731 -> 15841731
+DŽ: 15856761 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15849222 -> 15842551
+DŽ: 15847960 -> 15905268
+DŽ: 15843482 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15842118 -> 15842118
+DŽ: 15852101 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 1370853 loops 1177 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15844516 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15847634 -> 15841805
+DŽ: 15853193 -> 15841949
+DŽ: 15869254 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15853193 -> 15841949
+DŽ: 15842215 -> 15842215
+DŽ: 15843159 -> 15843159
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843358 -> 15842118
+DŽ: 15842397 -> 15842397
+
+ start over 1390124 loops 1174 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15843275 -> 15905705
+DŽ: 15841731 -> 15841731
+DŽ: 15847960 -> 15843472
+DŽ: 15853153 -> 15843472
+DŽ: 15842215 -> 15842215
+DŽ: 15842420 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15843351 -> 15842939
+DŽ: 15854206 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15854206 -> 15842962
+DŽ: 15843358 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842528 -> 15842528
+
+ start over 1408921 loops 1188 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15854206 -> 15904507
+DŽ: 15857813 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15843560 -> 15842285
+DŽ: 15844608 -> 15841805
+DŽ: 15843482 -> 15843482
+DŽ: 15852643 -> 15842962
+DŽ: 15858775 -> 15841972
+DŽ: 15843472 -> 15843472
+DŽ: 15841731 -> 15841731
+DŽ: 15841972 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15843670 -> 15842107
+DŽ: 15851568 -> 15841972
+
+ start over 1422952 loops 1214 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15848004 -> 15841972
+DŽ: 15854530 -> 15843986
+DŽ: 15842107 -> 15842107
+DŽ: 15858614 -> 15842962
+DŽ: 15853522 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15851827 -> 15842107
+DŽ: 15853328 -> 15905557
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15854206 -> 15842962
+
+ start over 1436800 loops 1220 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841972 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15851788 -> 15842107
+DŽ: 15852643 -> 15906112
+DŽ: 15852535 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15853545 -> 15842962
+DŽ: 15849461 -> 15841972
+DŽ: 15848132 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15847215 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15854530 -> 15843986
+DŽ: 15843159 -> 15843159
+DŽ: 15841731 -> 15841731
+DŽ: 15853568 -> 15843986
+DŽ: 15844580 -> 15841972
+
+ start over 1453800 loops 1238 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15842118 -> 15842118
+DŽ: 15852643 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15857813 -> 15904507
+DŽ: 15857813 -> 15904507
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853545 -> 15905085
+DŽ: 15841731 -> 15841731
+DŽ: 15853973 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843887 -> 15842962
+DŽ: 15844580 -> 15841972
+DŽ: 15858775 -> 15843986
+DŽ: 15841731 -> 15841731
+
+ start over 1469552 loops 1238 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15854140 -> 15841972
+DŽ: 15853568 -> 15841972
+DŽ: 15853973 -> 15841805
+DŽ: 15848904 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15848933 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848995 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15858775 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 1483181 loops 1251 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15858775 -> 15843986
+DŽ: 15848904 -> 15841805
+DŽ: 15852933 -> 15843252
+DŽ: 15857813 -> 15841972
+DŽ: 15848070 -> 15905705
+DŽ: 15843389 -> 15841805
+DŽ: 15848867 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15848124 -> 15841805
+DŽ: 15851754 -> 15841805
+DŽ: 15847938 -> 15841805
+DŽ: 15847447 -> 15841972
+
+ start over 1496810 loops 1272 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15906425
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15856485 -> 15852956
+DŽ: 15845189 -> 15842107
+DŽ: 15847697 -> 15842285
+DŽ: 15844292 -> 15841805
+DŽ: 15841972 -> 15841972
+DŽ: 15844819 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842896 -> 15841972
+DŽ: 15841949 -> 15841949
+DŽ: 15846266 -> 15852933
+DŽ: 15841731 -> 15841731
+DŽ: 15842858 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843252 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852890 -> 15842285
+DŽ: 15846357 -> 15843275
+DŽ: 15842766 -> 15842420
+DŽ: 15848397 -> 15852933
+
+ start over 1520595 loops 1284 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842858 -> 15841805
+DŽ: 15854206 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15843042 -> 15904861
+DŽ: 15845953 -> 15852620
+DŽ: 15846200 -> 15851943
+DŽ: 15841731 -> 15841731
+DŽ: 15853216 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15844887 -> 15851486
+DŽ: 15841731 -> 15841731
+DŽ: 15845031 -> 15851630
+DŽ: 15848313 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846589 -> 15841972
+DŽ: 15841731 -> 15841731
+
+ start over 1537770 loops 1304 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15843275 -> 15843275
+DŽ: 15848336 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846589 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846357 -> 15853980
+DŽ: 15841731 -> 15841731
+DŽ: 15844986 -> 15851653
+DŽ: 15848956 -> 15842285
+DŽ: 15843588 -> 15905705
+DŽ: 15843337 -> 15842285
+DŽ: 15842839 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15842766 -> 15842420
+DŽ: 15842240 -> 15841972
+DŽ: 15877480 -> 15842962
+DŽ: 15846223 -> 15851966
+DŽ: 15860035 -> 15842962
+DŽ: 15850856 -> 15841949
+DŽ: 15844251 -> 15842939
+
+ start over 1559595 loops 1311 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15842285 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15850922 -> 15842939
+DŽ: 15841972 -> 15841972
+DŽ: 15870724 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15846460 -> 15841972
+DŽ: 15843683 -> 15905705
+DŽ: 15843282 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853476 -> 15843795
+DŽ: 15845054 -> 15904914
+DŽ: 15841972 -> 15841972
+DŽ: 15842939 -> 15842939
+DŽ: 15854183 -> 15842939
+DŽ: 15844115 -> 15843986
+DŽ: 15854206 -> 15842962
+DŽ: 15848474 -> 15841972
+DŽ: 15853667 -> 15843986
+
+ start over 1580437 loops 1325 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15841731 -> 15841731
+DŽ: 15843209 -> 15842285
+DŽ: 15844986 -> 15851653
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843592 -> 15841805
+DŽ: 15845299 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15844076 -> 15841949
+DŽ: 15854206 -> 15842962
+DŽ: 15842285 -> 15842285
+DŽ: 15843450 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15844986 -> 15841972
+DŽ: 15854183 -> 15905682
+DŽ: 15843275 -> 15842420
+DŽ: 15841805 -> 15841805
+DŽ: 15848741 -> 15842084
+
+ start over 1599228 loops 1344 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15849198 -> 15841949
+DŽ: 15848130 -> 15905540
+DŽ: 15847837 -> 15841805
+DŽ: 15843647 -> 15842084
+DŽ: 15841949 -> 15841949
+DŽ: 15843482 -> 15843482
+DŽ: 15841731 -> 15841731
+DŽ: 15848577 -> 15841805
+DŽ: 15853770 -> 15841805
+DŽ: 15843633 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15858157 -> 15841805
+
+ start over 1611995 loops 1369 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853453
+DŽ: 15841731 -> 15841731
+DŽ: 15848124 -> 15841949
+DŽ: 15853675 -> 15841805
+DŽ: 15853912 -> 15841805
+DŽ: 15842420 -> 15906300
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841949 -> 15841949
+DŽ: 15843518 -> 15904548
+DŽ: 15847582 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15848448 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15852078 -> 15842397
+
+ start over 1627315 loops 1379 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15906425
+DŽ: 15842655 -> 15841805
+DŽ: 15906425 -> 15906425
+DŽ: 15876323 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853529 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842736 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848471 -> 15842420
+DŽ: 15851973 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15851660 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842903 -> 15841972
+DŽ: 15847385 -> 15842551
+DŽ: 15853529 -> 15842285
+
+ start over 1647663 loops 1392 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15851799 -> 15842118
+DŽ: 15843967 -> 15842397
+DŽ: 15851692 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15842559 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841754
+DŽ: 15843171 -> 15842118
+DŽ: 15853506 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853362 -> 15842118
+DŽ: 15854519 -> 15904820
+DŽ: 15842404 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852705 -> 15843986
+DŽ: 15841731 -> 15841731
+
+ start over 1668925 loops 1413 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15852956 -> 15843275
+DŽ: 15857751 -> 15842962
+DŽ: 15843588 -> 15842962
+DŽ: 15851799 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848169 -> 15842118
+DŽ: 15853056 -> 15904548
+DŽ: 15851799 -> 15842118
+DŽ: 15851799 -> 15842118
+DŽ: 15842285 -> 15842285
+DŽ: 15842118 -> 15842118
+DŽ: 15851799 -> 15842118
+DŽ: 15842118 -> 15842118
+DŽ: 15851799 -> 15842118
+
+ start over 1686127 loops 1415 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842404 -> 15842397
+DŽ: 15851653 -> 15841972
+DŽ: 15851486 -> 15841805
+DŽ: 15841731 -> 15905204
+DŽ: 15857751 -> 15842962
+DŽ: 15851692 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15857751 -> 15842962
+DŽ: 15851653 -> 15841972
+DŽ: 15853529 -> 15842285
+DŽ: 15842091 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15851568 -> 15841972
+DŽ: 15851806 -> 15842118
+DŽ: 15842397 -> 15842397
+
+ start over 1702627 loops 1418 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841972 -> 15841972
+DŽ: 15842397 -> 15842397
+DŽ: 15841805 -> 15841805
+DŽ: 15847980 -> 15841805
+DŽ: 15846293 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15853362 -> 15905268
+DŽ: 15852956 -> 15843275
+DŽ: 15851799 -> 15842118
+DŽ: 15848336 -> 15842285
+DŽ: 15843375 -> 15841805
+DŽ: 15842397 -> 15842397
+DŽ: 15842404 -> 15842084
+DŽ: 15905204 -> 15905204
+DŽ: 15841731 -> 15841731
+DŽ: 15858470 -> 15842118
+DŽ: 15847634 -> 15841805
+
+ start over 1719504 loops 1437 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15849197 -> 15841805
+DŽ: 15853362 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15843497 -> 15841805
+DŽ: 15843375 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843209 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15905204 -> 15905204
+DŽ: 15852867 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15848727 -> 15843252
+DŽ: 15841805 -> 15841805
+DŽ: 15846343 -> 15841731
+DŽ: 15842091 -> 15842084
+
+ start over 1738355 loops 1449 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15843660 -> 15842939
+DŽ: 15842797 -> 15841805
+DŽ: 15841949 -> 15841949
+DŽ: 15844115 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15842397 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842655 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15848727 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843252 -> 15843252
+DŽ: 15851799 -> 15842118
+DŽ: 15841731 -> 15841731
+
+ start over 1756726 loops 1450 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852101
+DŽ: 15841731 -> 15841731
+DŽ: 15842797 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15852723 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15851799 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842118 -> 15842118
+DŽ: 15852078 -> 15842397
+DŽ: 15851799 -> 15842118
+DŽ: 15851799 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842981 -> 15842118
+DŽ: 15843660 -> 15842939
+DŽ: 15841805 -> 15841805
+DŽ: 15843592 -> 15841805
+DŽ: 15843252 -> 15843252
+DŽ: 15841731 -> 15841731
+
+ start over 1777498 loops 1462 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15844838 -> 15843275
+DŽ: 15842084 -> 15842084
+DŽ: 15842397 -> 15842397
+DŽ: 15848080 -> 15841805
+DŽ: 15842084 -> 15842084
+DŽ: 15843275 -> 15843275
+DŽ: 15843660 -> 15842939
+DŽ: 15842939 -> 15842939
+DŽ: 15841731 -> 15841731
+DŽ: 15842100 -> 15841754
+DŽ: 15841754 -> 15841754
+DŽ: 15842655 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15844115 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15843151 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15852101 -> 15905893
+DŽ: 15841805 -> 15841805
+DŽ: 15843125 -> 15842262
+
+ start over 1797126 loops 1465 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847424 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15851943 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843722 -> 15905085
+DŽ: 15843042 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842262 -> 15842118
+
+ start over 1816306 loops 1478 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15842262 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15843252 -> 15843252
+DŽ: 15841805 -> 15841805
+DŽ: 15847636 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15852101 -> 15842420
+DŽ: 15854245 -> 15841949
+DŽ: 15842962 -> 15842962
+DŽ: 15842962 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15849114 -> 15842939
+DŽ: 15852620 -> 15842939
+DŽ: 15843647 -> 15842084
+DŽ: 15842729 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 1833958 loops 1488 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15851799 -> 15842118
+DŽ: 15842118 -> 15842118
+DŽ: 15854183 -> 15842939
+DŽ: 15842655 -> 15841805
+DŽ: 15842262 -> 15842262
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843151 -> 15841805
+DŽ: 15852956 -> 15843275
+DŽ: 15841805 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843151 -> 15841805
+DŽ: 15851788 -> 15842107
+DŽ: 15842084 -> 15842084
+DŽ: 15843986 -> 15843986
+
+ start over 1850339 loops 1513 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853476 -> 15906538
+DŽ: 15842118 -> 15842118
+DŽ: 15858010 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15876323 -> 15841805
+DŽ: 15843253 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15852726 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15854602 -> 15842118
+DŽ: 15844922 -> 15842118
+
+ start over 1870163 loops 1532 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15842118 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847948 -> 15841805
+DŽ: 15842773 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15904548
+DŽ: 15852890 -> 15852276
+DŽ: 15842384 -> 15841972
+DŽ: 15841731 -> 15905204
+DŽ: 15841731 -> 15841731
+DŽ: 15842420 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15847824 -> 15841805
+
+ start over 1889755 loops 1545 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15846839 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15847828 -> 15842285
+DŽ: 15857383 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842262 -> 15842262
+DŽ: 15842599 -> 15841731
+DŽ: 15842771 -> 15842262
+DŽ: 15842627 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15847574 -> 15905705
+DŽ: 15843024 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15851966 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843193 -> 15842262
+DŽ: 15843125 -> 15842262
+
+ start over 1908543 loops 1543 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15852584 -> 15841972
+DŽ: 15847824 -> 15841805
+DŽ: 15852577 -> 15841972
+DŽ: 15852620 -> 15841949
+DŽ: 15852890 -> 15842285
+DŽ: 15846874 -> 15842262
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842599 -> 15841731
+DŽ: 15842262 -> 15842262
+DŽ: 15841731 -> 15841731
+DŽ: 15847348 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 1928590 loops 1549 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842551 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15843252 -> 15843252
+DŽ: 15846424 -> 15841805
+DŽ: 15846925 -> 15842084
+DŽ: 15846424 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847948 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841972 -> 15841972
+DŽ: 15842599 -> 15841731
+DŽ: 15847574 -> 15842962
+DŽ: 15841972 -> 15841972
+DŽ: 15847574 -> 15842962
+
+ start over 1948665 loops 1549 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15843252 -> 15905995
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847948 -> 15904548
+DŽ: 15846293 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15905995 -> 15843252
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15854183 -> 15842939
+DŽ: 15853674 -> 15905557
+
+ start over 1961874 loops 1614 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15848124 -> 15841949
+DŽ: 15853674 -> 15842084
+DŽ: 15848789 -> 15842118
+DŽ: 15846913 -> 15841805
+DŽ: 15856594 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15851630 -> 15905085
+DŽ: 15870450 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843993 -> 15842084
+DŽ: 15847057 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15856594 -> 15841805
+DŽ: 15848819 -> 15904548
+
+ start over 1976138 loops 1622 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15843855 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15849544 -> 15841949
+DŽ: 15854245 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15854496 -> 15843252
+DŽ: 15847574 -> 15842962
+DŽ: 15853273 -> 15841805
+DŽ: 15848430 -> 15905580
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843942 -> 15842107
+DŽ: 15853351 -> 15842107
+
+ start over 1990702 loops 1628 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15853674 -> 15842107
+DŽ: 15842285 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15844284 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15853351 -> 15842107
+DŽ: 15842729 -> 15841805
+DŽ: 15848628 -> 15842107
+DŽ: 15853973 -> 15841805
+DŽ: 15853328 -> 15842084
+DŽ: 15844292 -> 15841805
+DŽ: 15848504 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 2005706 loops 1639 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15842975 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15852964 -> 15904548
+DŽ: 15842084 -> 15842084
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843681 -> 15904861
+DŽ: 15904548 -> 15904955
+DŽ: 15904861 -> 15904861
+DŽ: 15843368 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 2018374 loops 1656 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15894124 -> 15841805
+DŽ: 15880122 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15904548
+DŽ: 15869254 -> 15841805
+DŽ: 15869254 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15851933 -> 15841805
+DŽ: 15853675 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853675 -> 15841805
+
+ start over 2031286 loops 1654 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15886006 -> 15841805
+DŽ: 15904548 -> 15904548
+DŽ: 15843368 -> 15841805
+DŽ: 15859020 -> 15841805
+DŽ: 15851966 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15853216 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15895687 -> 15841805
+DŽ: 15841731 -> 15841731
+
+ start over 2045500 loops 1677 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15853770 -> 15841805
+DŽ: 15842797 -> 15841805
+DŽ: 15843497 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15904548 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15847409 -> 15841805
+DŽ: 15846293 -> 15841805
+DŽ: 15859573 -> 15841805
+DŽ: 15841805 -> 15841805
+DŽ: 15851966 -> 15842285
+DŽ: 15853178 -> 15841805
+
+ start over 2057801 loops 1680 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15842797 -> 15841805
+DŽ: 15853178 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15880739 -> 15841805
+DŽ: 15853937 -> 15841972
+DŽ: 15848476 -> 15904955
+DŽ: 15853049 -> 15841805
+DŽ: 15842598 -> 15841972
+DŽ: 15841972 -> 15841972
+
+ start over 2070704 loops 1685 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15847158 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15844161 -> 15841972
+DŽ: 15853049 -> 15841805
+DŽ: 15848577 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847043 -> 15841805
+DŽ: 15851966 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15852374 -> 15841972
+DŽ: 15844161 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15843368 -> 15841805
+
+ start over 2085857 loops 1679 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15858604 -> 15841805
+DŽ: 15843368 -> 15841805
+DŽ: 15842431 -> 15841805
+DŽ: 15841972 -> 15841972
+DŽ: 15841972 -> 15841972
+DŽ: 15843368 -> 15841805
+DŽ: 15847188 -> 15904507
+DŽ: 15851966 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15852956 -> 15843275
+DŽ: 15857813 -> 15841972
+DŽ: 15854530 -> 15843986
+DŽ: 15841731 -> 15841731
+DŽ: 15848933 -> 15842962
+
+ start over 2104668 loops 1708 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15848132 -> 15841972
+DŽ: 15853460 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15905204
+DŽ: 15852956 -> 15843275
+DŽ: 15848598 -> 15843986
+DŽ: 15847158 -> 15841949
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846862 -> 15841754
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847206 -> 15841731
+DŽ: 15852975 -> 15841731
+DŽ: 15858083 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 2121789 loops 1711 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15858083 -> 15841731
+DŽ: 15851966 -> 15842285
+DŽ: 15847158 -> 15841949
+DŽ: 15874855 -> 15841972
+DŽ: 15848402 -> 15841731
+DŽ: 15853049 -> 15905947
+DŽ: 15847906 -> 15841731
+DŽ: 15855662 -> 15841805
+DŽ: 15859020 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15853912 -> 15841805
+DŽ: 15843885 -> 15851796
+
+ start over 2133887 loops 1735 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15906945
+DŽ: 15853912 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15853049 -> 15841805
+DŽ: 15861227 -> 15843459
+DŽ: 15852656 -> 15842107
+DŽ: 15853216 -> 15842962
+DŽ: 15841972 -> 15841972
+DŽ: 15841731 -> 15841731
+DŽ: 15853351 -> 15842107
+DŽ: 15853674 -> 15842084
+DŽ: 15853674 -> 15842084
+
+ start over 2146911 loops 1761 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852956
+DŽ: 15852548 -> 15842084
+DŽ: 15841972 -> 15841972
+DŽ: 15848459 -> 15842939
+DŽ: 15858163 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15844550 -> 15843275
+DŽ: 15848467 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15844658 -> 15843795
+DŽ: 15845740 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843389 -> 15841805
+DŽ: 15842952 -> 15842084
+DŽ: 15852656 -> 15842107
+DŽ: 15844289 -> 15842107
+DŽ: 15848249 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15844658 -> 15842420
+DŽ: 15841972 -> 15841972
+DŽ: 15845740 -> 15841805
+DŽ: 15843437 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+
+ start over 2169181 loops 1772 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15853476
+DŽ: 15841731 -> 15841731
+DŽ: 15844345 -> 15843482
+DŽ: 15841805 -> 15841805
+DŽ: 15845740 -> 15904548
+DŽ: 15843175 -> 15841805
+DŽ: 15841805 -> 15904548
+DŽ: 15841731 -> 15841731
+DŽ: 15852956 -> 15843275
+DŽ: 15842107 -> 15905580
+DŽ: 15841731 -> 15841731
+DŽ: 15843670 -> 15842107
+DŽ: 15843275 -> 15843275
+DŽ: 15876625 -> 15842107
+DŽ: 15841731 -> 15841731
+
+ start over 2183450 loops 1781 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15906425
+DŽ: 15884443 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15874956 -> 15841805
+DŽ: 15848778 -> 15842107
+DŽ: 15842084 -> 15842084
+DŽ: 15851568 -> 15841972
+DŽ: 15851754 -> 15841805
+DŽ: 15853358 -> 15842107
+DŽ: 15853529 -> 15842285
+DŽ: 15848131 -> 15842397
+DŽ: 15854434 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15848131 -> 15842397
+DŽ: 15841731 -> 15841731
+DŽ: 15854434 -> 15843275
+DŽ: 15843677 -> 15842107
+DŽ: 15847528 -> 15842420
+DŽ: 15842710 -> 15842084
+
+ start over 2202851 loops 1798 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15849717 -> 15842420
+DŽ: 15843878 -> 15843275
+DŽ: 15853049 -> 15841805
+DŽ: 15853049 -> 15841805
+DŽ: 15844838 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15849946 -> 15843275
+DŽ: 15847841 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15843677 -> 15842107
+DŽ: 15847226 -> 15904861
+DŽ: 15847233 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841805 -> 15841805
+DŽ: 15846913 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15848361 -> 15842118
+
+ start over 2219219 loops 1801 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15853277 -> 15842118
+DŽ: 15843253 -> 15841805
+DŽ: 15847841 -> 15842107
+DŽ: 15853049 -> 15841805
+DŽ: 15847080 -> 15841972
+DŽ: 15853362 -> 15842118
+DŽ: 15852871 -> 15843275
+DŽ: 15854519 -> 15843275
+DŽ: 15847841 -> 15905580
+DŽ: 15847057 -> 15905085
+DŽ: 15847080 -> 15841972
+DŽ: 15844571 -> 15841949
+DŽ: 15843775 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842285 -> 15842285
+
+ start over 2235351 loops 1810 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15843795
+DŽ: 15841731 -> 15841731
+DŽ: 15847513 -> 15841972
+DŽ: 15849114 -> 15842939
+DŽ: 15847528 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15847226 -> 15842118
+DŽ: 15853056 -> 15841805
+DŽ: 15843275 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15841972 -> 15841972
+DŽ: 15848778 -> 15842107
+DŽ: 15853871 -> 15842118
+DŽ: 15852956 -> 15843275
+DŽ: 15841731 -> 15841731
+DŽ: 15849946 -> 15843275
+
+ start over 2251202 loops 1810 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15848719 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15842700 -> 15841972
+DŽ: 15841972 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843746 -> 15841972
+DŽ: 15843079 -> 15842107
+DŽ: 15843208 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843025 -> 15841972
+DŽ: 15853871 -> 15842118
+DŽ: 15853871 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15843375 -> 15904548
+DŽ: 15847047 -> 15842084
+
+ start over 2270808 loops 1838 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15906945
+DŽ: 15841731 -> 15841731
+DŽ: 15843482 -> 15842107
+DŽ: 15842627 -> 15842118
+DŽ: 15841731 -> 15841731
+DŽ: 15853871 -> 15842118
+DŽ: 15843484 -> 15841805
+DŽ: 15841731 -> 15841731
+DŽ: 15843484 -> 15841805
+DŽ: 15847346 -> 15841805
+DŽ: 15847533 -> 15841805
+DŽ: 15847070 -> 15905580
+DŽ: 15841731 -> 15841731
+DŽ: 15847070 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15847316 -> 15842107
+DŽ: 15848083 -> 15842107
+
+ start over 2286646 loops 1873 unique solutions 
+Original + vert_size 0 
+DŽ: 15852416 -> 15843275
+DŽ: 15845908 -> 15843482
+DŽ: 15841731 -> 15841731
+DŽ: 15843687 -> 15853266
+DŽ: 15848076 -> 15842962
+DŽ: 15841731 -> 15841731
+DŽ: 15844345 -> 15843482
+DŽ: 15841731 -> 15841731
+DŽ: 15852101 -> 15842420
+DŽ: 15841731 -> 15841731
+DŽ: 15845358 -> 15843795
+DŽ: 15852656 -> 15842107
+DŽ: 15841731 -> 15841731
+DŽ: 15841731 -> 15841731
+DŽ: 15846829 -> 15841805
+DŽ: 15848135 -> 15842107
+DŽ: 15855039 -> 15843772
+DŽ: 15855016 -> 15842397
+DŽ: 15841805 -> 15841805
+
+ start over 2304662 loops 1889 unique solutions 
+Original + vert_size 13 
+DŽ: 15852416 -> 15852956
+DŽ: 15844944 -> 15843252
+DŽ: 15855039 -> 15843795
+DŽ: 15841731 -> 15841731
+DŽ: 15843252 -> 15905995
+DŽ: 15843795 -> 15842420
+DŽ: 15843588 -> 15843459
+DŽ: 15841731 -> 15841731
+DŽ: 15848268 -> 15841805
+DŽ: 15844177 -> 15841805
+DŽ: 15844177 -> 15841805
+DŽ: 15848016 -> 15842285
+DŽ: 15841731 -> 15841731
+DŽ: 15844815 -> 15853243
+DŽ: 15841805 -> 15841805
+DŽ: 15844605 -> 15842118
+DŽ: 15846221 -> 15842420
+DŽ: 15842766 -> 15842420
+DŽ: 15843042 -> 15842118
+DŽ: 15844605 -> 15842118
+DŽ: 15853973 -> 15841805
+DŽ: 15848780 -> 15841805
+
+ start over 2325645 loops 1896 unique solutions 
+Approx + random 
+DŽ: 15912479 -> 15852956
+DŽ: 15841731 -> 15841731
+DŽ: 15842285 -> 15842285
+DŽ: 15842118 -> 15904861
+DŽ: 15844014 -> 15842084
+end_heu: 2329349 loops with 1896 unique solutions in 1799.51 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 15841731 (was 15841731) in 0.000777 s
+## FINAL WEIGHT 15841731
+print_solution: 0.002055 s

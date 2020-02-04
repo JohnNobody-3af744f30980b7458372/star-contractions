@@ -1,0 +1,991 @@
+Version: final-94-gfffc3aa rub_all.sh: remove longest prefix
+Random seed: 1549997988
+Start
+>>> save_orig_graph
+>> Saved weight 0
+Graph loaded
+|V| = 7999, |E| = 14734, |R| = 16
+First clearance of the input. Calling buy_zero and run_all_heuristics.
+  buy_zero: 0 zero edges in 1.7e-05 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 1.1e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 7999 -> 7994
+  delete_edges: deleted 4 edges in 0.000953 s and 1 rounds
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 8 in 1.2e-05 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 7994 -> 7986
+  delete_edges_shortest_path: deleted 7 edges in 0.037629 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 11 in 1.4e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 1e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+Compressed graph 7986 -> 7975
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 7975 -> 7975
+  delete_edges_shortest_path: deleted 11 edges in 0.037103 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 15 in 1.7e-05 s
+  shortest_edge_between_terminals: 0 edges in 0 s
+  handle_small_terminal_degrees: terms 0 in 6e-06 s
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+  shortest_edge_between_terminals: 0 edges in 1e-06 s
+Compressed graph 7975 -> 7960
+Compressed graph 7960 -> 7960
+>>> save_orig_graph
+>> Saved weight 0
+### ZEL_LVL=0 PRECISE_STARS=1
+
+Calling `contract_till_the_bitter_end`
+|V| = 7960, |E| = 14674, |R| = 16
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16617 (was 16617) in 0.001461 s
+0,,7960,14674,16,,0,0,,16617,16617,0,0,0,,0,0,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+Starting round 1
+Found 0 isolated vertices
+Invalid ratios recomputed: 7960
+Best ratio is 469/2 (234.5), centered at 343
+Finding the best star... Star with 3 terminals centered in 21
+round took: 3.98128 s
+|V| = 7960, |E| = 14658, |R| = 14
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16617 (was 16617) in 0.001439 s
+1,,7960,14658,14,,7960,0,,16617,16617,469,469,469,,469,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.2e-05 s
+Starting round 2
+Found 15 isolated vertices
+Invalid ratios recomputed: 7392
+Best ratio is 450/1 (450.0), centered at 869
+Finding the best star... Star with 2 terminals centered in 7655
+round took: 4.79738 s
+|V| = 7960, |E| = 14644, |R| = 13
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16608 (was 16608) in 0.001431 s
+2,,7945,14644,13,,7392,0,,16608,16608,919,919,919,,450,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.3e-05 s
+Starting round 3
+Found 24 isolated vertices
+Invalid ratios recomputed: 6802
+Best ratio is 570/1 (570.0), centered at 2568
+Finding the best star... Star with 2 terminals centered in 7655
+round took: 5.02148 s
+|V| = 7960, |E| = 14629, |R| = 12
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16608 (was 16608) in 0.001429 s
+3,,7936,14629,12,,6802,0,,16608,16608,1489,1489,1489,,570,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.3e-05 s
+Starting round 4
+Found 37 isolated vertices
+Invalid ratios recomputed: 7095
+Best ratio is 1491/2 (745.5), centered at 13
+Finding the best star... Star with 3 terminals centered in 2032
+round took: 5.43859 s
+|V| = 7960, |E| = 14583, |R| = 10
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16366 (was 16366) in 0.001435 s
+4,,7923,14583,10,,7095,0,,16366,16366,2980,2980,2980,,1491,3,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 7 in 1.9e-05 s
+Starting round 5
+Found 79 isolated vertices
+Invalid ratios recomputed: 7477
+Best ratio is 817/1 (817.0), centered at 40
+Finding the best star... Star with 2 terminals centered in 5453
+round took: 5.54735 s
+|V| = 7960, |E| = 14551, |R| = 9
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16242 (was 16260) in 0.001437 s
+  refine_solution: new weight 16242 (was 16242) in 0.001334 s
+5,,7881,14551,9,,7477,0,,16260,16242,3797,3797,3797,,817,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.5e-05 s
+Starting round 6
+Found 100 isolated vertices
+Invalid ratios recomputed: 7215
+Best ratio is 824/1 (824.0), centered at 31
+Finding the best star... Star with 2 terminals centered in 3168
+round took: 5.70952 s
+|V| = 7960, |E| = 14525, |R| = 8
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16242 (was 16260) in 0.00145 s
+  refine_solution: new weight 16242 (was 16242) in 0.001356 s
+6,,7860,14525,8,,7215,0,,16260,16242,4621,4621,4621,,824,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1.3e-05 s
+Starting round 7
+Found 120 isolated vertices
+Invalid ratios recomputed: 7319
+Best ratio is 892/1 (892.0), centered at 148
+Finding the best star... Star with 2 terminals centered in 2402
+round took: 6.58229 s
+|V| = 7960, |E| = 14496, |R| = 7
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16242 (was 16260) in 0.001441 s
+  refine_solution: new weight 16242 (was 16242) in 0.001334 s
+7,,7840,14496,7,,7319,0,,16260,16242,5513,5513,5513,,892,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 1.4e-05 s
+Starting round 8
+Found 145 isolated vertices
+Invalid ratios recomputed: 7815
+Best ratio is 974/1 (974.0), centered at 33
+Finding the best star... Star with 2 terminals centered in 2402
+round took: 7.62437 s
+|V| = 7960, |E| = 14466, |R| = 6
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16182 (was 16250) in 0.001442 s
+  refine_solution: new weight 16020 (was 16182) in 0.001343 s
+  refine_solution: new weight 16020 (was 16020) in 0.001336 s
+8,,7815,14466,6,,7815,0,,16250,16020,6487,6487,6487,,974,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 4 in 1.7e-05 s
+Starting round 9
+Found 169 isolated vertices
+Invalid ratios recomputed: 7791
+Best ratio is 1617/1 (1617.0), centered at 78
+Finding the best star... Star with 2 terminals centered in 1921
+round took: 10.6065 s
+|V| = 7960, |E| = 14410, |R| = 5
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16182 (was 16250) in 0.001445 s
+  refine_solution: new weight 16020 (was 16182) in 0.001354 s
+  refine_solution: new weight 16020 (was 16020) in 0.001338 s
+9,,7791,14410,5,,7791,0,,16250,16020,8104,8104,8104,,1617,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 9 in 2.7e-05 s
+Starting round 10
+Found 216 isolated vertices
+Invalid ratios recomputed: 7732
+Best ratio is 1766/1 (1766.0), centered at 179
+Finding the best star... Star with 2 terminals centered in 6710
+round took: 10.2066 s
+|V| = 7960, |E| = 14344, |R| = 4
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16182 (was 16250) in 0.001422 s
+  refine_solution: new weight 16020 (was 16182) in 0.00134 s
+  refine_solution: new weight 16020 (was 16020) in 0.001349 s
+10,,7744,14344,4,,7732,0,,16250,16020,9870,9870,9870,,1766,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 2 in 1.2e-05 s
+Starting round 11
+Found 263 isolated vertices
+Invalid ratios recomputed: 7697
+Best ratio is 1875/1 (1875.0), centered at 217
+Finding the best star... Star with 2 terminals centered in 5915
+round took: 9.94777 s
+|V| = 7960, |E| = 14306, |R| = 3
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16054 (was 16072) in 0.001435 s
+  refine_solution: new weight 16054 (was 16054) in 0.001363 s
+11,,7697,14306,3,,7697,0,,16072,16054,11745,11745,11745,,1875,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 1 in 1e-05 s
+Starting round 12
+Found 296 isolated vertices
+Invalid ratios recomputed: 7664
+Best ratio is 1901/1 (1901.0), centered at 113
+Finding the best star... Star with 2 terminals centered in 5915
+round took: 9.71352 s
+|V| = 7960, |E| = 14265, |R| = 2
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16054 (was 16072) in 0.001451 s
+  refine_solution: new weight 16054 (was 16054) in 0.001348 s
+12,,7664,14265,2,,7664,0,,16072,16054,13646,13646,13646,,1901,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 3 in 1.4e-05 s
+Starting round 13
+Found 334 isolated vertices
+Invalid ratios recomputed: 7626
+Best ratio is 2426/1 (2426.0), centered at 7
+Finding the best star... Star with 2 terminals centered in 3168
+round took: 9.33565 s
+|V| = 7960, |E| = 14218, |R| = 1
+>>> get_solution
+>>> get_solution
+  refine_solution: new weight 16054 (was 16072) in 0.001445 s
+  refine_solution: new weight 16054 (was 16054) in 0.001342 s
+13,,7626,14218,1,,7626,0,,16072,16054,16072,16072,16072,,2426,2,@@
+
+  handle_small_Steiner_degrees: steiner 0, suppress 0 in 9e-06 s
+contract_till_the_bitter_end: 94.6239 s
+
+Calling end_heu
+>>> get_solution
+Saved weight 0
+DŽ: 16072 -> 15664
+  BEST solution improved 16072 -> 15664 (vert_size 0, round 1) *
+  BEST solution improved 15664 -> 15648 (vert_size 4, round 162) *
+DŽ: 15648 -> 15471
+  BEST solution improved 15648 -> 15471 (vert_size 0, round 1001) *
+  BEST solution improved 15471 -> 15466 (vert_size 3, round 1108) *
+  BEST solution improved 15466 -> 15230 (vert_size 2, round 1158) *
+  BEST solution improved 15230 -> 15136 (vert_size 4, round 1413) *
+DŽ: 15136 -> 15076
+  BEST solution improved 15136 -> 15076 (vert_size 0, round 2001) *
+DŽ: 15076 -> 15076
+DŽ: 15230 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15299
+DŽ: 15299 -> 15076
+DŽ: 15230 -> 15076
+DŽ: 15144 -> 15362
+DŽ: 15240 -> 15371
+DŽ: 15230 -> 15870
+DŽ: 15664 -> 15926
+DŽ: 15106 -> 15076
+DŽ: 15466 -> 15076
+DŽ: 15648 -> 15076
+DŽ: 15146 -> 15371
+DŽ: 15299 -> 15283
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15272 -> 15171
+DŽ: 15191 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15232 -> 15171
+DŽ: 15149 -> 15259
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15106 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+
+ start over 34430 loops 155 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15852
+DŽ: 15086 -> 15076
+DŽ: 15187 -> 15171
+DŽ: 15488 -> 15733
+DŽ: 15240 -> 15076
+DŽ: 15086 -> 15076
+DŽ: 15086 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15106 -> 15076
+DŽ: 15124 -> 15445
+DŽ: 15076 -> 15076
+DŽ: 15614 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15174 -> 15076
+DŽ: 15852 -> 15752
+DŽ: 15180 -> 15362
+DŽ: 15076 -> 15076
+DŽ: 15212 -> 15471
+DŽ: 15076 -> 15076
+DŽ: 15598 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15121 -> 15101
+DŽ: 15174 -> 15362
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15388 -> 15371
+DŽ: 15076 -> 15076
+DŽ: 15154 -> 15076
+DŽ: 15212 -> 15362
+DŽ: 15186 -> 15371
+DŽ: 15082 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15164 -> 15076
+DŽ: 15240 -> 15101
+
+ start over 68882 loops 182 unique solutions 
+Approx + random 
+DŽ: 16617 -> 16014
+DŽ: 15142 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15188 -> 15371
+DŽ: 15198 -> 15076
+DŽ: 15234 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15510 -> 15076
+DŽ: 15168 -> 15076
+DŽ: 15186 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15241 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15222 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15156 -> 15371
+DŽ: 15222 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15156 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+
+ start over 101733 loops 210 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15206 -> 15371
+DŽ: 15076 -> 15371
+DŽ: 15216 -> 15076
+DŽ: 15211 -> 15149
+DŽ: 15076 -> 16059
+DŽ: 16059 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15612 -> 15926
+DŽ: 15221 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15221 -> 15171
+DŽ: 15171 -> 15171
+DŽ: 15186 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15221 -> 15561
+DŽ: 15217 -> 15171
+DŽ: 15273 -> 15305
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15221 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15209 -> 15101
+
+ start over 133786 loops 251 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15211 -> 15171
+DŽ: 15517 -> 15733
+DŽ: 15177 -> 15171
+DŽ: 15144 -> 15076
+DŽ: 15144 -> 15076
+DŽ: 15733 -> 15707
+DŽ: 15159 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15159 -> 15159
+DŽ: 15154 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15371 -> 15076
+DŽ: 15298 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15371 -> 15371
+DŽ: 15154 -> 15076
+DŽ: 15186 -> 15076
+DŽ: 15598 -> 15471
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15196 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15158 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15278 -> 15076
+
+ start over 165367 loops 273 unique solutions 
+Approx + random 
+DŽ: 16617 -> 16014
+DŽ: 15181 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15299
+DŽ: 15076 -> 15076
+DŽ: 15202 -> 15733
+DŽ: 15600 -> 15445
+DŽ: 15086 -> 15076
+DŽ: 15138 -> 15371
+DŽ: 15208 -> 15076
+DŽ: 15735 -> 15759
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15376 -> 15076
+DŽ: 15180 -> 15076
+DŽ: 15326 -> 15076
+DŽ: 15122 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15178 -> 15076
+DŽ: 15138 -> 15159
+DŽ: 15396 -> 15076
+DŽ: 15120 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15190 -> 15313
+DŽ: 15076 -> 15076
+DŽ: 15138 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15138 -> 15371
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15102
+DŽ: 15142 -> 15076
+
+ start over 199771 loops 313 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15424 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15181 -> 15171
+DŽ: 15257 -> 15171
+DŽ: 15188 -> 15981
+DŽ: 15138 -> 15477
+DŽ: 15397 -> 15149
+DŽ: 15214 -> 15076
+DŽ: 15296 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15664 -> 15926
+DŽ: 15397 -> 15171
+DŽ: 15267 -> 15441
+DŽ: 15619 -> 15471
+DŽ: 15424 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15409 -> 15171
+DŽ: 15168 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15261 -> 15171
+DŽ: 15175 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15565 -> 15733
+DŽ: 15171 -> 15171
+DŽ: 15609 -> 15733
+DŽ: 15170 -> 15371
+DŽ: 15076 -> 15101
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15171
+
+ start over 235240 loops 349 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15609 -> 15733
+DŽ: 15201 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15314 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15175 -> 15076
+DŽ: 15300 -> 15362
+DŽ: 15538 -> 15171
+DŽ: 15251 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15538 -> 15305
+DŽ: 15172 -> 15733
+DŽ: 15295 -> 15149
+DŽ: 15198 -> 15362
+DŽ: 15179 -> 15101
+DŽ: 15198 -> 15076
+DŽ: 15194 -> 15371
+DŽ: 15296 -> 15076
+DŽ: 15082 -> 15076
+DŽ: 15082 -> 15076
+DŽ: 15285 -> 15076
+DŽ: 15130 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15458 -> 15076
+DŽ: 15185 -> 15076
+DŽ: 15098 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15494 -> 15076
+DŽ: 15130 -> 15076
+DŽ: 15101 -> 15101
+DŽ: 15108 -> 15299
+DŽ: 15076 -> 15076
+
+ start over 269673 loops 381 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15335
+DŽ: 15130 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15108 -> 15371
+DŽ: 15289 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15180 -> 15371
+DŽ: 15149 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15149 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15278 -> 15159
+DŽ: 15149 -> 15149
+DŽ: 15149 -> 15465
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15176 -> 15445
+DŽ: 15227 -> 15171
+DŽ: 15189 -> 15451
+DŽ: 15146 -> 15076
+DŽ: 15205 -> 15435
+DŽ: 15327 -> 15435
+DŽ: 15149 -> 15283
+DŽ: 15197 -> 15333
+
+ start over 301370 loops 414 unique solutions 
+Approx + random 
+DŽ: 16617 -> 16046
+DŽ: 15521 -> 15515
+DŽ: 15149 -> 15149
+DŽ: 15171 -> 15171
+DŽ: 15149 -> 15149
+DŽ: 15239 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15160 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15566 -> 15255
+DŽ: 15171 -> 15171
+DŽ: 15284 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15641 -> 15171
+DŽ: 15211 -> 15101
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15179 -> 15101
+DŽ: 15515 -> 15870
+DŽ: 15208 -> 15101
+DŽ: 15076 -> 15076
+DŽ: 15284 -> 15457
+DŽ: 15571 -> 15471
+DŽ: 15101 -> 15101
+DŽ: 15119 -> 15101
+DŽ: 15149 -> 15283
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+
+ start over 333760 loops 442 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15159
+DŽ: 15243 -> 15594
+DŽ: 15101 -> 15101
+DŽ: 15179 -> 15101
+DŽ: 15335 -> 15171
+DŽ: 15101 -> 15101
+DŽ: 15076 -> 15076
+DŽ: 15515 -> 15445
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15245 -> 15101
+DŽ: 15520 -> 15457
+DŽ: 15269 -> 15171
+DŽ: 15215 -> 15171
+DŽ: 15409 -> 15371
+DŽ: 15239 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15181 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15204 -> 15371
+DŽ: 15281 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15082 -> 15076
+DŽ: 15275 -> 15457
+DŽ: 15204 -> 15076
+DŽ: 15101 -> 15101
+DŽ: 15181 -> 15283
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+
+ start over 365401 loops 470 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15752
+DŽ: 15635 -> 15149
+DŽ: 15635 -> 15149
+DŽ: 15281 -> 15457
+DŽ: 15263 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15253 -> 15594
+DŽ: 15076 -> 15076
+DŽ: 15101 -> 15101
+DŽ: 15159 -> 15159
+DŽ: 15183 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15263 -> 15594
+DŽ: 15229 -> 15171
+DŽ: 15345 -> 15171
+DŽ: 15261 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15336 -> 15171
+DŽ: 15336 -> 15171
+DŽ: 15261 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15222 -> 15171
+DŽ: 15197 -> 15171
+
+ start over 394121 loops 501 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15852
+DŽ: 15229 -> 15926
+DŽ: 15794 -> 15445
+DŽ: 15850 -> 15471
+DŽ: 15308 -> 15594
+DŽ: 15222 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15421 -> 15171
+DŽ: 15594 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15598 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15271 -> 15101
+DŽ: 15171 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15177 -> 15305
+DŽ: 15517 -> 15733
+DŽ: 15201 -> 15101
+DŽ: 15171 -> 15171
+DŽ: 15517 -> 15471
+DŽ: 15178 -> 15076
+DŽ: 15101 -> 15101
+DŽ: 15201 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15201 -> 15101
+DŽ: 15076 -> 15076
+DŽ: 15181 -> 15333
+DŽ: 15292 -> 15076
+DŽ: 15086 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15348 -> 15532
+DŽ: 15101 -> 15101
+
+ start over 429395 loops 539 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15177 -> 15171
+DŽ: 15106 -> 15076
+DŽ: 15106 -> 15076
+DŽ: 15299 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15149
+DŽ: 15171 -> 15171
+DŽ: 15386 -> 15171
+DŽ: 15201 -> 15149
+DŽ: 15171 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15149
+DŽ: 15171 -> 15171
+DŽ: 15171 -> 15171
+DŽ: 15217 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15565 -> 15471
+DŽ: 15171 -> 15149
+DŽ: 15221 -> 15149
+DŽ: 15185 -> 15561
+DŽ: 15231 -> 15171
+DŽ: 15116 -> 15076
+DŽ: 15171 -> 15171
+DŽ: 15149 -> 15149
+DŽ: 15221 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15149 -> 15371
+DŽ: 15217 -> 15305
+DŽ: 15179 -> 15149
+DŽ: 15241 -> 15171
+DŽ: 15149 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+
+ start over 463680 loops 562 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15784
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15265 -> 15333
+DŽ: 15245 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15696 -> 15076
+DŽ: 15189 -> 15149
+DŽ: 15171 -> 15171
+DŽ: 15076 -> 15313
+DŽ: 15076 -> 15076
+DŽ: 15215 -> 15171
+DŽ: 15221 -> 15149
+DŽ: 15491 -> 15171
+DŽ: 15407 -> 15435
+DŽ: 15171 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15219 -> 15171
+DŽ: 15183 -> 15171
+DŽ: 15171 -> 15076
+DŽ: 15183 -> 15171
+DŽ: 15245 -> 15149
+DŽ: 15149 -> 15149
+DŽ: 15231 -> 15149
+DŽ: 15161 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15784 -> 15335
+DŽ: 15727 -> 15573
+DŽ: 15155 -> 15149
+DŽ: 15171 -> 15171
+DŽ: 15183 -> 15171
+
+ start over 495642 loops 597 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15593
+DŽ: 15076 -> 15076
+DŽ: 15727 -> 15870
+DŽ: 15155 -> 15149
+DŽ: 15177 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15149 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15926
+DŽ: 15582 -> 15870
+DŽ: 15149 -> 15149
+DŽ: 15146 -> 15076
+DŽ: 15152 -> 15159
+DŽ: 15217 -> 15076
+DŽ: 15926 -> 15750
+DŽ: 15179 -> 15149
+DŽ: 15359 -> 15159
+DŽ: 15149 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15235 -> 15435
+DŽ: 15076 -> 15076
+DŽ: 15301 -> 15573
+DŽ: 15267 -> 15171
+DŽ: 15267 -> 15527
+DŽ: 15076 -> 15076
+DŽ: 15171 -> 15149
+DŽ: 15076 -> 15159
+DŽ: 15149 -> 15299
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15146 -> 15076
+DŽ: 15076 -> 15076
+
+ start over 532340 loops 634 unique solutions 
+Original + vert_size 13 
+DŽ: 16072 -> 15750
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15214 -> 15733
+DŽ: 15149 -> 15076
+DŽ: 15171 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15175 -> 15149
+DŽ: 15186 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15149 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15448 -> 15362
+DŽ: 15214 -> 15076
+DŽ: 15186 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15448 -> 15362
+DŽ: 15126 -> 15076
+DŽ: 15222 -> 15362
+DŽ: 15185 -> 15076
+DŽ: 15136 -> 15371
+DŽ: 15144 -> 15076
+DŽ: 15130 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15182 -> 15076
+DŽ: 15152 -> 15371
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15156 -> 15076
+
+ start over 564948 loops 662 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15092 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15648 -> 15733
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15124 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15664 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15136 -> 15159
+DŽ: 15208 -> 15076
+DŽ: 15395 -> 15149
+DŽ: 15222 -> 15159
+DŽ: 15144 -> 15076
+DŽ: 15144 -> 15313
+DŽ: 15642 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15204 -> 15076
+DŽ: 15648 -> 15362
+DŽ: 15227 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15180 -> 15371
+DŽ: 15642 -> 15981
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15158 -> 15371
+DŽ: 15362 -> 15445
+DŽ: 15076 -> 15076
+DŽ: 15179 -> 15149
+DŽ: 15076 -> 15076
+
+ start over 596267 loops 698 unique solutions 
+Approx + random 
+DŽ: 16617 -> 15852
+DŽ: 15076 -> 15076
+DŽ: 15567 -> 15371
+DŽ: 15212 -> 15432
+DŽ: 15159 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15469 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15227 -> 15561
+DŽ: 15432 -> 15733
+DŽ: 15149 -> 15149
+DŽ: 15511 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15432 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15231 -> 15171
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15170 -> 15573
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15120 -> 15076
+DŽ: 15250 -> 15371
+DŽ: 15241 -> 15477
+DŽ: 15171 -> 15664
+DŽ: 15159 -> 15159
+DŽ: 15159 -> 15149
+DŽ: 15076 -> 15076
+DŽ: 15231 -> 15171
+DŽ: 15149 -> 15149
+DŽ: 15167 -> 15101
+DŽ: 15561 -> 15664
+DŽ: 15128 -> 15076
+DŽ: 15211 -> 15159
+DŽ: 15076 -> 15076
+DŽ: 15241 -> 15149
+DŽ: 15076 -> 15076
+
+ start over 634513 loops 728 unique solutions 
+Original + vert_size 0 
+DŽ: 16072 -> 15664
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15158 -> 15371
+DŽ: 15076 -> 15076
+DŽ: 15159 -> 15477
+DŽ: 15076 -> 15076
+DŽ: 15149 -> 15339
+DŽ: 15201 -> 15926
+DŽ: 15258 -> 15076
+DŽ: 15076 -> 15371
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15477 -> 15477
+DŽ: 15211 -> 15149
+DŽ: 15430 -> 15371
+DŽ: 15076 -> 15076
+DŽ: 15199 -> 15101
+DŽ: 15076 -> 15076
+DŽ: 15076 -> 15076
+DŽ: 15211 -> 15435
+DŽ: 15076 -> 15076
+end_heu: 657792 loops with 769 unique solutions in 1799.18 s
+
+Calling print_solution
+>>> get_solution
+  refine_solution: new weight 15076 (was 15076) in 0.001389 s
+## FINAL WEIGHT 15076
+print_solution: 0.003508 s
